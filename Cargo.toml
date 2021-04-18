@@ -7,3 +7,15 @@ readme = "README.md"
 repository = "https://github.com/LJason77/WarframeBot"
 
 [dependencies]
+gettext-rs = { version = "0.6", features = ["gettext-system"] }
+log = "0.4"
+pretty_env_logger = "0.4"
+reqwest = "0.11"
+serde_json = "1.0"
+teloxide = { version = "0.4", features = ["auto-send", "macros"] }
+tokio = { version = "1.5", features = ["rt-multi-thread", "macros"] }
+
+[dependencies.serde]
+version = "1.0"
+default-features = false
+features = ["derive"]
