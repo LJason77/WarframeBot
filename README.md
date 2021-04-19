@@ -5,3 +5,4 @@ Warframe 查询机器人
 # 命令
 
 - /sortie 突击
+- /nightwave 午夜电波

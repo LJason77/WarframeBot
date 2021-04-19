@@ -1,0 +1,143 @@
+# Warframe Bot
+# Copyright (C) 2021 THE Warframe Bot'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Warframe Bot package.
+# LJason <ljason@ljason.cn>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Warframe Bot 0.1.0\n"
+"Report-Msgid-Bugs-To: ljason@ljason.cn\n"
+"POT-Creation-Date: 2021-04-18 17:27+0800\n"
+"PO-Revision-Date: 2021-04-19 07:21+0800\n"
+"Last-Translator: LJason <ljason@ljason.cn>\n"
+"Language-Team: Chinese (simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# 突击
+# # 阵营领导者
+msgid "General Sargas Ruk"
+msgstr "Sargas Ruk 将军"
+
+msgid "Hyena Pack"
+msgstr "鬣狗群"
+
+# # 突击状态
+msgid "Enemy Physical Enhancement: Impact"
+msgstr "敌人物理强化：冲击"
+
+msgid "Enemy Elemental Enhancement: Radiation"
+msgstr "敌人元素强化：辐射"
+
+msgid "Energy Reduction"
+msgstr "能量上限减少"
+
+msgid "Enhanced Enemy Shields"
+msgstr "敌人护盾强化"
+
+# 任务类型
+msgid "Rescue"
+msgstr "救援"
+
+msgid "Interception"
+msgstr "拦截"
+
+msgid "Spy"
+msgstr "间谍"
+
+msgid "Sabotage"
+msgstr "破坏"
+
+msgid "Mobile Defense"
+msgstr "移动防御"
+
+# 星球
+msgid "Venus"
+msgstr "金星"
+
+msgid "Earth"
+msgstr "地球"
+
+msgid "Phobos"
+msgstr "火卫一"
+
+msgid "Saturn"
+msgstr "土星"
+
+msgid "Uranus"
+msgstr "天王星"
+
+msgid "Neptune"
+msgstr "海王星"
+
+# 午夜电波挑战标题
+## 每日任务
+msgid "Marksman"
+msgstr "老练射手"
+
+msgid "Kill 40 Enemies with Headshots"
+msgstr "使用爆头击杀 40 名敌人"
+
+msgid "Attractive"
+msgstr "吸引力"
+
+msgid "Kill 150 Enemies with Magnetic damage"
+msgstr "使用磁力伤害击杀 150 名敌人"
+
+msgid "Sword Dance"
+msgstr "剑舞"
+
+msgid "Kill 150 Enemies with a Melee Weapon"
+msgstr "使用近战武器击杀 150 名敌人"
+
+msgid "Saver"
+msgstr "储蓄者"
+
+msgid "Pick up 15,000 Credits"
+msgstr "拾取 15000 现金"
+
+## 每周任务
+msgid "Vault Raider"
+msgstr "宝库强袭者"
+
+msgid "Complete an Isolation Vault Bounty Mission on Deimos"
+msgstr "在火卫二完成一个隔离库赏金任务"
+
+msgid "Protector"
+msgstr "保护者"
+
+msgid "Complete 3 Mobile Defense missions"
+msgstr "完成 3 项移动防御任务"
+
+msgid "Necralizer"
+msgstr "殁世者"
+
+msgid "Kill 100 enemies with a Mech."
+msgstr "使用殁世机甲击杀 100 名敌人"
+
+msgid "Not a Warning Shot"
+msgstr "这不是警告射击"
+
+msgid "Kill 500 Enemies"
+msgstr "击杀 500 名敌人"
+
+msgid "Enhance!"
+msgstr "增强！"
+
+msgid "Pick up 8 Rare Mods"
+msgstr "拾取 8 个稀有 Mod"
+
+## 每周精英任务
+msgid "Grove Guardian"
+msgstr "树庭守护者"
+
+msgid "Kill 3 Silver Grove Specters"
+msgstr "击败一名落银树庭魅影"
+
+msgid "Eximus Executioner"
+msgstr "卓越处刑者"
+
+msgid "Kill 100 Eximus"
+msgstr "击杀 100 名卓越者"

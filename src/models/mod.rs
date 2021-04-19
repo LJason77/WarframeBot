@@ -1,5 +1,6 @@
 use teloxide::utils::command::BotCommand;
 
+pub mod nightwave;
 pub mod sortie;
 
 #[derive(BotCommand)]
@@ -9,4 +10,6 @@ pub enum Command {
 	Help,
 	#[command(description = "突击")]
 	Sortie,
+	#[command(description = "午夜电波")]
+	Nightwave,
 }
