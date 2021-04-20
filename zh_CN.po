@@ -24,9 +24,6 @@ msgstr "Sargas Ruk 将军"
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
-msgid "Nef Anyo"
-msgstr ""
-
 # # 突击状态
 msgid "Enemy Physical Enhancement: Impact"
 msgstr "敌人物理强化：冲击"
@@ -35,7 +32,7 @@ msgid "Enemy Elemental Enhancement: Radiation"
 msgstr "敌人元素强化：辐射"
 
 msgid "Environmental Effect: Cryogenic Leakage"
-msgstr ""
+msgstr "低温外泄"
 
 msgid "Energy Reduction"
 msgstr "能量上限减少"
@@ -44,7 +41,7 @@ msgid "Enhanced Enemy Shields"
 msgstr "敌人护盾强化"
 
 msgid "Eximus Stronghold"
-msgstr ""
+msgstr "卓越者大本营"
 
 # 任务类型
 msgid "Rescue"
