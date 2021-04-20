@@ -24,6 +24,9 @@ msgstr "Sargas Ruk 将军"
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
+msgid "Nef Anyo"
+msgstr ""
+
 # # 突击状态
 msgid "Enemy Physical Enhancement: Impact"
 msgstr "敌人物理强化：冲击"
@@ -31,11 +34,17 @@ msgstr "敌人物理强化：冲击"
 msgid "Enemy Elemental Enhancement: Radiation"
 msgstr "敌人元素强化：辐射"
 
+msgid "Environmental Effect: Cryogenic Leakage"
+msgstr ""
+
 msgid "Energy Reduction"
 msgstr "能量上限减少"
 
 msgid "Enhanced Enemy Shields"
 msgstr "敌人护盾强化"
+
+msgid "Eximus Stronghold"
+msgstr ""
 
 # 任务类型
 msgid "Rescue"
@@ -60,8 +69,14 @@ msgstr "金星"
 msgid "Earth"
 msgstr "地球"
 
+msgid "Lua"
+msgstr "月球"
+
 msgid "Phobos"
 msgstr "火卫一"
+
+msgid "Jupiter"
+msgstr "木星"
 
 msgid "Saturn"
 msgstr "土星"

@@ -8,7 +8,7 @@ pub mod sortie;
 pub async fn get_url(url: &str) -> String {
 	reqwest::Client::builder()
 		// 将所有流量代理到传递的URL
-		.proxy(reqwest::Proxy::all(env!("TELOXIDE_PROXY")).unwrap())
+		.proxy(reqwest::Proxy::all(std::env::var("TELOXIDE_PROXY").unwrap()).unwrap())
 		.build()
 		.unwrap()
 		.get(url)
