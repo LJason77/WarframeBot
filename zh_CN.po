@@ -17,22 +17,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # 突击
-# # 阵营领导者
+## 阵营领导者
 msgid "General Sargas Ruk"
 msgstr "Sargas Ruk 将军"
 
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
-# # 突击状态
-msgid "Enemy Physical Enhancement: Impact"
-msgstr "敌人物理强化：冲击"
+## 突击状态
+msgid "Enemy Elemental Enhancement: Electricity"
+msgstr "敌人元素强化：电击"
 
 msgid "Enemy Elemental Enhancement: Radiation"
 msgstr "敌人元素强化：辐射"
 
-msgid "Environmental Effect: Cryogenic Leakage"
-msgstr "低温外泄"
+msgid "Enemy Physical Enhancement: Impact"
+msgstr "敌人物理强化：冲击"
+
+msgid "Enemy Physical Enhancement: Puncture"
+msgstr "敌人物理强化：穿刺"
 
 msgid "Energy Reduction"
 msgstr "能量上限减少"
@@ -40,24 +43,30 @@ msgstr "能量上限减少"
 msgid "Enhanced Enemy Shields"
 msgstr "敌人护盾强化"
 
+msgid "Environmental Effect: Cryogenic Leakage"
+msgstr "低温外泄"
+
 msgid "Eximus Stronghold"
 msgstr "卓越者大本营"
 
 # 任务类型
-msgid "Rescue"
-msgstr "救援"
+msgid "Extermination"
+msgstr "歼灭"
 
 msgid "Interception"
 msgstr "拦截"
 
-msgid "Spy"
-msgstr "间谍"
+msgid "Mobile Defense"
+msgstr "移动防御"
+
+msgid "Rescue"
+msgstr "救援"
 
 msgid "Sabotage"
 msgstr "破坏"
 
-msgid "Mobile Defense"
-msgstr "移动防御"
+msgid "Spy"
+msgstr "间谍"
 
 # 星球
 msgid "Venus"
@@ -75,6 +84,9 @@ msgstr "火卫一"
 msgid "Jupiter"
 msgstr "木星"
 
+msgid "Deimos"
+msgstr "火卫二"
+
 msgid "Saturn"
 msgstr "土星"
 
@@ -83,6 +95,9 @@ msgstr "天王星"
 
 msgid "Neptune"
 msgstr "海王星"
+
+msgid "Pluto"
+msgstr "冥王星"
 
 # 午夜电波挑战标题
 ## 每日任务
