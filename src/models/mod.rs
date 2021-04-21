@@ -8,8 +8,8 @@ pub mod sortie;
 pub enum Command {
 	#[command(description = "显示帮助信息")]
 	Help,
-	#[command(description = "突击")]
-	Sortie,
 	#[command(description = "午夜电波")]
 	Nightwave,
+	#[command(description = "突击")]
+	Sortie,
 }

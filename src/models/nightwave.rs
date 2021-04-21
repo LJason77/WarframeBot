@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 /// 挑战
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct Challenge {
 	/// 标题
 	pub title: String,
@@ -15,7 +15,7 @@ pub struct Challenge {
 }
 
 /// 午夜电波
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct Nightwave {
 	/// 剩余时间
 	pub expiry: String,
