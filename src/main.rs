@@ -1,6 +1,5 @@
 use teloxide::{prelude::*, utils::command::BotCommand};
 
-use crate::api::{nightwave::get_nightwave, sortie::get_sortie};
 use crate::models::Command;
 
 mod api;
@@ -12,8 +11,9 @@ async fn answer(
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
 	match command {
 		Command::Help => cx.answer(Command::descriptions()).send().await?,
-		Command::Nightwave => cx.answer(get_nightwave().await).send().await?,
-		Command::Sortie => cx.answer(get_sortie().await).send().await?,
+		Command::Invasions => cx.answer(api::invasion::get_invasion().await).send().await?,
+		Command::Nightwave => cx.answer(api::nightwave::get_nightwave().await).send().await?,
+		Command::Sortie => cx.answer(api::sortie::get_sortie().await).send().await?,
 	};
 
 	Ok(())
