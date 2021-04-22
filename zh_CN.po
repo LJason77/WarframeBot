@@ -24,7 +24,13 @@ msgstr "Sargas Ruk 将军"
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
+msgid "Tyl Regor"
+msgstr "Tyl Regor"
+
 ## 突击状态
+msgid "Augmented Enemy Armor"
+msgstr "敌人护甲强化"
+
 msgid "Enemy Elemental Enhancement: Electricity"
 msgstr "敌人元素强化：电击"
 
@@ -45,6 +51,9 @@ msgstr "敌人护盾强化"
 
 msgid "Environmental Effect: Cryogenic Leakage"
 msgstr "低温外泄"
+
+msgid "Environmental Hazard: Fire"
+msgstr "火灾"
 
 msgid "Eximus Stronghold"
 msgstr "卓越者大本营"
@@ -68,6 +77,9 @@ msgstr "破坏"
 msgid "Spy"
 msgstr "间谍"
 
+msgid "Survival"
+msgstr "生存"
+
 # 星球
 msgid "Venus"
 msgstr "金星"
@@ -78,8 +90,14 @@ msgstr "地球"
 msgid "Lua"
 msgstr "月球"
 
+msgid "Mars"
+msgstr "火星"
+
 msgid "Phobos"
 msgstr "火卫一"
+
+msgid "Deimos"
+msgstr "火卫二"
 
 msgid "Ceres"
 msgstr "谷神星"
@@ -87,8 +105,8 @@ msgstr "谷神星"
 msgid "Jupiter"
 msgstr "木星"
 
-msgid "Deimos"
-msgstr "火卫二"
+msgid "Europa"
+msgstr "欧罗巴"
 
 msgid "Saturn"
 msgstr "土星"
@@ -101,6 +119,9 @@ msgstr "海王星"
 
 msgid "Pluto"
 msgstr "冥王星"
+
+msgid "Sedna"
+msgstr "赛德娜"
 
 # 午夜电波挑战标题
 ## 每日任务
@@ -200,6 +221,9 @@ msgstr "Phorid 现形"
 # 物品
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
+
+msgid "Detonite Injector"
+msgstr "爆燃喷射器"
 
 msgid "Fieldron"
 msgstr "电磁力场装置"
