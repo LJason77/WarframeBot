@@ -11,6 +11,7 @@ async fn answer(
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
 	match command {
 		Command::Help => cx.answer(Command::descriptions()).send().await?,
+		Command::Events => cx.answer(api::event::get_event().await).send().await?,
 		Command::Invasions => cx.answer(api::invasion::get_invasion().await).send().await?,
 		Command::Nightwave => cx.answer(api::nightwave::get_nightwave().await).send().await?,
 		Command::Sortie => cx.answer(api::sortie::get_sortie().await).send().await?,

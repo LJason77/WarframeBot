@@ -1,6 +1,7 @@
 use chrono::Duration;
 use gettextrs::gettext;
 
+pub mod event;
 pub mod invasion;
 pub mod nightwave;
 pub mod sortie;

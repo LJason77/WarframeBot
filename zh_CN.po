@@ -242,3 +242,13 @@ msgstr "希芙 散热片"
 
 msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
+
+# 活动
+msgid "Thermia Fractures"
+msgstr ""
+
+msgid "Gifts of the Lotus - Stolen!"
+msgstr ""
+
+msgid "Ghoul Purge"
+msgstr ""
