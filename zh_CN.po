@@ -134,6 +134,12 @@ msgstr "交流者"
 msgid "Mark 5 Mods or Resources"
 msgstr "标记 5 个 Mod 或资源"
 
+msgid "Executioner"
+msgstr "处决者"
+
+msgid "Kill 10 Enemies with Finishers"
+msgstr "处决击杀 10 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -185,12 +191,18 @@ msgstr "Corpus 围攻"
 msgid "Infested Outbreak"
 msgstr "Infested 爆发"
 
+msgid "Grineer Offensive"
+msgstr "Grineer 进攻"
+
 msgid "Phorid Manifestation"
 msgstr "Phorid 现形"
 
 # 物品
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
+
+msgid "Fieldron"
+msgstr "电磁力场装置"
 
 msgid "Latron Wraith Receiver"
 msgstr "拉特昂 亡魂 枪机"
@@ -200,3 +212,9 @@ msgstr "突变原聚合物"
 
 msgid "Mutalist Alad V Nav Coordinate"
 msgstr "异融 ALAD V 导航座标"
+
+msgid "Sheev Heatsink"
+msgstr "希芙 散热片"
+
+msgid "Snipetron Vandal Blueprint"
+msgstr "狙击特昂 破坏者 蓝图"
