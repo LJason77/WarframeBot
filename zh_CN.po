@@ -161,6 +161,12 @@ msgstr "处决者"
 msgid "Kill 10 Enemies with Finishers"
 msgstr "处决击杀 10 名敌人"
 
+msgid "Reanimator"
+msgstr "重赋生机"
+
+msgid "Find and pilot a Fallen Necramech on Deimos."
+msgstr "找到并驾驶一个倒下的殁世机甲"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -245,10 +251,10 @@ msgstr "狙击特昂 破坏者 蓝图"
 
 # 活动
 msgid "Thermia Fractures"
-msgstr ""
+msgstr "热美亚裂缝"
 
 msgid "Gifts of the Lotus - Stolen!"
-msgstr ""
+msgstr "Lotus 的馈赠 - 被窃取！"
 
 msgid "Ghoul Purge"
-msgstr ""
+msgstr "尸鬼净化"
