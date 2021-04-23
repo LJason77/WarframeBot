@@ -225,6 +225,9 @@ msgid "Phorid Manifestation"
 msgstr "Phorid 现形"
 
 # 物品
+msgid "Bronze Kavat Bust"
+msgstr "库娃半身铜像"
+
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
 
@@ -233,6 +236,9 @@ msgstr "爆燃喷射器"
 
 msgid "Fieldron"
 msgstr "电磁力场装置"
+
+msgid "Ki'Teer Domestik Drone"
+msgstr "Ki'Teer 内务无人机"
 
 msgid "Latron Wraith Receiver"
 msgstr "拉特昂 亡魂 枪机"
@@ -250,79 +256,81 @@ msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
 
 msgid "Tarot Card Tenno Con I"
-msgstr ""
+msgstr "XAKU PREX 卡牌"
 
 msgid "Tarot Card Tenno Con J"
-msgstr ""
-
-msgid "Primed Ravage"
-msgstr ""
-
-msgid "Primed Target Cracker"
-msgstr ""
-
-msgid "Scattering Inferno"
-msgstr ""
-
-msgid "Split Flights"
-msgstr ""
-
-msgid "Weapon Glaive Secondary Headshot Kill Mod"
-msgstr ""
-
-msgid "Ki'Teer Kubrow Armor"
-msgstr ""
-
-msgid "Bronze Kavat Bust"
-msgstr ""
-
-msgid "Baro Ki'Teer Glyph"
-msgstr ""
+msgstr "火卫二高额异鳍 PREX 卡牌"
 
 msgid "Zanuka Hunter Beacon"
-msgstr ""
-
-msgid "Mara Detron"
-msgstr ""
-
-msgid "Prisma Dual Cleavers"
-msgstr ""
-
-msgid "Ki'Teer Domestik Drone"
-msgstr ""
-
-msgid "Left Prisma Daedalus Knee Plates"
-msgstr ""
-
-msgid "Left Prisma Daedalus Shoulder Guard"
-msgstr ""
-
-msgid "Right Prisma Daedalus Knee Plates"
-msgstr ""
-
-msgid "Right Prisma Daedalus Shoulder Guard"
-msgstr ""
-
-msgid "Prisma Daedalus Chest Plate"
-msgstr ""
-
-msgid "Prisma Hecate Syandana"
-msgstr ""
-
-msgid "3 Day Credit Booster"
-msgstr ""
-
-msgid "Ki'Teer Atmos Diadem"
-msgstr ""
-
-msgid "Machete Syachid Skin"
-msgstr ""
-
-msgid "Ki'Teer Sugatra"
-msgstr ""
+msgstr "Zanuka 猎犬信标"
 
 msgid "Sands Of Inaros Blueprint"
-msgstr ""
+msgstr "Inaros 之沙 蓝图"
+
+# 浮印
+msgid "Baro Ki'Teer Glyph"
+msgstr "Baro Ki'Teer 浮印"
+
+# 武器
+msgid "Mara Detron"
+msgstr "苦痛 德特昂"
+
+msgid "Prisma Dual Cleavers"
+msgstr "棱晶 斩肉双刀"
+
+# 外观
+msgid "Ki'Teer Kubrow Armor"
+msgstr "Ki'Teer 库伯护甲"
+
+msgid "Ki'Teer Atmos Diadem"
+msgstr "Ki'Teer 大气权冠"
+
+msgid "Prisma Hecate Syandana"
+msgstr "棱晶 朔月女神披饰"
+
+msgid "Prisma Daedalus Chest Plate"
+msgstr "棱晶 代达罗斯胸甲"
+
+msgid "Left Prisma Daedalus Shoulder Guard"
+msgstr "棱晶 代达罗斯左护肩"
+
+msgid "Right Prisma Daedalus Shoulder Guard"
+msgstr "棱晶 代达罗斯右护肩"
+
+msgid "Left Prisma Daedalus Knee Plates"
+msgstr "棱晶 代达罗斯左膝甲"
+
+msgid "Right Prisma Daedalus Knee Plates"
+msgstr "棱晶 代达罗斯右膝甲"
+
+msgid "Machete Syachid Skin"
+msgstr "砍刀萨切德外观"
+
+msgid "Ki'Teer Sugatra"
+msgstr "Ki'Teer 坠饰"
+
+# 加成
+msgid "3 Day Credit Booster"
+msgstr "3 天现金加成"
+
+# MOD
+## P卡
+msgid "Primed Ravage"
+msgstr "破灭 Prime"
+
+msgid "Primed Target Cracker"
+msgstr "弱点专精 Prime"
+
+## 金卡
+msgid "Scattering Inferno"
+msgstr "炼狱轰击"
+
+msgid "Split Flights"
+msgstr "分裂飞行"
+
+## 银卡
+msgid "Weapon Glaive Secondary Headshot Kill Mod"
+msgstr "连击杀手"
 
 # 活动
 msgid "Thermia Fractures"
