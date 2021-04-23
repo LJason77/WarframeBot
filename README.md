@@ -9,3 +9,4 @@ Warframe 查询机器人
 - /invasions - 入侵
 - /nightwave 午夜电波
 - /sortie - 突击
+- /trader - 虚空商人

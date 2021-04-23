@@ -249,6 +249,81 @@ msgstr "希芙 散热片"
 msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
 
+msgid "Tarot Card Tenno Con I"
+msgstr ""
+
+msgid "Tarot Card Tenno Con J"
+msgstr ""
+
+msgid "Primed Ravage"
+msgstr ""
+
+msgid "Primed Target Cracker"
+msgstr ""
+
+msgid "Scattering Inferno"
+msgstr ""
+
+msgid "Split Flights"
+msgstr ""
+
+msgid "Weapon Glaive Secondary Headshot Kill Mod"
+msgstr ""
+
+msgid "Ki'Teer Kubrow Armor"
+msgstr ""
+
+msgid "Bronze Kavat Bust"
+msgstr ""
+
+msgid "Baro Ki'Teer Glyph"
+msgstr ""
+
+msgid "Zanuka Hunter Beacon"
+msgstr ""
+
+msgid "Mara Detron"
+msgstr ""
+
+msgid "Prisma Dual Cleavers"
+msgstr ""
+
+msgid "Ki'Teer Domestik Drone"
+msgstr ""
+
+msgid "Left Prisma Daedalus Knee Plates"
+msgstr ""
+
+msgid "Left Prisma Daedalus Shoulder Guard"
+msgstr ""
+
+msgid "Right Prisma Daedalus Knee Plates"
+msgstr ""
+
+msgid "Right Prisma Daedalus Shoulder Guard"
+msgstr ""
+
+msgid "Prisma Daedalus Chest Plate"
+msgstr ""
+
+msgid "Prisma Hecate Syandana"
+msgstr ""
+
+msgid "3 Day Credit Booster"
+msgstr ""
+
+msgid "Ki'Teer Atmos Diadem"
+msgstr ""
+
+msgid "Machete Syachid Skin"
+msgstr ""
+
+msgid "Ki'Teer Sugatra"
+msgstr ""
+
+msgid "Sands Of Inaros Blueprint"
+msgstr ""
+
 # 活动
 msgid "Thermia Fractures"
 msgstr "热美亚裂缝"
@@ -258,3 +333,7 @@ msgstr "Lotus 的馈赠 - 被窃取！"
 
 msgid "Ghoul Purge"
 msgstr "尸鬼净化"
+
+# 中继站
+msgid "Orcus Relay (Pluto)"
+msgstr "Orcus 中继站 (冥王星)"

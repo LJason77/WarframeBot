@@ -15,6 +15,7 @@ async fn answer(
 		Command::Invasions => cx.answer(api::invasion::get_invasion().await).send().await?,
 		Command::Nightwave => cx.answer(api::nightwave::get_nightwave().await).send().await?,
 		Command::Sortie => cx.answer(api::sortie::get_sortie().await).send().await?,
+		Command::Trader => cx.answer(api::trader::get_trader().await).send().await?,
 	};
 
 	Ok(())

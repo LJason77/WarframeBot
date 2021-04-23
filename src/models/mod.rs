@@ -4,6 +4,7 @@ pub mod event;
 pub mod invasion;
 pub mod nightwave;
 pub mod sortie;
+pub mod trader;
 
 #[derive(BotCommand)]
 #[command(rename = "lowercase", description = "当前支持下列查询：")]
@@ -18,4 +19,6 @@ pub enum Command {
 	Nightwave,
 	#[command(description = "突击")]
 	Sortie,
+	#[command(description = "虚空商人")]
+	Trader,
 }

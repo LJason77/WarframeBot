@@ -5,6 +5,7 @@ pub mod event;
 pub mod invasion;
 pub mod nightwave;
 pub mod sortie;
+pub mod trader;
 
 /// 发送请求
 pub async fn get_url(url: &str) -> String {
