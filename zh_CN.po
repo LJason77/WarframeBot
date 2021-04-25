@@ -129,6 +129,9 @@ msgstr "海王星"
 msgid "Pluto"
 msgstr "冥王星"
 
+msgid "Eris"
+msgstr "阋神星"
+
 msgid "Sedna"
 msgstr "赛德娜"
 
@@ -175,6 +178,18 @@ msgstr "重赋生机"
 
 msgid "Find and pilot a Fallen Necramech on Deimos."
 msgstr "找到并驾驶一个倒下的殁世机甲"
+
+msgid "Graffiti"
+msgstr "涂鸦"
+
+msgid "Deploy a Glyph while in a mission"
+msgstr "在任务中设置一枚浮印"
+
+msgid "Glider"
+msgstr "滑翔者"
+
+msgid "Kill 20 Enemies while Aim Gliding"
+msgstr "飞身瞄准时击杀 20 名敌人"
 
 ## 每周任务
 msgid "Vault Raider"
@@ -240,11 +255,17 @@ msgstr "库娃半身铜像"
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
 
+msgid "Dera Vandal Stock"
+msgstr "德拉 破坏者 枪托"
+
 msgid "Detonite Injector"
 msgstr "爆燃喷射器"
 
 msgid "Fieldron"
 msgstr "电磁力场装置"
+
+msgid "Karak Wraith Blueprint"
+msgstr "卡拉克 亡魂 蓝图"
 
 msgid "Ki'Teer Domestik Drone"
 msgstr "Ki'Teer 内务无人机"
@@ -264,6 +285,9 @@ msgstr "希芙 散热片"
 msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
 
+msgid "Snipetron Vandal Stock"
+msgstr "狙击特昂 破坏者 枪托"
+
 msgid "Tarot Card Tenno Con I"
 msgstr "XAKU PREX 卡牌"
 
@@ -275,6 +299,9 @@ msgstr "Zanuka 猎犬信标"
 
 msgid "Sands Of Inaros Blueprint"
 msgstr "Inaros 之沙 蓝图"
+
+msgid "Wraith Twin Vipers Blueprint"
+msgstr "双子蝰蛇 亡魂 蓝图"
 
 # 浮印
 msgid "Baro Ki'Teer Glyph"
@@ -354,3 +381,6 @@ msgstr "尸鬼净化"
 # 中继站
 msgid "Orcus Relay (Pluto)"
 msgstr "Orcus 中继站 (冥王星)"
+
+msgid "Strata Relay (Earth)"
+msgstr "Strata 中继站 (地球)"
