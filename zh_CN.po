@@ -191,6 +191,12 @@ msgstr "滑翔者"
 msgid "Kill 20 Enemies while Aim Gliding"
 msgstr "飞身瞄准时击杀 20 名敌人"
 
+msgid "Sharing is Caring"
+msgstr "有毒共享"
+
+msgid "Kill 150 Enemies with Viral Damage"
+msgstr "使用病毒伤害击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -222,6 +228,36 @@ msgstr "增强！"
 msgid "Pick up 8 Rare Mods"
 msgstr "拾取 8 个稀有 Mod"
 
+msgid "Venus Miner"
+msgstr "金星矿工"
+
+msgid "Mine 6 Rare Gems in the Orb Vallis"
+msgstr "在奥布山谷中开采到 6 次稀有宝石或矿石"
+
+msgid "Sortie Specialist"
+msgstr "突击专家"
+
+msgid "Complete 1 Sorties"
+msgstr "完成 1 次突击"
+
+msgid "Venus Bounty Hunter"
+msgstr "金星赏金猎人"
+
+msgid "Complete 5 different bounties in the Orb Vallis"
+msgstr "在奥布山谷完成 5 项不同的赏金任务"
+
+msgid "Rescuer"
+msgstr "救援者"
+
+msgid "Complete 3 Rescue missions"
+msgstr "完成 3 项救援任务"
+
+msgid "Saboteur"
+msgstr "破坏者"
+
+msgid "Complete 3 Sabotage missions"
+msgstr "完成 3 项破坏任务"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
@@ -234,6 +270,18 @@ msgstr "卓越处刑者"
 
 msgid "Kill 100 Eximus"
 msgstr "击杀 100 名卓越者"
+
+msgid "Defense"
+msgstr "防御"
+
+msgid "Complete a Defense mission reaching at least Wave 20"
+msgstr "完成一场至少到 20 波的防御任务"
+
+msgid "Silent Eliminator"
+msgstr "寂静歼灭"
+
+msgid "Complete an Extermination mission with level 30 or higher enemies without being detected"
+msgstr "完成一场 30 级或更高等级敌人的歼灭任务并且没有触发警报"
 
 # 入侵
 msgid "Corpus Siege"
