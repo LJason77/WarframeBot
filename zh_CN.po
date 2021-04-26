@@ -64,6 +64,9 @@ msgstr "火灾"
 msgid "Eximus Stronghold"
 msgstr "卓越者大本营"
 
+msgid "Weapon Restriction: Assault Rifle Only"
+msgstr "突击步枪 限定"
+
 # 任务类型
 msgid "Disruption"
 msgstr "中断"
