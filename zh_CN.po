@@ -49,6 +49,9 @@ msgstr "敌人物理强化：冲击"
 msgid "Enemy Physical Enhancement: Puncture"
 msgstr "敌人物理强化：穿刺"
 
+msgid "Enemy Physical Enhancement: Slash"
+msgstr "敌人物理强化：切割"
+
 msgid "Energy Reduction"
 msgstr "能量上限减少"
 
@@ -93,6 +96,9 @@ msgid "Survival"
 msgstr "生存"
 
 # 星球
+msgid "Mercury"
+msgstr "水星"
+
 msgid "Venus"
 msgstr "金星"
 
