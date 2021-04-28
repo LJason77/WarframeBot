@@ -27,12 +27,18 @@ msgstr "Sargas Ruk 将军"
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
+msgid "Raptor"
+msgstr "猛禽"
+
 msgid "Tyl Regor"
 msgstr "Tyl Regor"
 
 ## 突击状态
 msgid "Augmented Enemy Armor"
 msgstr "敌人护甲强化"
+
+msgid "Enemy Elemental Enhancement: Blast"
+msgstr "敌人元素强化：爆炸"
 
 msgid "Enemy Elemental Enhancement: Electricity"
 msgstr "敌人元素强化：电击"
