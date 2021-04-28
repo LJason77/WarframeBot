@@ -212,6 +212,12 @@ msgstr "纵火犯"
 msgid "Kill 150 Enemies with Heat Damage"
 msgstr "使用火焰伤害击杀 150 名敌人"
 
+msgid "Meltdown"
+msgstr "熔毁"
+
+msgid "Kill 150 Enemies with Corrosive Damage"
+msgstr "使用腐蚀伤害击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -318,6 +324,9 @@ msgstr "库娃半身铜像"
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
 
+msgid "Dera Vandal Receiver"
+msgstr "德拉 破坏者 枪机"
+
 msgid "Dera Vandal Stock"
 msgstr "德拉 破坏者 枪托"
 
@@ -329,6 +338,9 @@ msgstr "电磁力场装置"
 
 msgid "Karak Wraith Blueprint"
 msgstr "卡拉克 亡魂 蓝图"
+
+msgid "Karak Wraith Receiver"
+msgstr "卡拉克 亡魂 枪机"
 
 msgid "Ki'Teer Domestik Drone"
 msgstr "Ki'Teer 内务无人机"
