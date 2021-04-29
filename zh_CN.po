@@ -83,6 +83,9 @@ msgstr "中断"
 msgid "Extermination"
 msgstr "歼灭"
 
+msgid "Free Roam"
+msgstr "自由漫游"
+
 msgid "Interception"
 msgstr "拦截"
 
@@ -224,6 +227,12 @@ msgstr "熔毁"
 msgid "Kill 150 Enemies with Corrosive Damage"
 msgstr "使用腐蚀伤害击杀 150 名敌人"
 
+msgid "Agent"
+msgstr "特务"
+
+msgid "Complete a Mission"
+msgstr "完成一场任务"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -330,6 +339,9 @@ msgstr "库娃半身铜像"
 msgid "Dera Vandal Barrel"
 msgstr "德拉 破坏者 枪管"
 
+msgid "Dera Vandal Blueprint"
+msgstr "德拉 破坏者 蓝图"
+
 msgid "Dera Vandal Receiver"
 msgstr "德拉 破坏者 枪机"
 
@@ -351,6 +363,9 @@ msgstr "卡拉克 亡魂 枪机"
 msgid "Ki'Teer Domestik Drone"
 msgstr "Ki'Teer 内务无人机"
 
+msgid "Latron Wraith Barrel"
+msgstr "拉特昂 亡魂 枪管"
+
 msgid "Latron Wraith Receiver"
 msgstr "拉特昂 亡魂 枪机"
 
@@ -362,6 +377,9 @@ msgstr "异融 ALAD V 导航座标"
 
 msgid "Sheev Heatsink"
 msgstr "希芙 散热片"
+
+msgid "Snipetron Vandal Barrel"
+msgstr "狙击特昂 破坏者 枪管"
 
 msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
@@ -380,6 +398,9 @@ msgstr "Zanuka 猎犬信标"
 
 msgid "Sands Of Inaros Blueprint"
 msgstr "Inaros 之沙 蓝图"
+
+msgid "Wraith Twin Vipers Barrel"
+msgstr "双子蝰蛇 亡魂 枪管"
 
 msgid "Wraith Twin Vipers Blueprint"
 msgstr "双子蝰蛇 亡魂 蓝图"
