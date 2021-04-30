@@ -23,6 +23,8 @@ async fn answer(
 
 #[tokio::main]
 async fn main() {
+	dotenv::dotenv().ok();
+
 	gettextrs::TextDomain::new("warframe")
 		.locale("zh_CN.UTF-8")
 		.prepend(std::env::current_dir().unwrap().to_str().unwrap())
