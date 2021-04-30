@@ -27,6 +27,9 @@ msgstr "Sargas Ruk 将军"
 msgid "Hyena Pack"
 msgstr "鬣狗群"
 
+msgid "Jackal"
+msgstr "豺狼"
+
 msgid "Raptor"
 msgstr "猛禽"
 
@@ -77,6 +80,9 @@ msgid "Weapon Restriction: Assault Rifle Only"
 msgstr "突击步枪 限定"
 
 # 任务类型
+msgid "Assassination"
+msgstr "刺杀"
+
 msgid "Disruption"
 msgstr "中断"
 
@@ -362,6 +368,12 @@ msgstr "爆燃喷射器"
 
 msgid "Fieldron"
 msgstr "电磁力场装置"
+
+msgid "Forma Blueprint"
+msgstr "Forma 蓝图"
+
+msgid "Exilus Adapter Blueprint"
+msgstr "战甲特殊功能槽连接器 蓝图"
 
 msgid "Karak Wraith Blueprint"
 msgstr "卡拉克 亡魂 蓝图"
