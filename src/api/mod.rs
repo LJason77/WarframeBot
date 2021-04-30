@@ -27,7 +27,7 @@ pub async fn get_url(url: &str) -> String {
 pub fn get_node(node: &str) -> String {
 	let l = node.find('(').unwrap();
 	let r = node.find(')').unwrap();
-	format!("{}({})", &node[..l], gettext(&node[l + 1..r]))
+	format!("{} ({})", gettext(&node[..l - 1]), gettext(&node[l + 1..r]))
 }
 
 /// 计算剩余时间

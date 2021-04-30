@@ -114,6 +114,9 @@ msgstr "金星"
 msgid "Earth"
 msgstr "地球"
 
+msgid "Plains of Eidolon"
+msgstr "夜灵平原"
+
 msgid "Lua"
 msgstr "月球"
 
