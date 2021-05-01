@@ -30,6 +30,9 @@ msgstr "鬣狗群"
 msgid "Jackal"
 msgstr "豺狼"
 
+msgid "Mutalist Alad V"
+msgstr "异融 Alad V"
+
 msgid "Raptor"
 msgstr "猛禽"
 
@@ -91,6 +94,9 @@ msgstr "歼灭"
 
 msgid "Free Roam"
 msgstr "自由漫游"
+
+msgid "Hive"
+msgstr "清巢"
 
 msgid "Interception"
 msgstr "拦截"
@@ -247,6 +253,12 @@ msgstr "小兵大功"
 
 msgid "Kill 150 Enemies with a Secondary Weapon"
 msgstr "使用次要武器击杀 150 名敌人"
+
+msgid "Expressive"
+msgstr "善于表达之人"
+
+msgid "Play 1 Emote"
+msgstr "使用 1 个表情动作"
 
 ## 每周任务
 msgid "Vault Raider"
@@ -405,8 +417,14 @@ msgstr "狙击特昂 破坏者 枪管"
 msgid "Snipetron Vandal Blueprint"
 msgstr "狙击特昂 破坏者 蓝图"
 
+msgid "Snipetron Vandal Receiver"
+msgstr "狙击特昂 破坏者 枪机"
+
 msgid "Snipetron Vandal Stock"
 msgstr "狙击特昂 破坏者 枪托"
+
+msgid "Strun Wraith Barrel"
+msgstr "斯特朗 亡魂 枪管"
 
 msgid "Tarot Card Tenno Con I"
 msgstr "XAKU PREX 卡牌"
