@@ -21,6 +21,9 @@ msgstr ""
 msgid "Alad V"
 msgstr "Alad V"
 
+msgid "Corrupted Vor"
+msgstr "堕落的 Vor"
+
 msgid "General Sargas Ruk"
 msgstr "Sargas Ruk 将军"
 
@@ -81,6 +84,9 @@ msgstr "卓越者大本营"
 
 msgid "Weapon Restriction: Assault Rifle Only"
 msgstr "突击步枪 限定"
+
+msgid "Weapon Restriction: Pistol Only"
+msgstr "次要武器 限定"
 
 # 任务类型
 msgid "Assassination"
@@ -167,6 +173,9 @@ msgstr "阋神星"
 
 msgid "Sedna"
 msgstr "赛德娜"
+
+msgid "Void"
+msgstr "虚空"
 
 # 午夜电波挑战标题
 ## 每日任务
@@ -259,6 +268,12 @@ msgstr "善于表达之人"
 
 msgid "Play 1 Emote"
 msgstr "使用 1 个表情动作"
+
+msgid "Warning Shot"
+msgstr "开枪警告"
+
+msgid "Kill 200 Enemies"
+msgstr "击杀 200 名敌人"
 
 ## 每周任务
 msgid "Vault Raider"
@@ -410,6 +425,9 @@ msgstr "异融 ALAD V 导航座标"
 
 msgid "Sheev Heatsink"
 msgstr "希芙 散热片"
+
+msgid "Sheev Hilt"
+msgstr "希芙 握柄"
 
 msgid "Snipetron Vandal Barrel"
 msgstr "狙击特昂 破坏者 枪管"
