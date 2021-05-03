@@ -23,7 +23,10 @@ async fn answer(
 
 #[tokio::main]
 async fn main() {
+	// 导入环境变量
 	dotenv::dotenv().ok();
+	// 创建缓存目录
+	std::fs::create_dir_all("cache").ok();
 
 	gettextrs::TextDomain::new("warframe")
 		.locale("zh_CN.UTF-8")

@@ -2,3 +2,4 @@
 .idea
 /*.pot
 .env
+/cache

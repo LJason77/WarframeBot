@@ -19,8 +19,8 @@ pub struct Sortie {
 	pub faction: String,
 	/// 阵营领导者
 	pub boss: String,
-	/// 剩余时间
-	pub eta: String,
+	/// 结束时间
+	pub expiry: String,
 	/// 任务
 	pub variants: Vec<Variant>,
 }
