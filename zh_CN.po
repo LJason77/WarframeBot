@@ -24,6 +24,9 @@ msgstr "Alad V"
 msgid "Corrupted Vor"
 msgstr "堕落的 Vor"
 
+msgid "Councilor Vay Hek"
+msgstr "Vay Hek 委员"
+
 msgid "General Sargas Ruk"
 msgstr "Sargas Ruk 将军"
 
@@ -176,6 +179,9 @@ msgstr "赛德娜"
 
 msgid "Void"
 msgstr "虚空"
+
+msgid "Kuva Fortress"
+msgstr "赤毒要塞"
 
 # 午夜电波挑战标题
 ## 每日任务
