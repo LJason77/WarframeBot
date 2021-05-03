@@ -275,6 +275,12 @@ msgstr "开枪警告"
 msgid "Kill 200 Enemies"
 msgstr "击杀 200 名敌人"
 
+msgid "Hacker"
+msgstr "黑客"
+
+msgid "Hack 8 Consoles"
+msgstr "入侵 8 个控制台"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -336,6 +342,36 @@ msgstr "破坏者"
 msgid "Complete 3 Sabotage missions"
 msgstr "完成 3 项破坏任务"
 
+msgid "Earth Bounty Hunter"
+msgstr "地球赏金猎人"
+
+msgid "Complete 5 different Bounties in the Plains of Eidolon"
+msgstr "在夜灵平原完成 5 项不同的赏金任务"
+
+msgid "Sanctuary Researcher"
+msgstr "圣殿研究者"
+
+msgid "Complete 5 Scans for Cephalon Simaris"
+msgstr "完成 5 个中枢 Simaris 的扫描"
+
+msgid "Eliminator"
+msgstr "排除者"
+
+msgid "Complete 3 Exterminate missions"
+msgstr "完成 3 项歼灭任务"
+
+msgid "Vault Looter"
+msgstr "宝库劫者"
+
+msgid "Unlock 4 Orokin Vaults"
+msgstr "解锁 4 个火卫二 Orokin 宝库"
+
+msgid "Conservationist"
+msgstr "保育者"
+
+msgid "Complete 6 different Perfect Animal Captures in Orb Vallis"
+msgstr "在奥布山谷完成 6 个不同动物的完美捕获"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
@@ -360,6 +396,15 @@ msgstr "寂静歼灭"
 
 msgid "Complete an Extermination mission with level 30 or higher enemies without being detected"
 msgstr "完成一场 30 级或更高等级敌人的歼灭任务并且没有触发警报"
+
+msgid "Sortie Expert"
+msgstr "突击行家"
+
+msgid "Complete 3 Sorties"
+msgstr "完成 3 次突击"
+
+msgid "Complete a Survival mission reaching at least 30 minutes"
+msgstr "完成一场至少30分钟的生存任务"
 
 # 入侵
 msgid "Corpus Siege"
@@ -461,6 +506,9 @@ msgstr "双子蝰蛇 亡魂 枪管"
 
 msgid "Wraith Twin Vipers Blueprint"
 msgstr "双子蝰蛇 亡魂 蓝图"
+
+msgid "Wraith Twin Vipers Receiver"
+msgstr "双子蝰蛇 亡魂 枪机"
 
 # 浮印
 msgid "Baro Ki'Teer Glyph"
