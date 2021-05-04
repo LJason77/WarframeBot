@@ -3,6 +3,7 @@ use gettextrs::gettext;
 
 pub mod event;
 pub mod invasion;
+pub mod new;
 pub mod nightwave;
 pub mod sortie;
 pub mod trader;
