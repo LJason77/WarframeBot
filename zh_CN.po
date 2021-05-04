@@ -82,6 +82,9 @@ msgstr "低温外泄"
 msgid "Environmental Hazard: Fire"
 msgstr "火灾"
 
+msgid "Environmental Hazard: Radiation Pockets"
+msgstr "辐射灾害"
+
 msgid "Eximus Stronghold"
 msgstr "卓越者大本营"
 
@@ -286,6 +289,12 @@ msgstr "黑客"
 
 msgid "Hack 8 Consoles"
 msgstr "入侵 8 个控制台"
+
+msgid "Ancient Obelisk"
+msgstr "远古方尖碑"
+
+msgid "Activate a Requiem Obelisk on Deimos."
+msgstr "在火卫二激活一座安魂方尖碑"
 
 ## 每周任务
 msgid "Vault Raider"
@@ -494,6 +503,9 @@ msgstr "狙击特昂 破坏者 枪托"
 
 msgid "Strun Wraith Barrel"
 msgstr "斯特朗 亡魂 枪管"
+
+msgid "Strun Wraith Receiver"
+msgstr "斯特朗 亡魂 枪机"
 
 msgid "Tarot Card Tenno Con I"
 msgstr "XAKU PREX 卡牌"
