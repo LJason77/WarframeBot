@@ -1,6 +1,7 @@
 use chrono::Duration;
 use gettextrs::gettext;
 
+pub mod arbitration;
 pub mod event;
 pub mod invasion;
 pub mod new;

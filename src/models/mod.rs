@@ -1,5 +1,6 @@
 use teloxide::utils::command::BotCommand;
 
+pub mod arbitration;
 pub mod event;
 pub mod invasion;
 pub mod new;
@@ -12,6 +13,8 @@ pub mod trader;
 pub enum Command {
 	#[command(description = "显示帮助信息")]
 	Help,
+	#[command(description = "仲裁")]
+	Arbitration,
 	#[command(description = "活动")]
 	Events,
 	#[command(description = "入侵")]
