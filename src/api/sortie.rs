@@ -27,16 +27,16 @@ pub async fn get_sortie() -> String {
 	if duration.lt(&chrono::Duration::zero()) {
 		json = crate::api::get_url("https://api.warframestat.us/pc/sortie").await;
 		sortie = serde_json::from_str(&json).unwrap();
+	}
 
-		// 更新缓存
-		let sortie_file = Path::new("cache/sortie.json");
-		let mut file = match File::create(&sortie_file) {
-			Err(error) => panic!("无法创建 {}：{}", sortie_file.display(), error),
-			Ok(file) => file,
-		};
-		if let Err(why) = file.write_all(&json.as_bytes()) {
-			println!("更新缓存失败：{}", why)
-		}
+	// 更新缓存
+	let sortie_file = Path::new("cache/sortie.json");
+	let mut file = match File::create(&sortie_file) {
+		Err(error) => panic!("无法创建 {}：{}", sortie_file.display(), error),
+		Ok(file) => file,
+	};
+	if let Err(why) = file.write_all(&json.as_bytes()) {
+		println!("更新缓存失败：{}", why)
 	}
 
 	let mut variants = String::new();
