@@ -52,3 +52,14 @@ pub fn get_eta(expiry: &str) -> String {
 
 	eta
 }
+
+/// 是否需要更新
+pub fn need_update(expiry: &str) -> bool {
+	// 现在时间
+	let now = chrono::Utc::now().naive_utc();
+	// 结束时间
+	let expiry = chrono::DateTime::parse_from_rfc3339(expiry).unwrap().naive_utc();
+	let duration = expiry - now;
+	// 如果小于 0，即缓存过时
+	duration.lt(&Duration::zero())
+}

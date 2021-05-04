@@ -8,31 +8,25 @@ use std::{
 
 use gettextrs::gettext;
 
+use crate::api::{self, get_url};
+
 pub async fn get_sortie() -> String {
 	// 读取缓存
 	let mut json = match fs::read_to_string("cache/sortie.json") {
 		Ok(json) => json,
-		Err(_) => crate::api::get_url("https://api.warframestat.us/pc/sortie").await,
+		Err(_) => get_url("https://api.warframestat.us/pc/sortie").await,
 	};
 	let mut sortie: crate::models::sortie::Sortie = serde_json::from_str(&json).unwrap();
 
-	// 现在时间
-	let now = chrono::Utc::now().naive_utc();
-	// 结束时间
-	let expiry = chrono::DateTime::parse_from_rfc3339(&sortie.expiry)
-		.unwrap()
-		.naive_utc();
-	let duration = expiry - now;
-	// 如果小于 0，即缓存过时
-	if duration.lt(&chrono::Duration::zero()) {
-		json = crate::api::get_url("https://api.warframestat.us/pc/sortie").await;
+	if api::need_update(&sortie.expiry) {
+		json = get_url("https://api.warframestat.us/pc/sortie").await;
 		sortie = serde_json::from_str(&json).unwrap();
 	}
 
 	// 更新缓存
-	let sortie_file = Path::new("cache/sortie.json");
-	let mut file = match File::create(&sortie_file) {
-		Err(error) => panic!("无法创建 {}：{}", sortie_file.display(), error),
+	let json_file = Path::new("cache/sortie.json");
+	let mut file = match File::create(&json_file) {
+		Err(error) => panic!("无法创建 {}：{}", json_file.display(), error),
 		Ok(file) => file,
 	};
 	if let Err(why) = file.write_all(&json.as_bytes()) {
@@ -49,7 +43,7 @@ pub async fn get_sortie() -> String {
 				状态：{}
 				"#,
 				i + 1,
-				crate::api::get_node(&variant.node),
+				api::get_node(&variant.node),
 				gettext(&variant.mission_type),
 				gettext(&variant.modifier)
 			)
@@ -66,7 +60,7 @@ pub async fn get_sortie() -> String {
 		"#,
 		gettext(sortie.faction),
 		gettext(sortie.boss),
-		crate::api::get_eta(&sortie.expiry),
+		api::get_eta(&sortie.expiry),
 		variants
 	)
 }
