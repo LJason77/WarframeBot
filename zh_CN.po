@@ -98,6 +98,12 @@ msgstr "次要武器 限定"
 msgid "Assassination"
 msgstr "刺杀"
 
+msgid "Capture"
+msgstr "捕获"
+
+msgid "Dark Sector Defection"
+msgstr "叛逃"
+
 msgid "Disruption"
 msgstr "中断"
 
@@ -134,6 +140,9 @@ msgstr "间谍"
 msgid "Survival"
 msgstr "生存"
 
+msgid "Volatile"
+msgstr "爆发"
+
 # 纪元
 msgid "Lith"
 msgstr "古纪"
@@ -157,8 +166,17 @@ msgstr "水星"
 msgid "Venus"
 msgstr "金星"
 
+msgid "Orvin-Haarc"
+msgstr "欧文-哈克"
+
+msgid "Bifrost Echo"
+msgstr "虹桥回声"
+
 msgid "Earth"
 msgstr "地球"
+
+msgid "Bendar Cluster"
+msgstr "本达尔星团"
 
 msgid "Plains of Eidolon"
 msgstr "夜灵平原"
@@ -187,14 +205,23 @@ msgstr "欧罗巴"
 msgid "Saturn"
 msgstr "土星"
 
+msgid "Vand Cluster"
+msgstr "水域星团"
+
 msgid "Uranus"
 msgstr "天王星"
 
 msgid "Neptune"
 msgstr "海王星"
 
+msgid "Nu-gua Mines"
+msgstr "女娲之矿"
+
 msgid "Pluto"
 msgstr "冥王星"
+
+msgid "Profit Margin"
+msgstr "利益外缘"
 
 msgid "Eris"
 msgstr "阋神星"
@@ -207,6 +234,15 @@ msgstr "虚空"
 
 msgid "Kuva Fortress"
 msgstr "赤毒要塞"
+
+msgid "Veil Proxima"
+msgstr "面纱"
+
+msgid "H-2 Cloud"
+msgstr "H-2 星云"
+
+msgid "Flexa"
+msgstr "弗雷沙"
 
 # 午夜电波挑战标题
 ## 每日任务
@@ -317,6 +353,12 @@ msgstr "远古方尖碑"
 
 msgid "Activate a Requiem Obelisk on Deimos."
 msgstr "在火卫二激活一座安魂方尖碑"
+
+msgid "Kleptomaniac"
+msgstr "盗窃癖"
+
+msgid "Open 20 lockers"
+msgstr "打开 20 个储物柜"
 
 ## 每周任务
 msgid "Vault Raider"
