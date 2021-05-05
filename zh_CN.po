@@ -36,6 +36,9 @@ msgstr "鬣狗群"
 msgid "Jackal"
 msgstr "豺狼"
 
+msgid "Lech Kril"
+msgstr "Lech Kril 中尉"
+
 msgid "Mutalist Alad V"
 msgstr "异融 Alad V"
 
@@ -178,6 +181,9 @@ msgstr "地球"
 msgid "Bendar Cluster"
 msgstr "本达尔星团"
 
+msgid "Ogal Cluster"
+msgstr "奥加尔星团"
+
 msgid "Plains of Eidolon"
 msgstr "夜灵平原"
 
@@ -208,6 +214,9 @@ msgstr "土星"
 msgid "Vand Cluster"
 msgstr "水域星团"
 
+msgid "Lupal Pass"
+msgstr "卢帕星道"
+
 msgid "Uranus"
 msgstr "天王星"
 
@@ -216,6 +225,9 @@ msgstr "海王星"
 
 msgid "Nu-gua Mines"
 msgstr "女娲之矿"
+
+msgid "Enkidu Ice Drifts"
+msgstr "初裔冰渍区"
 
 msgid "Pluto"
 msgstr "冥王星"
@@ -240,6 +252,9 @@ msgstr "面纱"
 
 msgid "H-2 Cloud"
 msgstr "H-2 星云"
+
+msgid "R-9 Cloud"
+msgstr "R-9 星云"
 
 msgid "Flexa"
 msgstr "弗雷沙"
