@@ -7,6 +7,7 @@ Warframe 查询机器人
 - /help - 显示帮助信息
 - /arbitration - 仲裁
 - /events - 活动
+- /fissures - 裂缝
 - /invasions - 入侵
 - /news - 新闻
 - /nightwave 午夜电波

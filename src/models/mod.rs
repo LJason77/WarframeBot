@@ -2,6 +2,7 @@ use teloxide::utils::command::BotCommand;
 
 pub mod arbitration;
 pub mod event;
+pub mod fissures;
 pub mod invasion;
 pub mod new;
 pub mod nightwave;
@@ -17,6 +18,8 @@ pub enum Command {
 	Arbitration,
 	#[command(description = "活动")]
 	Events,
+	#[command(description = "裂缝")]
+	Fissures,
 	#[command(description = "入侵")]
 	Invasions,
 	#[command(description = "新闻")]

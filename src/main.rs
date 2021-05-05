@@ -19,6 +19,7 @@ async fn answer(
 				.await?
 		}
 		Command::Events => cx.answer(api::event::get_event().await).send().await?,
+		Command::Fissures => cx.answer(api::fissures::get_fissures().await).send().await?,
 		Command::Invasions => cx.answer(api::invasion::get_invasion().await).send().await?,
 		Command::News => cx.answer(api::new::get_new().await).send().await?,
 		Command::Nightwave => cx.answer(api::nightwave::get_nightwave().await).send().await?,

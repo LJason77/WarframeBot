@@ -125,11 +125,30 @@ msgstr "救援"
 msgid "Sabotage"
 msgstr "破坏"
 
+msgid "Skirmish"
+msgstr "前哨战"
+
 msgid "Spy"
 msgstr "间谍"
 
 msgid "Survival"
 msgstr "生存"
+
+# 纪元
+msgid "Lith"
+msgstr "古纪"
+
+msgid "Meso"
+msgstr "前纪"
+
+msgid "Neo"
+msgstr "中纪"
+
+msgid "Axi"
+msgstr "后纪"
+
+msgid "Requiem"
+msgstr "安魂"
 
 # 星球
 msgid "Mercury"

@@ -3,6 +3,7 @@ use gettextrs::gettext;
 
 pub mod arbitration;
 pub mod event;
+pub mod fissures;
 pub mod invasion;
 pub mod new;
 pub mod nightwave;
