@@ -54,7 +54,10 @@ pub fn get_eta(expiry: &str) -> String {
 	duration = duration - Duration::hours(hours);
 
 	let minutes = duration.num_minutes();
-	eta.push_str(format!("{} 分", minutes).as_str());
+	eta.push_str(format!("{} 分 ", minutes).as_str());
+	duration = duration - Duration::minutes(minutes);
+
+	eta.push_str(format!("{} 秒", duration.num_seconds()).as_str());
 
 	eta
 }
