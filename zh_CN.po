@@ -101,6 +101,9 @@ msgstr "刺杀"
 msgid "Disruption"
 msgstr "中断"
 
+msgid "Excavation"
+msgstr "挖掘"
+
 msgid "Extermination"
 msgstr "歼灭"
 

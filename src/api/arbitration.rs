@@ -34,8 +34,9 @@ pub async fn get_arbitration() -> String {
 	}
 
 	format!(
-		"地点：{}\n任务：{}\n剩余：{}",
+		"地点：{}\n派系：{}\n任务：{}\n剩余：{}",
 		api::get_node(&arbitration.node),
+		arbitration.enemy,
 		gettext(arbitration.mission_type),
 		api::get_eta(&arbitration.expiry)
 	)
