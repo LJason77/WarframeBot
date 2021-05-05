@@ -31,14 +31,11 @@ pub async fn get_invasion() -> String {
 			};
 			invasions_str.push_str(
 				format!(
-					"{} ({:.2}%)\n入侵节点：{}\n剩余时间：{}\n------------\n入侵阵营：{}\n入侵奖励：{}\n------------\n防守阵营：{}\n防守奖励：{}\n\n",
+					"<strong>{}  |  {:.2}%  |  {}</strong>\n{}   |   {}\n\n",
 					gettext(invasion.desc),
 					invasion.completion,
 					api::get_node(&invasion.node),
-					invasion.eta,
-					invasion.attacking_faction,
 					attacker_reward,
-					invasion.defending_faction,
 					defender_reward
 				)
 				.as_str(),
