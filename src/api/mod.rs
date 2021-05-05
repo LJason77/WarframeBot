@@ -27,9 +27,13 @@ pub async fn get_url(url: &str) -> String {
 
 /// 翻译星球名字
 pub fn get_node(node: &str) -> String {
-	let l = node.find('(').unwrap();
-	let r = node.find(')').unwrap();
-	format!("{} ({})", gettext(&node[..l - 1]), gettext(&node[l + 1..r]))
+	match node.find('(') {
+		Some(l) => {
+			let r = node.find(')').unwrap();
+			format!("{} ({})", gettext(&node[..l - 1]), gettext(&node[l + 1..r]))
+		}
+		None => gettext(node),
+	}
 }
 
 /// 计算剩余时间
