@@ -55,6 +55,9 @@ msgstr "敌人护甲强化"
 msgid "Enemy Elemental Enhancement: Blast"
 msgstr "敌人元素强化：爆炸"
 
+msgid "Enemy Elemental Enhancement: Corrosive"
+msgstr "敌人元素强化：腐蚀"
+
 msgid "Enemy Elemental Enhancement: Electricity"
 msgstr "敌人元素强化：电击"
 
@@ -100,6 +103,9 @@ msgstr "弓箭 限定"
 msgid "Weapon Restriction: Pistol Only"
 msgstr "次要武器 限定"
 
+msgid "Weapon Restriction: Shotgun Only"
+msgstr "霰弹枪 限定"
+
 # 任务类型
 msgid "Assassination"
 msgstr "刺杀"
@@ -118,6 +124,9 @@ msgstr "生存"
 
 msgid "Disruption"
 msgstr "中断"
+
+msgid "Defection"
+msgstr "叛逃"
 
 msgid "Excavation"
 msgstr "挖掘"
@@ -219,6 +228,9 @@ msgstr "欧罗巴"
 
 msgid "Saturn"
 msgstr "土星"
+
+msgid "Mordo Cluster"
+msgstr "魔多星团"
 
 msgid "Vand Cluster"
 msgstr "水域星团"
