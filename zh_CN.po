@@ -94,6 +94,9 @@ msgstr "卓越者大本营"
 msgid "Weapon Restriction: Assault Rifle Only"
 msgstr "突击步枪 限定"
 
+msgid "Weapon Restriction: Bow Only"
+msgstr "弓箭 限定"
+
 msgid "Weapon Restriction: Pistol Only"
 msgstr "次要武器 限定"
 
@@ -106,6 +109,12 @@ msgstr "捕获"
 
 msgid "Dark Sector Defection"
 msgstr "叛逃"
+
+msgid "Dark Sector Excavation"
+msgstr "挖掘"
+
+msgid "Dark Sector Survival"
+msgstr "生存"
 
 msgid "Disruption"
 msgstr "中断"
@@ -375,6 +384,18 @@ msgstr "盗窃癖"
 msgid "Open 20 lockers"
 msgstr "打开 20 个储物柜"
 
+msgid "Biohazard"
+msgstr "生化危害"
+
+msgid "Kill 150 Enemies with Gas Damage"
+msgstr "使用毒气伤害击杀 150 名敌人"
+
+msgid "Shiny"
+msgstr "闪闪发亮"
+
+msgid "Pick up 8 Mods"
+msgstr "拾取 8 个 Mod"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -514,6 +535,9 @@ msgid "Phorid Manifestation"
 msgstr "Phorid 现形"
 
 # 物品
+msgid "5x Corrupted Heavy Gunner Specter"
+msgstr "5 X 堕落重型机枪手魅影"
+
 msgid "Bronze Kavat Bust"
 msgstr "库娃半身铜像"
 
@@ -537,6 +561,9 @@ msgstr "电磁力场装置"
 
 msgid "Forma Blueprint"
 msgstr "Forma 蓝图"
+
+msgid "Inaros Tomb Scene"
+msgstr "Inaros 古墓场景"
 
 msgid "Exilus Adapter Blueprint"
 msgstr "战甲特殊功能槽连接器 蓝图"
@@ -586,6 +613,9 @@ msgstr "斯特朗 亡魂 枪管"
 msgid "Strun Wraith Receiver"
 msgstr "斯特朗 亡魂 枪机"
 
+msgid "Tarot Card Tenno Con C"
+msgstr "火卫二迅敏节虫 Prex 卡牌"
+
 msgid "Tarot Card Tenno Con I"
 msgstr "XAKU PREX 卡牌"
 
@@ -618,7 +648,46 @@ msgstr "苦痛 德特昂"
 msgid "Prisma Dual Cleavers"
 msgstr "棱晶 斩肉双刀"
 
+msgid "Prisma Grinlok"
+msgstr "棱晶 葛恩火枪"
+
+msgid "Prisma Shade"
+msgstr "棱晶 阴影"
+
+msgid "Prisma Twin Gremlins"
+msgstr "棱晶 双子小精灵"
+
+msgid "Vulkar Wraith"
+msgstr "金工火神 亡魂"
+
 # 外观
+msgid "Anpu Staff Skin"
+msgstr "安普长棍外观"
+
+msgid "Chroma Alternate Skin"
+msgstr "Chroma 不朽外观"
+
+msgid "Desert Skate Floof"
+msgstr "沙漠鳐鱼玩偶"
+
+msgid "Dvad Luxxum Ornament"
+msgstr "得瓦特 乐升饰物"
+
+msgid "Ki'Teer Foros Chest Plate"
+msgstr "Ki'Teer 福罗斯胸甲"
+
+msgid "Ki'Teer Foros Leg Plates"
+msgstr "Ki'Teer 福罗斯腿甲"
+
+msgid "Ki'Teer Foros Shoulder Plates"
+msgstr "Ki'Teer 福罗斯肩甲"
+
+msgid "Ki'Teer Syandana"
+msgstr "Ki'Teer 披饰"
+
+msgid "Necra Armor C"
+msgstr "熔铸胸甲"
+
 msgid "Ki'Teer Kubrow Armor"
 msgstr "Ki'Teer 库伯护甲"
 
@@ -649,24 +718,48 @@ msgstr "砍刀萨切德外观"
 msgid "Ki'Teer Sugatra"
 msgstr "Ki'Teer 坠饰"
 
+msgid "Prisma Lotus Sigil"
+msgstr "棱晶 Lotus 纹章"
+
+msgid "Prisma Rostam Kubrow Armor"
+msgstr "棱晶 洛斯塔姆库狛护甲"
+
+msgid "Twin Grakata Towsun Skin"
+msgstr "双子葛拉卡达夏至外观"
+
 # 加成
 msgid "3 Day Credit Booster"
 msgstr "3 天现金加成"
 
 # MOD
 ## P卡
+msgid "Primed Cleanse Corpus"
+msgstr "净化 Corpus Prime"
+
+msgid "Primed Cleanse Corrupted"
+msgstr "净化堕落者 Prime"
+
 msgid "Primed Ravage"
 msgstr "破灭 Prime"
+
+msgid "Primed Slip Magazine"
+msgstr "串联弹匣 Prime"
 
 msgid "Primed Target Cracker"
 msgstr "弱点专精 Prime"
 
 ## 金卡
+msgid "Astral Twilight"
+msgstr "星界微光"
+
 msgid "Scattering Inferno"
 msgstr "炼狱轰击"
 
 msgid "Split Flights"
 msgstr "分裂飞行"
+
+msgid "Thermite Rounds"
+msgstr "铝热焊弹"
 
 ## 银卡
 msgid "Weapon Glaive Secondary Headshot Kill Mod"
