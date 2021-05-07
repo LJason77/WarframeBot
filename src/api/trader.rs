@@ -18,7 +18,7 @@ pub async fn get_trader() -> String {
 	};
 	let mut trader: crate::models::trader::Trader = serde_json::from_str(&json).unwrap();
 
-	if api::need_update(&trader.expiry) {
+	if api::need_update(&trader.activation) {
 		json = api::get_url("https://api.warframestat.us/pc/voidTrader").await;
 		trader = serde_json::from_str(&json).unwrap();
 	}
