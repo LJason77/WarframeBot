@@ -13,6 +13,7 @@ pub mod new;
 pub mod nightwave;
 pub mod sortie;
 pub mod trader;
+pub mod worldstate;
 
 /// 发送请求
 pub async fn get_url(path: &str) -> String {

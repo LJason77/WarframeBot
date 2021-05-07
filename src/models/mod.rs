@@ -8,6 +8,7 @@ pub mod new;
 pub mod nightwave;
 pub mod sortie;
 pub mod trader;
+pub mod worldstate;
 
 #[derive(BotCommand)]
 #[command(rename = "lowercase", description = "当前支持下列查询：")]
@@ -30,4 +31,6 @@ pub enum Command {
 	Sortie,
 	#[command(description = "虚空商人")]
 	Trader,
+	#[command(description = "世界状态")]
+	Worldstate,
 }

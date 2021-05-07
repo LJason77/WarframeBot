@@ -13,6 +13,7 @@ Warframe 查询机器人
 - /nightwave 午夜电波
 - /sortie - 突击
 - /trader - 虚空商人
+- /worldstate - 世界状态
 
 # 配置
 

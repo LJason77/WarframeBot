@@ -164,6 +164,19 @@ msgstr "生存"
 msgid "Volatile"
 msgstr "爆发"
 
+# 世界状态
+msgid "day"
+msgstr "白昼"
+
+msgid "night"
+msgstr "夜晚"
+
+msgid "warm"
+msgstr "温暖"
+
+msgid "cold"
+msgstr "寒冷"
+
 # 纪元
 msgid "Lith"
 msgstr "古纪"
