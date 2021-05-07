@@ -14,12 +14,12 @@ pub async fn get_sortie() -> String {
 	// 读取缓存
 	let mut json = match fs::read_to_string("cache/sortie.json") {
 		Ok(json) => json,
-		Err(_) => get_url("https://api.warframestat.us/pc/sortie").await,
+		Err(_) => get_url("sortie").await,
 	};
 	let mut sortie: crate::models::sortie::Sortie = serde_json::from_str(&json).unwrap();
 
 	if api::need_update(&sortie.expiry) {
-		json = get_url("https://api.warframestat.us/pc/sortie").await;
+		json = get_url("sortie").await;
 		sortie = serde_json::from_str(&json).unwrap();
 	}
 

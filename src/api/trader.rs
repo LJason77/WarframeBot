@@ -14,12 +14,12 @@ pub async fn get_trader() -> String {
 	// 读取缓存
 	let mut json = match fs::read_to_string("cache/trader.json") {
 		Ok(json) => json,
-		Err(_) => api::get_url("https://api.warframestat.us/pc/voidTrader").await,
+		Err(_) => api::get_url("voidTrader").await,
 	};
 	let mut trader: crate::models::trader::Trader = serde_json::from_str(&json).unwrap();
 
 	if api::need_update(&trader.activation) {
-		json = api::get_url("https://api.warframestat.us/pc/voidTrader").await;
+		json = api::get_url("voidTrader").await;
 		trader = serde_json::from_str(&json).unwrap();
 	}
 

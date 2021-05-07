@@ -6,7 +6,7 @@ use crate::api;
 use crate::models::fissures::Fissures;
 
 pub async fn get_fissures() -> String {
-	let json = api::get_url("https://api.warframestat.us/pc/fissures").await;
+	let json = api::get_url("fissures").await;
 	let mut fissures_vec: Vec<Fissures> = serde_json::from_str(&json).unwrap();
 	// 按照纪元排序
 	fissures_vec.sort_by(|a, b| a.tier_num.cmp(&b.tier_num));

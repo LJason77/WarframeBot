@@ -5,7 +5,7 @@ use gettextrs::gettext;
 use crate::api::{self, get_eta};
 
 pub async fn get_nightwave() -> String {
-	let json = api::get_url("https://api.warframestat.us/pc/nightwave").await;
+	let json = api::get_url("nightwave").await;
 	let nightwave: crate::models::nightwave::Nightwave = serde_json::from_str(&json).unwrap();
 
 	let mut challenges = String::new();

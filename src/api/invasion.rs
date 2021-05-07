@@ -3,7 +3,7 @@ use gettextrs::gettext;
 use crate::api;
 
 pub async fn get_invasion() -> String {
-	let json = api::get_url("https://api.warframestat.us/pc/invasions").await;
+	let json = api::get_url("invasions").await;
 	let invasions: Vec<crate::models::invasion::Invasion> = serde_json::from_str(&json).unwrap();
 
 	let mut invasions_str = String::new();

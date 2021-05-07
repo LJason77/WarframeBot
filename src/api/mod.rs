@@ -11,13 +11,13 @@ pub mod sortie;
 pub mod trader;
 
 /// 发送请求
-pub async fn get_url(url: &str) -> String {
+pub async fn get_url(path: &str) -> String {
 	reqwest::Client::builder()
 		// 将所有流量代理到传递的URL
 		.proxy(reqwest::Proxy::all(std::env::var("TELOXIDE_PROXY").unwrap()).unwrap())
 		.build()
 		.unwrap()
-		.get(url)
+		.get(format!("https://api.warframestat.us/pc/{}", path))
 		.send()
 		.await
 		.unwrap()

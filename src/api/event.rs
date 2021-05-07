@@ -5,7 +5,7 @@ use gettextrs::gettext;
 use crate::api;
 
 pub async fn get_event() -> String {
-	let json = api::get_url("https://api.warframestat.us/pc/events").await;
+	let json = api::get_url("events").await;
 	let events: Vec<crate::models::event::Event> = serde_json::from_str(&json).unwrap();
 
 	let mut events_str = String::new();
