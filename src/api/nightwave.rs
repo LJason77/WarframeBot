@@ -13,8 +13,8 @@ pub async fn get_nightwave() -> String {
 		challenges.push_str(
 			format!(
 				r#"
-					{}
-					{}
+					<strong>{}</strong>
+					<strong>{}</strong>
 					声望：{}
 					剩余时间：{}
 					"#,

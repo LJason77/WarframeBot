@@ -25,7 +25,7 @@ pub async fn get_trader() -> String {
 		for item in trader.inventory {
 			items.push_str(
 				format!(
-					"{}\n金币：{}\n现金：{}\n\n",
+					"<strong>{}</strong>\n金币：{}  |  现金：{}\n\n",
 					gettext(item.item),
 					item.ducats,
 					item.credits

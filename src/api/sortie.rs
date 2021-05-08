@@ -23,8 +23,8 @@ pub async fn get_sortie() -> String {
 			format!(
 				r#"
 				{}. {}
-				任务：{}
-				状态：{}
+				任务：<strong>{}</strong>
+				状态：<strong>{}</strong>
 				"#,
 				i + 1,
 				api::get_node(&variant.node),

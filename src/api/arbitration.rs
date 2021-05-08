@@ -18,7 +18,7 @@ pub async fn get_arbitration() -> String {
 	api::update_cache(&json, "arbitration");
 
 	format!(
-		"地点：{}\n派系：{}\n任务：{}\n剩余：{}",
+		"地点：{}\n派系：{}\n任务：<strong>{}</strong>\n剩余：{}",
 		api::get_node(&arbitration.node),
 		arbitration.enemy,
 		gettext(arbitration.mission_type),
