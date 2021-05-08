@@ -1,3 +1,5 @@
+use std::io::Write;
+
 use chrono::Duration;
 use gettextrs::gettext;
 
@@ -31,6 +33,19 @@ pub async fn get_cache(path: &str) -> String {
 	match std::fs::read_to_string(format!("cache/{}.json", path)) {
 		Ok(json) => json,
 		Err(_) => get_url(path).await,
+	}
+}
+
+/// 更新缓存
+pub fn update_cache(json: &str, path: &str) {
+	let path = format!("cache/{}.json", path);
+	let json_file = std::path::Path::new(&path);
+	let mut file = match std::fs::File::create(json_file) {
+		Err(error) => panic!("无法创建 {}：{}", json_file.display(), error),
+		Ok(file) => file,
+	};
+	if let Err(why) = file.write_all(json.as_bytes()) {
+		println!("更新缓存失败：{}", why)
 	}
 }
 

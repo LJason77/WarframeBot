@@ -1,7 +1,5 @@
 //! 仲裁
 
-use std::{fs::File, io::Write, path::Path};
-
 use gettextrs::gettext;
 
 use crate::api::{self, get_url};
@@ -17,14 +15,7 @@ pub async fn get_arbitration() -> String {
 	}
 
 	// 更新缓存
-	let json_file = Path::new("cache/arbitration.json");
-	let mut file = match File::create(&json_file) {
-		Err(error) => panic!("无法创建 {}：{}", json_file.display(), error),
-		Ok(file) => file,
-	};
-	if let Err(why) = file.write_all(&json.as_bytes()) {
-		println!("更新缓存失败：{}", why)
-	}
+	api::update_cache(&json, "arbitration");
 
 	format!(
 		"地点：{}\n派系：{}\n任务：{}\n剩余：{}",
