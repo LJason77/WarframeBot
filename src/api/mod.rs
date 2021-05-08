@@ -2,6 +2,8 @@ use std::io::Write;
 
 use chrono::Duration;
 use gettextrs::gettext;
+use serde::de::DeserializeOwned;
+use serde_json::from_str;
 
 pub mod arbitration;
 pub mod event;
@@ -29,11 +31,16 @@ pub async fn get_url(path: &str) -> String {
 }
 
 /// 读取缓存
-pub async fn get_cache(path: &str) -> String {
-	match std::fs::read_to_string(format!("cache/{}.json", path)) {
+pub async fn get_cache<T>(path: &str) -> (String, T)
+where
+	T: DeserializeOwned,
+{
+	let json = match std::fs::read_to_string(format!("cache/{}.json", path)) {
 		Ok(json) => json,
 		Err(_) => get_url(path).await,
-	}
+	};
+	let t: T = from_str(&json).unwrap();
+	(json, t)
 }
 
 /// 更新缓存

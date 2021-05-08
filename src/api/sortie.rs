@@ -6,8 +6,7 @@ use crate::api::{self, get_url};
 
 pub async fn get_sortie() -> String {
 	// 读取缓存
-	let mut json = api::get_cache("sortie").await;
-	let mut sortie: crate::models::sortie::Sortie = serde_json::from_str(&json).unwrap();
+	let (mut json, mut sortie) = api::get_cache::<crate::models::sortie::Sortie>("sortie").await;
 
 	if api::need_update(&sortie.expiry) {
 		json = get_url("sortie").await;

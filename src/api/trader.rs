@@ -6,8 +6,7 @@ use crate::api;
 
 pub async fn get_trader() -> String {
 	// 读取缓存
-	let mut json = api::get_cache("voidTrader").await;
-	let mut trader: crate::models::trader::Trader = serde_json::from_str(&json).unwrap();
+	let (mut json, mut trader) = api::get_cache::<crate::models::trader::Trader>("voidTrader").await;
 
 	if api::need_update(&trader.activation) && !trader.active || api::need_update(&trader.expiry) {
 		json = api::get_url("voidTrader").await;
