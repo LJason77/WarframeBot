@@ -11,7 +11,7 @@ pub async fn get_trader() -> String {
 	let mut json = api::get_cache("voidTrader").await;
 	let mut trader: crate::models::trader::Trader = serde_json::from_str(&json).unwrap();
 
-	if api::need_update(&trader.activation) {
+	if api::need_update(&trader.activation) && !trader.active || api::need_update(&trader.expiry) {
 		json = api::get_url("voidTrader").await;
 		trader = serde_json::from_str(&json).unwrap();
 	}
