@@ -1,10 +1,6 @@
 //! 仲裁
 
-use std::{
-	fs::{self, File},
-	io::Write,
-	path::Path,
-};
+use std::{fs::File, io::Write, path::Path};
 
 use gettextrs::gettext;
 
@@ -12,10 +8,7 @@ use crate::api::{self, get_url};
 
 pub async fn get_arbitration() -> String {
 	// 读取缓存
-	let mut json = match fs::read_to_string("cache/arbitration.json") {
-		Ok(json) => json,
-		Err(_) => get_url("arbitration").await,
-	};
+	let mut json = api::get_cache("arbitration").await;
 	let mut arbitration: crate::models::arbitration::Arbitration = serde_json::from_str(&json).unwrap();
 
 	if api::need_update(&arbitration.expiry) {

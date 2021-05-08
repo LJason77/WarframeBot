@@ -26,6 +26,14 @@ pub async fn get_url(path: &str) -> String {
 		.unwrap()
 }
 
+/// 读取缓存
+pub async fn get_cache(path: &str) -> String {
+	match std::fs::read_to_string(format!("cache/{}.json", path)) {
+		Ok(json) => json,
+		Err(_) => get_url(path).await,
+	}
+}
+
 /// 翻译星球名字
 pub fn get_node(node: &str) -> String {
 	match node.find('(') {
