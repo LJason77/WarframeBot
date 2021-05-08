@@ -1,4 +1,4 @@
-use std::sync::Arc;
+use std::{fs, sync::Arc};
 
 use teloxide::{prelude::*, utils::command::BotCommand};
 
@@ -35,8 +35,10 @@ async fn answer(
 async fn main() {
 	// 导入环境变量
 	dotenv::dotenv().ok();
+	// 移除缓存目录
+	fs::remove_dir_all("cache").unwrap();
 	// 创建缓存目录
-	std::fs::create_dir_all("cache").ok();
+	fs::create_dir_all("cache").unwrap();
 
 	gettextrs::TextDomain::new("warframe")
 		.locale("zh_CN.UTF-8")
