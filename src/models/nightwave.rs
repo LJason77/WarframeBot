@@ -8,7 +8,7 @@ pub struct Challenge {
 	/// 描述
 	pub desc: String,
 	/// 声望
-	pub reputation: i16,
+	pub reputation: u16,
 	/// 结束时间
 	#[serde(rename = "expiry")]
 	pub expiry: String,

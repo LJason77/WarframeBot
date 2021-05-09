@@ -6,9 +6,9 @@ pub struct Item {
 	/// 物品
 	pub item: String,
 	/// 杜卡德金币
-	pub ducats: i16,
+	pub ducats: u16,
 	/// 现金
-	pub credits: i32,
+	pub credits: u32,
 }
 
 /// 虚空商人
