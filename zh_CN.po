@@ -293,6 +293,9 @@ msgstr "R-9 星云"
 msgid "Flexa"
 msgstr "弗雷沙"
 
+msgid "Nsu Grid"
+msgstr "恩斯尤区格"
+
 # 午夜电波挑战标题
 ## 每日任务
 msgid "Marksman"
@@ -420,6 +423,18 @@ msgstr "闪闪发亮"
 
 msgid "Pick up 8 Mods"
 msgstr "拾取 8 个 Mod"
+
+msgid "Energizing"
+msgstr "激励"
+
+msgid "Pick up 20 Energy Orbs"
+msgstr "拾取 20 个能量球"
+
+msgid "Short Circuit"
+msgstr "短路"
+
+msgid "Kill 150 Enemies with Electricity Damage"
+msgstr "使用电击伤害击杀 150 名敌人"
 
 ## 每周任务
 msgid "Vault Raider"
@@ -614,6 +629,9 @@ msgstr "突变原聚合物"
 msgid "Mutalist Alad V Nav Coordinate"
 msgstr "异融 ALAD V 导航座标"
 
+msgid "Sheev Blade"
+msgstr "希芙 刀刃"
+
 msgid "Sheev Heatsink"
 msgstr "希芙 散热片"
 
@@ -638,7 +656,7 @@ msgstr "斯特朗 亡魂 枪管"
 msgid "Strun Wraith Receiver"
 msgstr "斯特朗 亡魂 枪机"
 
-msgid "Tarot Card Tenno Con C"
+msgid "Deimos Veolicpod Prex"
 msgstr "火卫二迅敏节虫 Prex 卡牌"
 
 msgid "Tarot Card Tenno Con I"
@@ -689,7 +707,7 @@ msgstr "金工火神 亡魂"
 msgid "Anpu Staff Skin"
 msgstr "安普长棍外观"
 
-msgid "Chroma Alternate Skin"
+msgid "Chroma Immortal Skin"
 msgstr "Chroma 不朽外观"
 
 msgid "Desert Skate Floof"
@@ -710,7 +728,7 @@ msgstr "Ki'Teer 福罗斯肩甲"
 msgid "Ki'Teer Syandana"
 msgstr "Ki'Teer 披饰"
 
-msgid "Necra Armor C"
+msgid "Mulciber Chest Plate"
 msgstr "熔铸胸甲"
 
 msgid "Ki'Teer Kubrow Armor"
