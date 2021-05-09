@@ -12,6 +12,7 @@ Warframe 查询机器人
 - /news - 新闻
 - /nightwave 午夜电波
 - /sortie - 突击
+- /steelpath - 钢铁之路奖励
 - /trader - 虚空商人
 - /worldstate - 世界状态
 

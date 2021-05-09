@@ -7,6 +7,7 @@ pub mod invasion;
 pub mod new;
 pub mod nightwave;
 pub mod sortie;
+pub mod steel_path;
 pub mod trader;
 pub mod worldstate;
 
@@ -29,6 +30,8 @@ pub enum Command {
 	Nightwave,
 	#[command(description = "突击")]
 	Sortie,
+	#[command(description = "钢铁之路奖励")]
+	SteelPath,
 	#[command(description = "虚空商人")]
 	Trader,
 	#[command(description = "世界状态")]

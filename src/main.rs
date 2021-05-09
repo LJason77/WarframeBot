@@ -24,6 +24,7 @@ async fn answer(
 		Command::News => cx.answer(api::new::get_new().await).send().await?,
 		Command::Nightwave => cx.answer(api::nightwave::get_nightwave().await).send().await?,
 		Command::Sortie => cx.answer(api::sortie::get_sortie().await).send().await?,
+		Command::SteelPath => cx.answer(api::steel_path::get_reward().await).send().await?,
 		Command::Trader => cx.answer(api::trader::get_trader().await).send().await?,
 		Command::Worldstate => cx.answer(api::worldstate::get_world().await).send().await?,
 	};
