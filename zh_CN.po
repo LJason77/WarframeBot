@@ -683,6 +683,9 @@ msgstr "拉特昂 亡魂 枪管"
 msgid "Latron Wraith Receiver"
 msgstr "拉特昂 亡魂 枪机"
 
+msgid "Latron Wraith Stock"
+msgstr "拉特昂 亡魂 枪托"
+
 msgid "Mutagen Mass"
 msgstr "突变原聚合物"
 
@@ -870,9 +873,193 @@ msgstr "分裂飞行"
 msgid "Thermite Rounds"
 msgstr "铝热焊弹"
 
+msgid "Augur Seeker"
+msgstr "预言 探求"
+
+msgid "Augur Secrets"
+msgstr "预言 神密"
+
+msgid "Swooping Falcon"
+msgstr "猎鹰俯击"
+
+msgid "Mecha Overdrive"
+msgstr "机甲 超载"
+
+msgid "Mecha Recharge"
+msgstr "机甲 充能"
+
+msgid "Mecha Empowered"
+msgstr "机甲 强化"
+
+msgid "Mecha Pulse"
+msgstr "机甲 脉冲"
+
+msgid "Carnis Stinger"
+msgstr "肉碾虫 针刺"
+
+msgid "Jugulus Spines"
+msgstr "喉骨刃者 脊刺"
+
+msgid "Nano-Applicator"
+msgstr "纳米涂覆"
+
+msgid "Argon Scope"
+msgstr "氩晶瞄具"
+
+msgid "Necramech Thrusters"
+msgstr "殁世机甲 推进器"
+
+msgid "Necramech Seismic Wave"
+msgstr "殁世机甲 震波"
+
+msgid "Necramech Streamline"
+msgstr "殁世机甲 简化"
+
+msgid "Intensify"
+msgstr "聚精会神"
+
+msgid "Gladiator Vice"
+msgstr "角斗士 钳制"
+
+msgid "Gladiator Finesse"
+msgstr "角斗士 灵巧"
+
+msgid "Twirling Spire"
+msgstr "回转尖峰"
+
+msgid "Tek Collateral"
+msgstr "技法 连带"
+
+msgid "Tek Assault"
+msgstr "技法 猛袭"
+
+msgid "Tek Enhance"
+msgstr "技法 强化"
+
+msgid "Tek Gravity"
+msgstr "技法 引力"
+
 ## 银卡
 msgid "Weapon Glaive Secondary Headshot Kill Mod"
 msgstr "连击杀手"
+
+msgid "Hornet Strike"
+msgstr "黄蜂蛰刺"
+
+msgid "Stretch"
+msgstr "延伸"
+
+msgid "Speed Trigger"
+msgstr "灵敏扳机"
+
+msgid "Reaping Spiral"
+msgstr "收割螺旋"
+
+msgid "Gladiator Might"
+msgstr "角斗士 威猛"
+
+msgid "Gladiator Resolve"
+msgstr "角斗士 决心"
+
+msgid "Carnis Carapace"
+msgstr "肉碾虫 壳甲"
+
+msgid "Jugulus Carapace"
+msgstr "喉骨刃者 壳甲"
+
+msgid "Saxum Carapace"
+msgstr "重岩者 壳甲"
+
+msgid "Saxum Spittle"
+msgstr "重岩者 唾液"
+
+msgid "Weeping Wounds"
+msgstr "创口溃烂"
+
+msgid "Embedded Catalyzer"
+msgstr "内置触媒"
+
+msgid "Laser Sight"
+msgstr "雷射瞄具"
+
+msgid "Blood Rush"
+msgstr "急进猛突"
+
+msgid "Necramech Efficiency"
+msgstr "殁世机甲 增效"
+
+msgid "Necramech Continuity"
+msgstr "殁世机甲 持久力"
+
+msgid "Necramech Hydraulics"
+msgstr "殁世机甲 液压"
+
+msgid "Point Blank"
+msgstr "抵近射击"
+
+msgid "Enhanced Durability"
+msgstr "耐久强化"
+
+msgid "Grim Fury"
+msgstr "冷面狂怒"
+
+msgid "Vigilante Fervor"
+msgstr "私法 热诚"
+
+msgid "Vigilante Pursuit"
+msgstr "私法 追踪"
+
+## 铜卡
+msgid "Pressure Point"
+msgstr "压迫点"
+
+msgid "Point Strike"
+msgstr "致命一击"
+
+msgid "Augur Message"
+msgstr "预言 启示"
+
+msgid "Augur Pact"
+msgstr "预言 契约"
+
+msgid "Energy Inversion"
+msgstr "能量转化"
+
+msgid "Vigilante Armaments"
+msgstr "私法 军备"
+
+msgid "Vigilante Vigor"
+msgstr "私法 活力"
+
+msgid "Focused Defense"
+msgstr "重点防御"
+
+msgid "Carnis Mandible"
+msgstr "肉碾虫 巨颚"
+
+msgid "Jugulus Barbs"
+msgstr "喉骨刃者 倒刺"
+
+msgid "Saxum Thorax"
+msgstr "重岩者 胸腔"
+
+msgid "Catalyzer Link"
+msgstr "触媒连动"
+
+msgid "Hydraulic Crosshairs"
+msgstr "液压准心"
+
+msgid "Necramech Redirection"
+msgstr "殁世机甲 蓄能重划"
+
+msgid "Necramech Blitz"
+msgstr "殁世机甲 闪击"
+
+msgid "Necramech Fury"
+msgstr "殁世机甲 狂暴"
+
+msgid "Vitality"
+msgstr "生命力"
 
 # 活动
 msgid "Thermia Fractures"
@@ -893,3 +1080,446 @@ msgstr "Strata 中继站"
 
 msgid "Larunda Relay"
 msgstr "Larunda 中继站"
+
+# 赏金
+## 标题
+msgid "Cull the Enemy"
+msgstr "宰杀敌人"
+
+msgid "Capture Their Leader"
+msgstr "捕获他们的领袖"
+
+msgid "Reclaim the Stolen Artifact"
+msgstr "取回被偷的器物"
+
+msgid "Assassinate the Commander"
+msgstr "刺杀指挥官"
+
+msgid "Spy Catcher"
+msgstr "间谍捕手"
+
+msgid "Find the Hidden Artifact"
+msgstr "找出遗失的器物"
+
+msgid "Capture the Grineer Agent"
+msgstr "捕获 Grineer 特工"
+
+msgid "Capture the Grineer Commander"
+msgstr "捕获 Grineer 指挥官"
+
+msgid "Capture the New Grineer Commander"
+msgstr "捕获新任 Grineer 指挥官"
+
+msgid "Dirt Unit"
+msgstr "尘土部队"
+
+msgid "Agent Down"
+msgstr "特工的下落"
+
+msgid "Resource Theft"
+msgstr "资源搜掠"
+
+msgid "Bury Them"
+msgstr "埋葬他们"
+
+msgid "Served Cold"
+msgstr "冷餐"
+
+msgid "Blood Relics"
+msgstr "血红遗物"
+
+msgid "Courier Ambush"
+msgstr "伏击信使"
+
+msgid "Network Collapse"
+msgstr "网络崩溃"
+
+msgid "Seems Legit"
+msgstr "鹰嘴板"
+
+msgid "Protect the Innocent"
+msgstr "保护无辜"
+
+msgid "Anomaly Retrieval"
+msgstr "异物取回"
+
+msgid "Reclaim What's Ours"
+msgstr "重夺领地"
+
+msgid "For Science!"
+msgstr "为了科学！"
+
+msgid "Brute Force"
+msgstr "蛮暴之力"
+
+msgid "Core Samples"
+msgstr "核心样本"
+
+msgid "Salvage"
+msgstr "物资回收"
+
+msgid "Strip Mining (Endless)"
+msgstr "露天开采（无尽）"
+
+msgid "Isolation Vault Chamber B"
+msgstr "隔离库 1"
+
+msgid "Isolation Vault Chamber A"
+msgstr "隔离库 2"
+
+msgid "Isolation Vault Chamber C"
+msgstr "隔离库 3"
+
+## 奖励
+msgid "100X Cryotic"
+msgstr "永冻晶矿 X 100"
+
+msgid "200X Cryotic"
+msgstr "永冻晶矿 X 200"
+
+msgid "1,500 Credits Cache"
+msgstr "1,500 现金匣"
+
+msgid "3X 1,500 Credits Cache"
+msgstr "3 X 1,500 现金匣"
+
+msgid "2,500 Credits Cache"
+msgstr "2,500 现金匣"
+
+msgid "3,000 Credits Cache"
+msgstr "3,000 现金匣"
+
+msgid "2X 3,000 Credits Cache"
+msgstr "2 X 3,000 现金匣"
+
+msgid "10,000 Credits Cache"
+msgstr "10,000 现金匣"
+
+msgid "50 Endo"
+msgstr "50 内融核心"
+
+msgid "100 Endo"
+msgstr "100 内融核心"
+
+msgid "150 Endo"
+msgstr "150 内融核心"
+
+msgid "200 Endo"
+msgstr "200 内融核心"
+
+msgid "250 Endo"
+msgstr "250 内融核心"
+
+msgid "300 Endo"
+msgstr "300 内融核心"
+
+msgid "400 Endo"
+msgstr "400 内融核心"
+
+msgid "500 Endo"
+msgstr "500 内融核心"
+
+msgid "600 Endo"
+msgstr "600 内融核心"
+
+msgid "750 Endo"
+msgstr "750 内融核心"
+
+msgid "1000 Endo"
+msgstr "1000 内融核心"
+
+msgid "100X Plastids"
+msgstr "100 X 生物质"
+
+msgid "200X Plastids"
+msgstr "200 X 生物质"
+
+msgid "300X Plastids"
+msgstr "300 X 生物质"
+
+msgid "15X Nistlepod"
+msgstr "15 X 尼蒐荚"
+
+msgid "300X Circuits"
+msgstr "300 X 电路"
+
+msgid "Orokin Cell"
+msgstr "Orokin 电池"
+
+msgid "2X Orokin Cell"
+msgstr "2 X Orokin 电池"
+
+msgid "15X Lucent Teroglobe"
+msgstr "15 X 泰罗光球"
+
+msgid "15X Grokdrul"
+msgstr "葛克度 X 15"
+
+msgid "15X Pustulite"
+msgstr "15 X 脓刃爪疱"
+
+msgid "5X Fass Residue"
+msgstr "5 X Fass 残留物"
+
+msgid "5X Breath Of The Eidolon"
+msgstr "夜灵之息 X 5"
+
+msgid "2X Detonite Injector"
+msgstr "2 X 爆燃喷射器"
+
+msgid "2X Mutagen Mass"
+msgstr "2 X 突变原聚合物"
+
+msgid "Neurodes"
+msgstr "神经元"
+
+msgid "Tellurium"
+msgstr "碲"
+
+msgid "2X Gallium"
+msgstr "2 X 镓"
+
+msgid "Ayatan Amber Star"
+msgstr "阿耶檀识琥珀星"
+
+msgid "5X Gorgaricus Spore"
+msgstr "5 X 葛嘉里菌孢子"
+
+msgid "15X Gorgaricus Spore"
+msgstr "15 X 葛嘉里菌孢子"
+
+msgid "200X Nano Spores"
+msgstr "200 X 纳米孢子"
+
+msgid "300X Rubedo"
+msgstr "300 X 红化结晶"
+
+msgid "5X Thermal Sludge"
+msgstr "热能软泥 X 5"
+
+msgid "15X Thermal Sludge"
+msgstr "热能软泥 X 15"
+
+msgid "5X Tepa Nodule"
+msgstr "缇帕瘤 X 5"
+
+msgid "2X Training Debt-Bond"
+msgstr "培训债务债券 X 2"
+
+msgid "2X Shelter Debt-Bond"
+msgstr "庇护债务债券 X 2"
+
+msgid "2X Medical Debt-Bond"
+msgstr "医疗债务债券 X 2"
+
+msgid "2X Advances Debt-Bond"
+msgstr "预支债务债券 X 2"
+
+msgid "2X Familial Debt-Bond"
+msgstr "家族债务债券 X 2"
+
+msgid "2X Orokin Orientation Matrix"
+msgstr "2 X Orokin 定向矩阵装置"
+
+msgid "3X Orokin Orientation Matrix"
+msgstr "3 X Orokin 定向矩阵装置"
+
+msgid "4X Orokin Orientation Matrix"
+msgstr "4 X Orokin 定向矩阵装置"
+
+msgid "2X Orokin Ballistics Matrix"
+msgstr "2 X Orokin 弹道矩阵装置"
+
+msgid "3X Orokin Ballistics Matrix"
+msgstr "3 X Orokin 弹道矩阵装置"
+
+msgid "4X Orokin Ballistics Matrix"
+msgstr "4 X Orokin 弹道矩阵装置"
+
+msgid "2X Orokin Animus Matrix"
+msgstr "2 X Orokin 战意矩阵装置"
+
+msgid "3X Orokin Animus Matrix"
+msgstr "3 X Orokin 战意矩阵装置"
+
+msgid "4X Orokin Animus Matrix"
+msgstr "4 X Orokin 战意矩阵装置"
+
+msgid "Cetus Wisp"
+msgstr "希图斯幽魂"
+
+msgid "2X Cetus Wisp"
+msgstr "希图斯幽魂 X 2"
+
+msgid "100X Kuva"
+msgstr "100 X 赤毒"
+
+msgid "200X Kuva"
+msgstr "200 X 赤毒"
+
+msgid "300X Kuva"
+msgstr "300 X 赤毒"
+
+msgid "500X Kuva"
+msgstr "500 X 赤毒"
+
+msgid "750X Kuva"
+msgstr "750 X 赤毒"
+
+msgid "Gara Chassis BP"
+msgstr "Gara 机体 蓝图"
+
+msgid "Gara Systems BP"
+msgstr "Gara 系统 蓝图"
+
+msgid "Gara Neuroptics BP"
+msgstr "Gara 头部神经光元 蓝图"
+
+msgid "Revenant Chassis BP"
+msgstr "Revenant 机体 蓝图"
+
+msgid "Revenant Systems BP"
+msgstr "Revenant 系统 蓝图"
+
+msgid "Revenant Neuroptics BP"
+msgstr "Revenant 头部神经光元 蓝图"
+
+msgid "Garuda Chassis BP"
+msgstr "Garuda 机体 蓝图"
+
+msgid "Garuda Systems BP"
+msgstr "Garuda 系统 蓝图"
+
+msgid "Garuda Neuroptics BP"
+msgstr "Garuda 头部神经光元 蓝图"
+
+msgid "Xaku Chassis BP"
+msgstr "Xaku 机体 蓝图"
+
+msgid "Xaku Systems BP"
+msgstr "Xaku 系统 蓝图"
+
+msgid "Xaku Neuroptics BP"
+msgstr "Xaku 头部神经光元 蓝图"
+
+msgid "2X Morphics"
+msgstr "非晶态合金 X 2"
+
+msgid "2X Neural Sensors"
+msgstr "神经传感器 X 2"
+
+msgid "Vazarin Lens"
+msgstr "Vazarin 晶体"
+
+msgid "Unairu Lens"
+msgstr "Unairu 晶体"
+
+msgid "Zenurik Lens"
+msgstr "Zenurik 晶体"
+
+msgid "Madurai Lens"
+msgstr "Madurai 晶体"
+
+msgid "Naramon Lens"
+msgstr "Naramon 晶体"
+
+msgid "Eidolon Lens BP"
+msgstr "夜灵晶体 蓝图"
+
+msgid "Furax Wraith BP"
+msgstr "弗拉克斯 亡魂 蓝图"
+
+msgid "Furax Wraith Right Gauntlet"
+msgstr "弗拉克斯 亡魂 右拳套"
+
+msgid "Scintillant"
+msgstr "闪烁体"
+
+msgid "3X Scintillant"
+msgstr "3 X 闪烁体"
+
+msgid "Quassus BP"
+msgstr "威震武扇 蓝图"
+
+msgid "Arum Spinosa BP"
+msgstr "疆南星刺 蓝图"
+
+msgid "Arum Spinosa Guard"
+msgstr "疆南星刺 护手"
+
+msgid "Arum Spinosa Rivet"
+msgstr "疆南星刺 铆钉"
+
+msgid "Sporothrix BP"
+msgstr "孢丝感染枪 蓝图"
+
+msgid "Sporothrix Receiver"
+msgstr "孢丝感染枪 枪机"
+
+msgid "Sporothrix Barrel"
+msgstr "孢丝感染枪 枪管"
+
+msgid "Sporothrix Stock"
+msgstr "孢丝感染枪 枪托"
+
+msgid "Damaged Necramech Weapon Receiver"
+msgstr "损坏的殁世机甲武器 枪机"
+
+msgid "Damaged Necramech Weapon Stock"
+msgstr "损坏的殁世机甲武器 枪托"
+
+msgid "Damaged Necramech Weapon Barrel"
+msgstr "损坏的殁世机甲武器 枪管"
+
+# 遗物
+## 古纪
+msgid "Lith T6 Relic"
+msgstr "古纪 T6 遗物"
+
+msgid "Lith C8 Relic"
+msgstr "古纪 C8 遗物"
+
+## 前纪
+msgid "Meso R4 Relic"
+msgstr "前纪 R4 遗物"
+
+msgid "Meso C6 Relic"
+msgstr "前纪 C6 遗物"
+
+## 中纪
+msgid "Neo Z8 Relic"
+msgstr "中纪 Z8 遗物"
+
+msgid "Neo K3 Relic"
+msgstr "中纪 K3 遗物"
+
+msgid "Neo Z7 Relic"
+msgstr "中纪 Z7 遗物"
+
+msgid "Neo B7 Relic"
+msgstr "中纪 B7 遗物"
+
+msgid "Neo N14 Relic"
+msgstr "中纪 N14 遗物"
+
+msgid "Neo N15 Relic"
+msgstr "中纪 N15 遗物"
+
+## 后纪
+msgid "Axi G5 Relic"
+msgstr "后纪 G5 遗物"
+
+msgid "Axi W2 Relic"
+msgstr "后纪 W2 遗物"
+
+# 赋能
+## 战甲
+msgid "Theorem Contagion"
+msgstr "定理 触染"
+
+## 组合枪
+msgid "Residual Malodor"
+msgstr "残差 恶嗅"
+
+msgid "Residual Viremia"
+msgstr "残差 毒血"
