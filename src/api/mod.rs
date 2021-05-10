@@ -13,6 +13,7 @@ pub mod new;
 pub mod nightwave;
 pub mod sortie;
 pub mod steel_path;
+pub mod syndicate;
 pub mod trader;
 pub mod worldstate;
 

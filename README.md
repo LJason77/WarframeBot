@@ -6,6 +6,9 @@ Warframe 查询机器人
 
 - /help - 显示帮助信息
 - /arbitration - 仲裁
+- /bountycetus - 希图斯赏金
+- /bountyfortuna - 福尔图娜赏金
+- /bountynecralisk - 殁世幽都赏金
 - /events - 活动
 - /fissures - 裂缝
 - /invasions - 入侵

@@ -8,6 +8,7 @@ pub mod new;
 pub mod nightwave;
 pub mod sortie;
 pub mod steel_path;
+pub mod syndicate;
 pub mod trader;
 pub mod worldstate;
 
@@ -18,6 +19,12 @@ pub enum Command {
 	Help,
 	#[command(description = "仲裁")]
 	Arbitration,
+	#[command(description = "希图斯赏金")]
+	BountyCetus,
+	#[command(description = "福尔图娜赏金")]
+	BountyFortuna,
+	#[command(description = "殁世幽都赏金")]
+	BountyNecralisk,
 	#[command(description = "活动")]
 	Events,
 	#[command(description = "裂缝")]

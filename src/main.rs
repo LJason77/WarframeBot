@@ -18,6 +18,9 @@ async fn answer(
 				.send()
 				.await?
 		}
+		Command::BountyCetus => cx.answer(api::syndicate::get_cetus().await).send().await?,
+		Command::BountyFortuna => cx.answer(api::syndicate::get_fortuna().await).send().await?,
+		Command::BountyNecralisk => cx.answer(api::syndicate::get_necralisk().await).send().await?,
 		Command::Events => cx.answer(api::event::get_event().await).send().await?,
 		Command::Fissures => cx.answer(api::fissures::get_fissures().await).send().await?,
 		Command::Invasions => cx.answer(api::invasion::get_invasion().await).send().await?,
