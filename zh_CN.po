@@ -885,11 +885,11 @@ msgid "Ghoul Purge"
 msgstr "尸鬼净化"
 
 # 中继站
-msgid "Orcus Relay (Pluto)"
-msgstr "Orcus 中继站 (冥王星)"
+msgid "Orcus Relay"
+msgstr "Orcus 中继站"
 
-msgid "Strata Relay (Earth)"
-msgstr "Strata 中继站 (地球)"
+msgid "Strata Relay"
+msgstr "Strata 中继站"
 
-msgid "Larunda Relay (Mercury)"
-msgstr "Larunda 中继站 (水星)"
+msgid "Larunda Relay"
+msgstr "Larunda 中继站"

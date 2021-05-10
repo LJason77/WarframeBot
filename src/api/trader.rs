@@ -16,7 +16,7 @@ pub async fn get_trader() -> String {
 	// 更新缓存
 	api::update_cache(&json, "voidTrader");
 
-	let mut trader_str = format!("{}\n", gettext(trader.location));
+	let mut trader_str = format!("{}\n", api::get_node(&trader.location));
 	if !trader.active {
 		trader_str.push_str(format!("距离虚空商人抵达：{}", api::get_eta(&trader.activation)).as_str());
 	} else {
