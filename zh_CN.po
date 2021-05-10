@@ -67,6 +67,9 @@ msgstr "敌人元素强化：磁力"
 msgid "Enemy Elemental Enhancement: Radiation"
 msgstr "敌人元素强化：辐射"
 
+msgid "Enemy Elemental Enhancement: Viral"
+msgstr "敌人元素强化：病毒"
+
 msgid "Enemy Physical Enhancement: Impact"
 msgstr "敌人物理强化：冲击"
 
@@ -203,6 +206,9 @@ msgstr "金星"
 msgid "Orvin-Haarc"
 msgstr "欧文-哈克"
 
+msgid "Beacon Shield Ring"
+msgstr "卫标星环"
+
 msgid "Bifrost Echo"
 msgstr "虹桥回声"
 
@@ -211,6 +217,9 @@ msgstr "地球"
 
 msgid "Bendar Cluster"
 msgstr "本达尔星团"
+
+msgid "Korm's Belt"
+msgstr "克姆地带"
 
 msgid "Ogal Cluster"
 msgstr "奥加尔星团"
@@ -284,8 +293,14 @@ msgstr "赤毒要塞"
 msgid "Veil Proxima"
 msgstr "面纱"
 
+msgid "Veil"
+msgstr "面纱"
+
 msgid "H-2 Cloud"
 msgstr "H-2 星云"
+
+msgid "Calabash"
+msgstr "蒲芦"
 
 msgid "R-9 Cloud"
 msgstr "R-9 星云"
@@ -436,6 +451,12 @@ msgstr "短路"
 msgid "Kill 150 Enemies with Electricity Damage"
 msgstr "使用电击伤害击杀 150 名敌人"
 
+msgid "Deep Freeze"
+msgstr "极度冷冻"
+
+msgid "Kill 150 Enemies with Cold Damage"
+msgstr "使用冰冻伤害击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -527,6 +548,30 @@ msgstr "保育者"
 msgid "Complete 6 different Perfect Animal Captures in Orb Vallis"
 msgstr "在奥布山谷完成 6 个不同动物的完美捕获"
 
+msgid "Good Friend"
+msgstr "好朋友"
+
+msgid "Help Clem with his weekly mission"
+msgstr "帮助 Clem 完成他的周常任务"
+
+msgid "Assassin"
+msgstr "刺客"
+
+msgid "Complete 3 Assassination missions"
+msgstr "完成 3 项刺杀任务"
+
+msgid "Eximus Eliminator"
+msgstr "卓越歼灭者"
+
+msgid "Kill 30 Eximus"
+msgstr "击杀 30 名卓越者"
+
+msgid "Invader"
+msgstr "入侵者"
+
+msgid "Complete 9 Invasion missions of any type"
+msgstr "完成 9 项任何类型的入侵任务"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
@@ -561,6 +606,18 @@ msgstr "完成 3 次突击"
 msgid "Complete a Survival mission reaching at least 30 minutes"
 msgstr "完成一场至少30分钟的生存任务"
 
+msgid "Hold Your Breath"
+msgstr "屏住你的呼吸"
+
+msgid "Survive for over 30 minutes without using Life Support Modules in Kuva Survival"
+msgstr "在赤毒生存任务中生存超过 30 分钟"
+
+msgid "Unlock Relics"
+msgstr "解开遗物"
+
+msgid "Unlock 10 Relics"
+msgstr "解开 10 个遗物"
+
 # 入侵
 msgid "Corpus Siege"
 msgstr "Corpus 围攻"
@@ -575,6 +632,9 @@ msgid "Phorid Manifestation"
 msgstr "Phorid 现形"
 
 # 物品
+msgid "50,000 Kuva"
+msgstr "50,000 X 赤毒"
+
 msgid "5x Corrupted Heavy Gunner Specter"
 msgstr "5 X 堕落重型机枪手魅影"
 
@@ -628,6 +688,12 @@ msgstr "突变原聚合物"
 
 msgid "Mutalist Alad V Nav Coordinate"
 msgstr "异融 ALAD V 导航座标"
+
+msgid "Orokin Catalyst Blueprint"
+msgstr "Orokin 催化剂 蓝图"
+
+msgid "Orokin Reactor Blueprint"
+msgstr "Orokin 反应堆 蓝图"
 
 msgid "Sheev Blade"
 msgstr "希芙 刀刃"
@@ -824,3 +890,6 @@ msgstr "Orcus 中继站 (冥王星)"
 
 msgid "Strata Relay (Earth)"
 msgstr "Strata 中继站 (地球)"
+
+msgid "Larunda Relay (Mercury)"
+msgstr "Larunda 中继站 (水星)"
