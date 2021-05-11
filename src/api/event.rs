@@ -10,6 +10,10 @@ pub async fn get_event() -> String {
 
 	let mut events_str = String::new();
 	for event in events {
+		// 跳过过期活动
+		if event.expired {
+			continue;
+		}
 		events_str.push_str(
 			format!(
 				"{}\n剩余时间：{}\n\n",

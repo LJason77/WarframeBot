@@ -7,4 +7,6 @@ pub struct Event {
 	pub description: String,
 	/// 结束时间
 	pub expiry: String,
+	/// 是否过期
+	pub expired: bool,
 }
