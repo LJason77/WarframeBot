@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 /// 挑战
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct Challenge {
 	/// 标题
 	pub title: String,

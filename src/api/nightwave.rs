@@ -5,8 +5,18 @@ use gettextrs::gettext;
 use crate::api::{self, get_eta};
 
 pub async fn get_nightwave() -> String {
-	let json = api::get_url("nightwave").await;
-	let nightwave: crate::models::nightwave::Nightwave = serde_json::from_str(&json).unwrap();
+	// 读取缓存
+	let (mut json, mut nightwave) = api::get_cache::<crate::models::nightwave::Nightwave>("nightwave").await;
+
+	for challenge in &nightwave.challenges.to_owned() {
+		if api::need_update(&challenge.expiry) {
+			json = api::get_url("nightwave").await;
+			nightwave = serde_json::from_str(&json).unwrap();
+		}
+	}
+
+	// 更新缓存
+	api::update_cache(&json, "nightwave");
 
 	let mut challenges = String::new();
 	for challenge in nightwave.challenges {
