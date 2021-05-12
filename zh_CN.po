@@ -21,6 +21,9 @@ msgstr ""
 msgid "Alad V"
 msgstr "Alad V"
 
+msgid "Captain Vor"
+msgstr "Vor 上尉"
+
 msgid "Corrupted Vor"
 msgstr "堕落的 Vor"
 
@@ -113,6 +116,9 @@ msgstr "霰弹枪 限定"
 msgid "Assassination"
 msgstr "刺杀"
 
+msgid "Assault"
+msgstr "强袭"
+
 msgid "Capture"
 msgstr "捕获"
 
@@ -139,6 +145,9 @@ msgstr "歼灭"
 
 msgid "Free Roam"
 msgstr "自由漫游"
+
+msgid "Hijack"
+msgstr "劫持"
 
 msgid "Hive"
 msgstr "清巢"
@@ -680,6 +689,9 @@ msgstr "Ki'Teer 内务无人机"
 msgid "Latron Wraith Barrel"
 msgstr "拉特昂 亡魂 枪管"
 
+msgid "Latron Wraith Blueprint"
+msgstr "拉特昂 亡魂 蓝图"
+
 msgid "Latron Wraith Receiver"
 msgstr "拉特昂 亡魂 枪机"
 
@@ -861,6 +873,9 @@ msgid "Primed Target Cracker"
 msgstr "弱点专精 Prime"
 
 ## 金卡
+msgid "Streamline"
+msgstr "简化"
+
 msgid "Astral Twilight"
 msgstr "星界微光"
 
@@ -939,6 +954,30 @@ msgstr "技法 强化"
 msgid "Tek Gravity"
 msgstr "技法 引力"
 
+msgid "Vigilante Supplies"
+msgstr "私法 补给"
+
+msgid "Vigilante Offense"
+msgstr "私法 进攻"
+
+msgid "Carving Mantis"
+msgstr "雕斩螳螂"
+
+msgid "Synth Charge"
+msgstr "合成 充能"
+
+msgid "Synth Deconstruct"
+msgstr "合成 解构"
+
+msgid "Synth Fiber"
+msgstr "合成 纤维"
+
+msgid "Synth Reflex"
+msgstr "合成 反射"
+
+msgid "Narrow Barrel"
+msgstr "狭窄枪膛"
+
 ## 银卡
 msgid "Weapon Glaive Secondary Headshot Kill Mod"
 msgstr "连击杀手"
@@ -1009,7 +1048,46 @@ msgstr "私法 热诚"
 msgid "Vigilante Pursuit"
 msgstr "私法 追踪"
 
+msgid "Charged Chamber"
+msgstr "蓄力装填"
+
+msgid "Burning Wasp"
+msgstr "炙热黄蜂"
+
+msgid "Augur Accord"
+msgstr "预言 协约"
+
+msgid "Augur Reach"
+msgstr "预言 通灵"
+
+msgid "Necramech Drift"
+msgstr "殁世机甲 窜升"
+
+msgid "Necramech Friction"
+msgstr "殁世机甲 摩擦"
+
+msgid "Targeting Subsystem"
+msgstr "定位辅助"
+
+msgid "Guided Ordnance"
+msgstr "制导弹药"
+
 ## 铜卡
+msgid "Necramech Reach"
+msgstr "殁世机甲 剑风"
+
+msgid "Gladiator Rush"
+msgstr "角斗士 猛突"
+
+msgid "Gladiator Aegis"
+msgstr "角斗士 圣盾"
+
+msgid "Steel Fiber"
+msgstr "钢铁纤维"
+
+msgid "Redirection"
+msgstr "蓄能重划"
+
 msgid "Pressure Point"
 msgstr "压迫点"
 
@@ -1110,6 +1188,21 @@ msgstr "捕获 Grineer 指挥官"
 msgid "Capture the New Grineer Commander"
 msgstr "捕获新任 Grineer 指挥官"
 
+msgid "Sabotage Bounty"
+msgstr "破坏原型机"
+
+msgid "Tax the Taxmen"
+msgstr "向税务官课税"
+
+msgid "Proof of Life"
+msgstr "存活证明"
+
+msgid "Picket Duty"
+msgstr "岗哨职责"
+
+msgid "Software Subterfuge"
+msgstr "软件诡计"
+
 msgid "Dirt Unit"
 msgstr "尘土部队"
 
@@ -1142,6 +1235,9 @@ msgstr "保护无辜"
 
 msgid "Anomaly Retrieval"
 msgstr "异物取回"
+
+msgid "Anomaly Retrieval (Endless)"
+msgstr "古物猎人（无尽）"
 
 msgid "Reclaim What's Ours"
 msgstr "重夺领地"
@@ -1176,6 +1272,30 @@ msgstr "永冻晶矿 X 100"
 
 msgid "200X Cryotic"
 msgstr "永冻晶矿 X 200"
+
+msgid "100X Oxium"
+msgstr "100 X 奥席金属"
+
+msgid "200X Oxium"
+msgstr "200 X 奥席金属"
+
+msgid "15X Iradite"
+msgstr "15 X 伊莱体"
+
+msgid "2X Control Module"
+msgstr "2 X 控制模块"
+
+msgid "5X Mytocardia Spore"
+msgstr "5 X 心肌菌孢子"
+
+msgid "15X Mytocardia Spore"
+msgstr "15 X 心肌菌孢子"
+
+msgid "15X Ganglion"
+msgstr "15 X 神经节囊"
+
+msgid "2X Fieldron"
+msgstr "2 X 电磁力场装置"
 
 msgid "1,500 Credits Cache"
 msgstr "1,500 现金匣"
@@ -1260,6 +1380,9 @@ msgstr "15 X 脓刃爪疱"
 
 msgid "5X Fass Residue"
 msgstr "5 X Fass 残留物"
+
+msgid "5X Vome Residue"
+msgstr "5 X Vome 残留物"
 
 msgid "5X Breath Of The Eidolon"
 msgstr "夜灵之息 X 5"
@@ -1429,6 +1552,9 @@ msgstr "夜灵晶体 蓝图"
 msgid "Furax Wraith BP"
 msgstr "弗拉克斯 亡魂 蓝图"
 
+msgid "Furax Wraith Left Gauntlet"
+msgstr "弗拉克斯 亡魂 左拳套"
+
 msgid "Furax Wraith Right Gauntlet"
 msgstr "弗拉克斯 亡魂 右拳套"
 
@@ -1486,6 +1612,12 @@ msgstr "前纪 R4 遗物"
 msgid "Meso C6 Relic"
 msgstr "前纪 C6 遗物"
 
+msgid "Meso P4 Relic"
+msgstr "前纪 P4 遗物"
+
+msgid "Meso T4 Relic"
+msgstr "前纪 T4 遗物"
+
 ## 中纪
 msgid "Neo Z8 Relic"
 msgstr "中纪 Z8 遗物"
@@ -1505,6 +1637,12 @@ msgstr "中纪 N14 遗物"
 msgid "Neo N15 Relic"
 msgstr "中纪 N15 遗物"
 
+msgid "Neo N13 Relic"
+msgstr "中纪 N13 遗物"
+
+msgid "Neo P2 Relic"
+msgstr "中纪 P2 遗物"
+
 ## 后纪
 msgid "Axi G5 Relic"
 msgstr "后纪 G5 遗物"
@@ -1512,10 +1650,22 @@ msgstr "后纪 G5 遗物"
 msgid "Axi W2 Relic"
 msgstr "后纪 W2 遗物"
 
+msgid "Axi O5 Relic"
+msgstr "后纪 O5 遗物"
+
+msgid "Axi C6 Relic"
+msgstr "后纪 C6 遗物"
+
 # 赋能
 ## 战甲
 msgid "Theorem Contagion"
 msgstr "定理 触染"
+
+msgid "Theorem Demulcent"
+msgstr "定理 缓和"
+
+msgid "Theorem Infection"
+msgstr "定理 感染"
 
 ## 组合枪
 msgid "Residual Malodor"
