@@ -34,4 +34,11 @@ cargo run --release
 ```
 # Docker 运行
 
-已有计划，待执行。 
+```bash
+# 编译
+docker build -t warframe .
+# 运行
+docker run -d --name warframe --restart always warframe
+# 更新翻译
+docker exec -it warframe wget -q https://github.com/LJason77/WarframeBot/raw/master/locale/zh_CN/LC_MESSAGES/warframe.mo -O locale/zh_CN/LC_MESSAGES/warframe.mo
+```

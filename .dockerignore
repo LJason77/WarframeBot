@@ -1,0 +1,9 @@
+target/
+.idea
+cache
+.env.example
+.gitattributes
+.gitignore
+Dockerfile
+zh_CN.po
+README.md
