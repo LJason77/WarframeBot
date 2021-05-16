@@ -58,6 +58,9 @@ msgstr "敌人护甲强化"
 msgid "Enemy Elemental Enhancement: Blast"
 msgstr "敌人元素强化：爆炸"
 
+msgid "Enemy Elemental Enhancement: Cold"
+msgstr "敌人元素强化：冰冻"
+
 msgid "Enemy Elemental Enhancement: Corrosive"
 msgstr "敌人元素强化：腐蚀"
 
@@ -111,6 +114,9 @@ msgstr "次要武器 限定"
 
 msgid "Weapon Restriction: Shotgun Only"
 msgstr "霰弹枪 限定"
+
+msgid "Weapon Restriction: Sniper Only"
+msgstr "狙击枪 限定"
 
 # 任务类型
 msgid "Assassination"
@@ -466,6 +472,18 @@ msgstr "极度冷冻"
 msgid "Kill 150 Enemies with Cold Damage"
 msgstr "使用冰冻伤害击杀 150 名敌人"
 
+msgid "Trampoline"
+msgstr "蹦弹"
+
+msgid "Bullet Jump 150 times"
+msgstr "旋身飞跃 150 次"
+
+msgid "Poisoner"
+msgstr "投毒者"
+
+msgid "Kill 150 Enemies with Toxin Damage"
+msgstr "使用毒素伤害击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -683,6 +701,9 @@ msgstr "卡拉克 亡魂 蓝图"
 msgid "Karak Wraith Receiver"
 msgstr "卡拉克 亡魂 枪机"
 
+msgid "Karak Wraith Barrel"
+msgstr "卡拉克 亡魂 枪管"
+
 msgid "Ki'Teer Domestik Drone"
 msgstr "Ki'Teer 内务无人机"
 
@@ -760,6 +781,9 @@ msgstr "双子蝰蛇 亡魂 蓝图"
 
 msgid "Wraith Twin Vipers Receiver"
 msgstr "双子蝰蛇 亡魂 枪机"
+
+msgid "Wraith Twin Vipers Link"
+msgstr "双子蝰蛇 亡魂 连接器"
 
 # 浮印
 msgid "Baro Ki'Teer Glyph"
@@ -982,6 +1006,12 @@ msgstr "狭窄枪膛"
 msgid "Weapon Glaive Secondary Headshot Kill Mod"
 msgstr "连击杀手"
 
+msgid "Necramech Steel Fiber"
+msgstr "殁世机甲 钢铁纤维"
+
+msgid "Necramech Stretch"
+msgstr "殁世机甲 延伸"
+
 msgid "Hornet Strike"
 msgstr "黄蜂蛰刺"
 
@@ -1073,6 +1103,9 @@ msgid "Guided Ordnance"
 msgstr "制导弹药"
 
 ## 铜卡
+msgid "Necramech Slipstream"
+msgstr "殁世机甲 滑流"
+
 msgid "Necramech Reach"
 msgstr "殁世机甲 剑风"
 
@@ -1188,6 +1221,9 @@ msgstr "捕获 Grineer 指挥官"
 msgid "Capture the New Grineer Commander"
 msgstr "捕获新任 Grineer 指挥官"
 
+msgid "Weaken the Grineer Foothold"
+msgstr "削弱 Grineer 的据点"
+
 msgid "Sabotage Bounty"
 msgstr "破坏原型机"
 
@@ -1199,6 +1235,9 @@ msgstr "存活证明"
 
 msgid "Picket Duty"
 msgstr "岗哨职责"
+
+msgid "Financial Liberation"
+msgstr "财政解放"
 
 msgid "Software Subterfuge"
 msgstr "软件诡计"
@@ -1618,6 +1657,9 @@ msgstr "前纪 P4 遗物"
 msgid "Meso T4 Relic"
 msgstr "前纪 T4 遗物"
 
+msgid "Meso D6 Relic"
+msgstr "前纪 D6 遗物"
+
 ## 中纪
 msgid "Neo Z8 Relic"
 msgstr "中纪 Z8 遗物"
@@ -1673,3 +1715,9 @@ msgstr "残差 恶嗅"
 
 msgid "Residual Viremia"
 msgstr "残差 毒血"
+
+msgid "Residual Boils"
+msgstr "残差 燃沸"
+
+msgid "Residual Shock"
+msgstr "残差 电击"
