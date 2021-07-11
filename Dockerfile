@@ -1,6 +1,6 @@
 FROM rust:alpine as builder
 
-RUN apk add -qq openssl-dev musl-dev libc6-compat
+RUN apk add -qq openssl-dev musl-dev libc6-compat tzdata
 
 WORKDIR /app
 
@@ -17,18 +17,17 @@ RUN RUSTFLAGS="-C target-cpu=native" cargo build --release -q
 
 FROM alpine:latest
 
-RUN addgroup -g 1000 pi && adduser -D -s /bin/sh -u 1000 -G pi pi
+RUN apk add -qq --no-cache libc6-compat && \
+    addgroup -g 1000 pi && adduser -D -s /bin/sh -u 1000 -G pi pi
 
 WORKDIR /app
 
+COPY --from=builder /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 COPY --from=builder /app/target/release/warframe_bot /usr/local/bin/
 COPY locale locale
 COPY .env .
 
-RUN apk add -qq --no-cache libc6-compat tzdata && \
-  cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
-  apk del -q tzdata && \
-  chown -R pi:pi .
+RUN chown -R pi:pi .
 
 USER pi
 
