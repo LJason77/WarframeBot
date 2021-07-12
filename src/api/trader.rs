@@ -20,11 +20,7 @@ pub async fn get_trader() -> String {
     api::update_cache(&json, "voidTrader");
 
     let mut trader_str = format!("{}\n", api::get_node(&trader.location));
-    if !trader.active {
-        trader_str.push_str(
-            format!("距离虚空商人抵达：{}", api::get_eta(&trader.activation)).as_str(),
-        );
-    } else {
+    if trader.active {
         let mut items = String::new();
         for item in trader.inventory {
             items.push_str(
@@ -44,6 +40,10 @@ pub async fn get_trader() -> String {
                 items
             )
             .as_str(),
+        );
+    } else {
+        trader_str.push_str(
+            format!("距离虚空商人抵达：{}", api::get_eta(&trader.activation)).as_str(),
         );
     }
 

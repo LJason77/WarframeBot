@@ -11,24 +11,24 @@ pub async fn get_invasion() -> String {
     for invasion in invasions {
         if !invasion.completed {
             // 入侵奖励
-            let attacker_reward = if !invasion.attacker_reward.counted_items.is_empty() {
+            let attacker_reward = if invasion.attacker_reward.counted_items.is_empty() {
+                "无".to_owned()
+            } else {
                 format!(
                     "{} ({})",
                     gettext(&invasion.attacker_reward.counted_items[0].key),
                     &invasion.attacker_reward.counted_items[0].count
                 )
-            } else {
-                "无".to_owned()
             };
             // 防守奖励
-            let defender_reward = if !invasion.defender_reward.counted_items.is_empty() {
+            let defender_reward = if invasion.defender_reward.counted_items.is_empty() {
+                "无".to_owned()
+            } else {
                 format!(
                     "{} ({})",
                     gettext(&invasion.defender_reward.counted_items[0].key),
                     &invasion.defender_reward.counted_items[0].count
                 )
-            } else {
-                "无".to_owned()
             };
             invasions_str.push_str(
                 format!(

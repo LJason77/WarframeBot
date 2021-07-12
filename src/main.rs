@@ -1,5 +1,9 @@
-use std::{fs, sync::Arc};
+#![deny(clippy::pedantic)]
+#![allow(clippy::module_name_repetitions, clippy::non_ascii_literal)]
 
+use std::{fs, sync::Arc,env};
+
+use gettextrs::TextDomain;
 use teloxide::{prelude::*, utils::command::BotCommand};
 
 use crate::models::Command;
@@ -70,14 +74,21 @@ async fn main() {
     // 移除缓存目录
     fs::remove_dir_all("cache").ok();
     // 创建缓存目录
-    fs::create_dir_all("cache").unwrap();
+    fs::create_dir_all("cache").ok();
 
-    gettextrs::TextDomain::new("warframe")
+    match TextDomain::new("warframe")
         .locale("zh_CN.UTF-8")
-        .prepend(std::env::current_dir().unwrap().to_str().unwrap())
+        .prepend(env::current_dir().unwrap().to_str().unwrap())
         .skip_system_data_paths()
         .init()
-        .unwrap();
+    {
+        Ok(locale) => {
+            format!("语言已找到： {:?}", locale)
+        }
+        Err(error) => {
+            format!("语言未找到： {:?}", error)
+        }
+    };
 
     run().await;
 }

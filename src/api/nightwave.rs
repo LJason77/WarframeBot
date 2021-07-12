@@ -9,7 +9,7 @@ pub async fn get_nightwave() -> String {
     let (mut json, mut nightwave) =
         api::get_cache::<crate::models::nightwave::Nightwave>("nightwave").await;
 
-    for challenge in &nightwave.challenges.to_owned() {
+    for challenge in nightwave.challenges.clone() {
         if api::need_update(&challenge.expiry) {
             json = api::get_url("nightwave").await;
             nightwave = serde_json::from_str(&json).unwrap();
