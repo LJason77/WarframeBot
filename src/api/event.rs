@@ -2,11 +2,18 @@
 
 use gettextrs::gettext;
 
-use crate::api;
+use crate::{
+    api::{get_eta, get_url},
+    models::event::Event,
+};
 
 pub async fn get_event() -> String {
-    let json = api::get_url("events").await;
-    let events: Vec<crate::models::event::Event> = serde_json::from_str(&json).unwrap();
+    let json = get_url("events").await;
+    let events: Vec<Event> = serde_json::from_str(&json).unwrap();
+
+    if events.is_empty() {
+        return "暂无活动".to_string();
+    }
 
     let mut events_str = String::new();
     for event in events {
@@ -18,7 +25,7 @@ pub async fn get_event() -> String {
             format!(
                 "{}\n剩余时间：{}\n\n",
                 gettext(event.description),
-                api::get_eta(&event.expiry)
+                get_eta(&event.expiry)
             )
             .as_str(),
         );

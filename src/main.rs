@@ -1,7 +1,7 @@
 #![deny(clippy::pedantic)]
 #![allow(clippy::module_name_repetitions, clippy::non_ascii_literal)]
 
-use std::{fs, sync::Arc,env};
+use std::{env, fs, sync::Arc};
 
 use gettextrs::TextDomain;
 use teloxide::{prelude::*, utils::command::BotCommand};
@@ -83,10 +83,10 @@ async fn main() {
         .init()
     {
         Ok(locale) => {
-            format!("语言已找到： {:?}", locale)
+            println!("语言已找到： {:?}", locale)
         }
         Err(error) => {
-            format!("语言未找到： {:?}", error)
+            println!("语言未找到： {:?}", error)
         }
     };
 
