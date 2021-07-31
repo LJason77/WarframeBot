@@ -2,20 +2,23 @@
 
 use gettextrs::gettext;
 
-use crate::api::{self, get_url};
+use crate::models::sortie::Sortie;
+
+use super::{get_cache, get_eta, get_node, get_url, need_update};
 
 pub async fn get_sortie() -> String {
     // 读取缓存
-    let (mut json, mut sortie) =
-        api::get_cache::<crate::models::sortie::Sortie>("sortie").await;
+    let mut sortie = match get_cache::<Sortie>("sortie").await {
+        Ok(sortie) => sortie,
+        Err(err) => return err,
+    };
 
-    if api::need_update(&sortie.expiry) {
-        json = get_url("sortie").await;
-        sortie = serde_json::from_str(&json).unwrap();
+    if need_update(&sortie.expiry) {
+        sortie = match get_url("sortie", None).await {
+            Ok(sortie) => sortie,
+            Err(err) => return err,
+        };
     }
-
-    // 更新缓存
-    api::update_cache(&json, "sortie");
 
     let mut variants = String::new();
     for (i, variant) in sortie.variants.iter().enumerate() {
@@ -27,12 +30,12 @@ pub async fn get_sortie() -> String {
 				状态：<strong>{}</strong>
 				"#,
                 i + 1,
-                api::get_node(&variant.node),
+                get_node(&variant.node),
                 gettext(&variant.mission_type),
                 gettext(&variant.modifier)
             )
             .as_str(),
-        )
+        );
     }
 
     format!(
@@ -44,7 +47,7 @@ pub async fn get_sortie() -> String {
 		"#,
         gettext(sortie.faction),
         gettext(sortie.boss),
-        api::get_eta(&sortie.expiry),
+        get_eta(&sortie.expiry),
         variants
     )
 }

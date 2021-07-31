@@ -1,9 +1,16 @@
-use std::io::Write;
+use std::{
+    fs::{read_to_string, File},
+    io::Write,
+    path::Path,
+};
 
-use chrono::Duration;
+use chrono::{DateTime, Duration, Utc};
+use dotenv::var;
 use gettextrs::gettext;
 use serde::de::DeserializeOwned;
 use serde_json::from_str;
+
+use crate::models::Header;
 
 pub mod arbitration;
 pub mod event;
@@ -18,44 +25,51 @@ pub mod trader;
 pub mod worldstate;
 
 /// 发送请求
-pub async fn get_url(path: &str) -> String {
-    reqwest::Client::builder()
-        // 将所有流量代理到传递的URL
-        .proxy(reqwest::Proxy::all(std::env::var("TELOXIDE_PROXY").unwrap()).unwrap())
-        .build()
-        .unwrap()
-        .get(format!("https://api.warframestat.us/pc/{}", path))
-        .send()
-        .await
-        .unwrap()
-        .text()
-        .await
-        .unwrap()
-}
-
-/// 读取缓存
-pub async fn get_cache<T>(path: &str) -> (String, T)
+pub async fn get_url<T>(path: &str, header: Option<Header>) -> Result<T, String>
 where
     T: DeserializeOwned,
 {
-    let json = match std::fs::read_to_string(format!("cache/{}.json", path)) {
-        Ok(json) => json,
-        Err(_) => get_url(path).await,
-    };
-    let t: T = from_str(&json).unwrap();
-    (json, t)
+    let mut builder = reqwest::Client::builder();
+    // 将所有流量代理到传递的 URL
+    if let Ok(proxy) = var("TELOXIDE_PROXY") {
+        builder = builder.proxy(reqwest::Proxy::all(proxy).unwrap());
+    }
+    let mut builder = builder
+        .build()
+        .unwrap()
+        .get(format!("https://api.warframestat.us/pc/{}", path));
+    if let Some(header) = header {
+        builder = builder.header(header.key, header.value);
+    }
+    let json = builder.send().await.unwrap().text().await.unwrap();
+    update_cache(&json, path);
+    match from_str::<T>(&json) {
+        Ok(t) => Ok(t),
+        Err(err) => Err(format!("解析 json 失败：{}\n{}", err, json)),
+    }
+}
+
+/// 读取缓存
+pub async fn get_cache<T>(path: &str) -> Result<T, String>
+where
+    T: DeserializeOwned,
+{
+    if let Ok(json) = read_to_string(format!("cache/{}.json", path)) {
+        return Ok(from_str::<T>(&json).unwrap());
+    }
+    get_url::<T>(path, None).await
 }
 
 /// 更新缓存
 pub fn update_cache(json: &str, path: &str) {
     let path = format!("cache/{}.json", path);
-    let json_file = std::path::Path::new(&path);
-    let mut file = match std::fs::File::create(json_file) {
-        Err(error) => panic!("无法创建 {}：{}", json_file.display(), error),
+    let json_file = Path::new(&path);
+    let mut file = match File::create(json_file) {
+        Err(err) => panic!("无法创建 {}：{}", json_file.display(), err),
         Ok(file) => file,
     };
-    if let Err(why) = file.write_all(json.as_bytes()) {
-        println!("更新缓存失败：{}", why)
+    if let Err(err) = file.write_all(json.as_bytes()) {
+        println!("更新缓存失败：{}", err);
     }
 }
 
@@ -72,10 +86,8 @@ pub fn get_node(node: &str) -> String {
 
 /// 计算剩余时间
 pub fn get_eta(expiry: &str) -> String {
-    let expiry = chrono::DateTime::parse_from_rfc3339(expiry)
-        .unwrap()
-        .naive_utc();
-    let local_time = chrono::Utc::now().naive_utc();
+    let expiry = DateTime::parse_from_rfc3339(expiry).unwrap().naive_utc();
+    let local_time = Utc::now().naive_utc();
     let mut duration = expiry - local_time;
 
     let mut eta = String::new();
@@ -101,11 +113,9 @@ pub fn get_eta(expiry: &str) -> String {
 /// 是否需要更新
 pub fn need_update(expiry: &str) -> bool {
     // 现在时间
-    let now = chrono::Utc::now().naive_utc();
+    let now = Utc::now().naive_utc();
     // 结束时间
-    let expiry = chrono::DateTime::parse_from_rfc3339(expiry)
-        .unwrap()
-        .naive_utc();
+    let expiry = DateTime::parse_from_rfc3339(expiry).unwrap().naive_utc();
     let duration = expiry - now;
     // 如果小于 0，即缓存过时
     duration.lt(&Duration::zero())

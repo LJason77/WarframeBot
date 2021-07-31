@@ -2,24 +2,25 @@
 
 use gettextrs::gettext;
 
-use crate::api;
+use crate::models::trader::Trader;
+
+use super::{get_cache, get_eta, get_node, get_url, need_update};
 
 pub async fn get_trader() -> String {
     // 读取缓存
-    let (mut json, mut trader) =
-        api::get_cache::<crate::models::trader::Trader>("voidTrader").await;
+    let mut trader = match get_cache::<Trader>("voidTrader").await {
+        Ok(trader) => trader,
+        Err(err) => return err,
+    };
 
-    if api::need_update(&trader.activation) && !trader.active
-        || api::need_update(&trader.expiry)
-    {
-        json = api::get_url("voidTrader").await;
-        trader = serde_json::from_str(&json).unwrap();
+    if need_update(&trader.activation) && !trader.active || need_update(&trader.expiry) {
+        trader = match get_url("voidTrader", None).await {
+            Ok(trader) => trader,
+            Err(err) => return err,
+        };
     }
 
-    // 更新缓存
-    api::update_cache(&json, "voidTrader");
-
-    let mut trader_str = format!("{}\n", api::get_node(&trader.location));
+    let mut trader_str = format!("{}\n", get_node(&trader.location));
     if trader.active {
         let mut items = String::new();
         for item in trader.inventory {
@@ -34,16 +35,12 @@ pub async fn get_trader() -> String {
             );
         }
         trader_str.push_str(
-            format!(
-                "距离虚空商人离开：{}\n\n{}",
-                api::get_eta(&trader.expiry),
-                items
-            )
-            .as_str(),
+            format!("距离虚空商人离开：{}\n\n{}", get_eta(&trader.expiry), items)
+                .as_str(),
         );
     } else {
         trader_str.push_str(
-            format!("距离虚空商人抵达：{}", api::get_eta(&trader.activation)).as_str(),
+            format!("距离虚空商人抵达：{}", get_eta(&trader.activation)).as_str(),
         );
     }
 

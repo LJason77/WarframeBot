@@ -2,14 +2,15 @@
 
 use gettextrs::gettext;
 
-use crate::{
-    api::{get_eta, get_url},
-    models::event::Event,
-};
+use crate::models::event::Event;
+
+use super::{get_eta, get_url};
 
 pub async fn get_event() -> String {
-    let json = get_url("events").await;
-    let events: Vec<Event> = serde_json::from_str(&json).unwrap();
+    let events = match get_url::<Vec<Event>>("events", None).await {
+        Ok(events) => events,
+        Err(err) => return err,
+    };
 
     if events.is_empty() {
         return "暂无活动".to_string();

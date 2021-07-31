@@ -2,20 +2,23 @@
 
 use gettextrs::gettext;
 
-use crate::api;
 use crate::models::fissures::Fissures;
 
+use super::{get_eta, get_node, get_url};
+
 pub async fn get_fissures() -> String {
-    let json = api::get_url("fissures").await;
-    let mut fissures_vec: Vec<Fissures> = serde_json::from_str(&json).unwrap();
+    let mut fissures = match get_url::<Vec<Fissures>>("fissures", None).await {
+        Ok(fissures) => fissures,
+        Err(err) => return err,
+    };
     // 按照纪元排序
-    fissures_vec.sort_by(|a, b| a.tier_num.cmp(&b.tier_num));
+    fissures.sort_by(|a, b| a.tier_num.cmp(&b.tier_num));
 
     let mut fissures_str = String::new();
     // 风暴任务
     let mut storm_str = String::new();
 
-    for fissures in fissures_vec {
+    for fissures in fissures {
         //是否过期
         if fissures.expired {
             continue;
@@ -24,9 +27,9 @@ pub async fn get_fissures() -> String {
         let s = format!(
             "<strong>{}  |  {}</strong>\n{}  |  {}\n\n",
             gettext(&fissures.tier),
-            api::get_node(&fissures.node),
+            get_node(&fissures.node),
             gettext(&fissures.mission_type),
-            api::get_eta(&fissures.expiry)
+            get_eta(&fissures.expiry)
         );
         if fissures.storm {
             storm_str.push_str(s.as_str());

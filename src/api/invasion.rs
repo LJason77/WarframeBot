@@ -1,11 +1,16 @@
+//! 入侵
+
 use gettextrs::gettext;
 
-use crate::api;
+use crate::models::invasion::Invasion;
+
+use super::{get_node, get_url};
 
 pub async fn get_invasion() -> String {
-    let json = api::get_url("invasions").await;
-    let invasions: Vec<crate::models::invasion::Invasion> =
-        serde_json::from_str(&json).unwrap();
+    let invasions = match get_url::<Vec<Invasion>>("invasions", None).await {
+        Ok(invasions) => invasions,
+        Err(err) => return err,
+    };
 
     let mut invasions_str = String::new();
     for invasion in invasions {
@@ -35,12 +40,12 @@ pub async fn get_invasion() -> String {
                     "<strong>{}  |  {:.2}%  |  {}</strong>\n{}   |   {}\n\n",
                     gettext(invasion.desc),
                     invasion.completion,
-                    api::get_node(&invasion.node),
+                    get_node(&invasion.node),
                     attacker_reward,
                     defender_reward
                 )
                 .as_str(),
-            )
+            );
         }
     }
 

@@ -1,20 +1,22 @@
 //! 新闻
 
+use crate::models::{new::New, Header};
+
+use super::get_url;
+
 pub async fn get_new() -> String {
-    let json = reqwest::Client::builder()
-        // 将所有流量代理到传递的URL
-        .proxy(reqwest::Proxy::all(std::env::var("TELOXIDE_PROXY").unwrap()).unwrap())
-        .build()
-        .unwrap()
-        .get("https://api.warframestat.us/pc/news")
-        .header("Accept-Language", "zh")
-        .send()
-        .await
-        .unwrap()
-        .text()
-        .await
-        .unwrap();
-    let news: Vec<crate::models::new::New> = serde_json::from_str(&json).unwrap();
+    let news = match get_url::<Vec<New>>(
+        "news",
+        Some(Header {
+            key: "Accept-Language",
+            value: "zh",
+        }),
+    )
+    .await
+    {
+        Ok(news) => news,
+        Err(err) => return err,
+    };
 
     let mut news_str = String::new();
     for new in news.iter().rev() {

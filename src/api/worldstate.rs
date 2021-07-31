@@ -2,40 +2,57 @@
 
 use gettextrs::gettext;
 
-use crate::api;
-use crate::models::worldstate::{self, EarthCycle};
+use crate::models::worldstate::{CambionCycle, EarthCycle, VallisCycle};
+
+use super::{get_cache, get_eta, get_url, need_update};
 
 pub async fn get_world() -> String {
     // 读取缓存
-    let (mut json_earth, mut earth) = api::get_cache::<EarthCycle>("earthCycle").await;
-    let (mut json_cetus, mut cetus) = api::get_cache::<EarthCycle>("cetusCycle").await;
-    let (mut json_vallis, mut vallis) =
-        api::get_cache::<worldstate::VallisCycle>("vallisCycle").await;
-    let (mut json_cambion, mut cambion) =
-        api::get_cache::<worldstate::CambionCycle>("cambionCycle").await;
+    let mut earth = match get_cache::<EarthCycle>("earthCycle").await {
+        Ok(earth) => earth,
+        Err(err) => return err,
+    };
 
-    if api::need_update(&earth.expiry) {
-        json_earth = api::get_url("earthCycle").await;
-        earth = serde_json::from_str(&json_earth).unwrap();
+    let mut cetus = match get_cache::<EarthCycle>("cetusCycle").await {
+        Ok(cetus) => cetus,
+        Err(err) => return err,
+    };
+
+    let mut vallis = match get_cache::<VallisCycle>("vallisCycle").await {
+        Ok(vallis) => vallis,
+        Err(err) => return err,
+    };
+
+    let mut cambion = match get_cache::<CambionCycle>("cambionCycle").await {
+        Ok(cambion) => cambion,
+        Err(err) => return err,
+    };
+
+    if need_update(&earth.expiry) {
+        earth = match get_url::<EarthCycle>("earthCycle", None).await {
+            Ok(earth) => earth,
+            Err(err) => return err,
+        };
     }
-    if api::need_update(&cetus.expiry) {
-        json_cetus = api::get_url("cetusCycle").await;
-        cetus = serde_json::from_str(&json_cetus).unwrap();
+    if need_update(&cetus.expiry) {
+        cetus = match get_url::<EarthCycle>("cetusCycle", None).await {
+            Ok(cetus) => cetus,
+            Err(err) => return err,
+        };
     }
-    if api::need_update(&vallis.expiry) {
-        json_vallis = api::get_url("vallisCycle").await;
-        vallis = serde_json::from_str(&json_vallis).unwrap();
-    }
-    if api::need_update(&cambion.expiry) {
-        json_cambion = api::get_url("cambionCycle").await;
-        cambion = serde_json::from_str(&json_cambion).unwrap();
+    if need_update(&vallis.expiry) {
+        vallis = match get_url::<VallisCycle>("vallisCycle", None).await {
+            Ok(vallis) => vallis,
+            Err(err) => return err,
+        };
     }
 
-    // 更新缓存
-    api::update_cache(&json_earth, "earthCycle");
-    api::update_cache(&json_cetus, "cetusCycle");
-    api::update_cache(&json_vallis, "vallisCycle");
-    api::update_cache(&json_cambion, "cambionCycle");
+    if need_update(&cambion.expiry) {
+        cambion = match get_url::<CambionCycle>("cambionCycle", None).await {
+            Ok(cambion) => cambion,
+            Err(err) => return err,
+        };
+    }
 
     let mut world_str = String::new();
 
@@ -44,7 +61,7 @@ pub async fn get_world() -> String {
         format!(
             "地球：<strong>{}</strong>\n时间：{}\n\n",
             gettext(&earth.state),
-            api::get_eta(&earth.expiry)
+            get_eta(&earth.expiry)
         )
         .as_str(),
     );
@@ -53,7 +70,7 @@ pub async fn get_world() -> String {
         format!(
             "希图斯：<strong>{}</strong>\n时间：{}\n\n",
             gettext(&cetus.state),
-            api::get_eta(&cetus.expiry)
+            get_eta(&cetus.expiry)
         )
         .as_str(),
     );
@@ -62,7 +79,7 @@ pub async fn get_world() -> String {
         format!(
             "奥布山谷：<strong>{}</strong>\n时间：{}\n\n",
             gettext(&vallis.state),
-            api::get_eta(&vallis.expiry)
+            get_eta(&vallis.expiry)
         )
         .as_str(),
     );
@@ -71,7 +88,7 @@ pub async fn get_world() -> String {
         format!(
             "魔胎之境：<strong>{}</strong>\n时间：{}\n\n",
             gettext(&cambion.active),
-            api::get_eta(&cambion.expiry)
+            get_eta(&cambion.expiry)
         )
         .as_str(),
     );

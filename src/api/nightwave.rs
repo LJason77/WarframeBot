@@ -2,22 +2,25 @@
 
 use gettextrs::gettext;
 
-use crate::api::{self, get_eta};
+use crate::models::nightwave::Nightwave;
+
+use super::{get_cache, get_eta, get_url, need_update};
 
 pub async fn get_nightwave() -> String {
     // 读取缓存
-    let (mut json, mut nightwave) =
-        api::get_cache::<crate::models::nightwave::Nightwave>("nightwave").await;
+    let mut nightwave = match get_cache::<Nightwave>("nightwave").await {
+        Ok(nightwave) => nightwave,
+        Err(err) => return err,
+    };
 
     for challenge in nightwave.challenges.clone() {
-        if api::need_update(&challenge.expiry) {
-            json = api::get_url("nightwave").await;
-            nightwave = serde_json::from_str(&json).unwrap();
+        if need_update(&challenge.expiry) {
+            nightwave = match get_url::<Nightwave>("nightwave", None).await {
+                Ok(nightwave) => nightwave,
+                Err(err) => return err,
+            };
         }
     }
-
-    // 更新缓存
-    api::update_cache(&json, "nightwave");
 
     let mut challenges = String::new();
     for challenge in nightwave.challenges {
@@ -33,7 +36,7 @@ pub async fn get_nightwave() -> String {
                 get_eta(&challenge.expiry)
             )
             .as_str(),
-        )
+        );
     }
 
     format!(

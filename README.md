@@ -5,7 +5,7 @@ Warframe 查询机器人
 # 命令
 
 - /help - 显示帮助信息
-- /arbitration - 仲裁
+- /arbitration - 仲裁(不稳定)
 - /bountycetus - 希图斯赏金
 - /bountyfortuna - 福尔图娜赏金
 - /bountynecralisk - 殁世幽都赏金
@@ -23,22 +23,31 @@ Warframe 查询机器人
 
 将 `.env.example` 文件复制为 `.env`，并在 _TELOXIDE_TOKEN_ 填入 TG 机器人的 token。
 
-如果机器需要代理才能访问 TG，在 _TELOXIDE_PROXY_ 填入代理 url。
+如果机器需要代理才能访问 TG，取消 _TELOXIDE_PROXY_ 的注释并填入代理 url，如 `http://127.0.0.1:8123`。
 
 # 运行
 
 需要安装 [rust](https://www.rust-lang.org/zh-CN/learn/get-started) 。
 
-```bash
+```shell
 cargo run --release
 ```
+
 # Docker 运行
 
-```bash
+```shell
 # 编译
 docker build -t warframe .
 # 运行
 docker run -d --name warframe --restart always warframe
 # 更新翻译
 docker exec -it warframe wget -q https://github.com/LJason77/WarframeBot/raw/master/locale/zh_CN/LC_MESSAGES/warframe.mo -O locale/zh_CN/LC_MESSAGES/warframe.mo
+```
+
+# 自行翻译文件
+
+更新 `zh_CN.po` 文件后，运行：
+
+```shell
+msgfmt zh_CN.po -o locale/zh_CN/LC_MESSAGES/warframe.mo
 ```

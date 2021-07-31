@@ -15,9 +15,11 @@ pub mod worldstate;
 #[derive(BotCommand)]
 #[command(rename = "lowercase", description = "当前支持下列查询：")]
 pub enum Command {
+    #[command(description = "off")]
+    Start,
     #[command(description = "显示帮助信息")]
     Help,
-    #[command(description = "仲裁")]
+    #[command(description = "仲裁(不稳定)")]
     Arbitration,
     #[command(description = "希图斯赏金")]
     BountyCetus,
@@ -43,4 +45,9 @@ pub enum Command {
     Trader,
     #[command(description = "世界状态")]
     Worldstate,
+}
+
+pub struct Header {
+    pub key: &'static str,
+    pub value: &'static str,
 }

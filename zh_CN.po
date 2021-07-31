@@ -137,6 +137,9 @@ msgstr "挖掘"
 msgid "Dark Sector Survival"
 msgstr "生存"
 
+msgid "Dark Sector Defense"
+msgstr "防御"
+
 msgid "Disruption"
 msgstr "中断"
 
