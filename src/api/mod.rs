@@ -39,12 +39,18 @@ where
     if let Some(header) = header {
         builder = builder.header(header.key, header.value);
     }
-    let json = builder.send().await.unwrap().text().await.unwrap();
-    update_cache(&json, path);
-    match from_str::<T>(&json) {
-        Ok(t) => Ok(t),
-        Err(err) => Err(format!("解析 json 失败：{}\n{}", err, json)),
+    let response = builder.send().await.unwrap();
+
+    if response.status().is_success() {
+        let json = response.text().await.unwrap();
+        update_cache(&json, path);
+        return match from_str::<T>(&json) {
+            Ok(t) => Ok(t),
+            Err(err) => Err(format!("解析 json 失败：{}\n{}", err, json)),
+        };
     }
+
+    Err(format!("请求失败：{} \"{}\"", response.status(), response.text().await.unwrap()))
 }
 
 /// 读取缓存
