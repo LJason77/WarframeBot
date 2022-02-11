@@ -1,11 +1,15 @@
 #![deny(clippy::pedantic)]
 #![allow(clippy::module_name_repetitions, clippy::non_ascii_literal)]
 
-use std::{env, error::Error, fs, str::from_utf8, sync::Arc};
+use std::{env, error::Error, fs, str::from_utf8};
 
 use gettextrs::TextDomain;
 use teloxide::{
-    adaptors::DefaultParseMode, commands_repl, enable_logging, prelude::*, types::ParseMode,
+    adaptors::DefaultParseMode,
+    enable_logging,
+    prelude2::{AutoSend, Bot, Message, Requester, RequesterExt},
+    repls2::commands_repl,
+    types::ParseMode,
     utils::command::BotCommand,
 };
 
@@ -19,24 +23,45 @@ mod api;
 mod models;
 
 async fn answer(
-    cx: UpdateWithCx<Arc<DefaultParseMode<AutoSend<Bot>>>, Message>,
+    bot: DefaultParseMode<AutoSend<Bot>>,
+    message: Message,
     command: Command,
 ) -> Result<(), Box<dyn Error + Send + Sync>> {
     match command {
-        Command::Help | Command::Start => cx.answer(Command::descriptions()).send().await?,
-        Command::Arbitration => cx.answer(arbitration::get_arbitration().await).send().await?,
-        Command::BountyCetus => cx.answer(syndicate::get_cetus().await).send().await?,
-        Command::BountyFortuna => cx.answer(syndicate::get_fortuna().await).send().await?,
-        Command::BountyNecralisk => cx.answer(syndicate::get_necralisk().await).send().await?,
-        Command::Events => cx.answer(event::get_event().await).send().await?,
-        Command::Fissures => cx.answer(fissures::get_fissures().await).send().await?,
-        Command::Invasions => cx.answer(invasion::get_invasion().await).send().await?,
-        Command::News => cx.answer(new::get_new().await).send().await?,
-        Command::Nightwave => cx.answer(nightwave::get_nightwave().await).send().await?,
-        Command::Sortie => cx.answer(sortie::get_sortie().await).send().await?,
-        Command::SteelPath => cx.answer(steel_path::get_reward().await).send().await?,
-        Command::Trader => cx.answer(trader::get_trader().await).send().await?,
-        Command::Worldstate => cx.answer(worldstate::get_world().await).send().await?,
+        Command::Help | Command::Start => {
+            bot.send_message(message.chat.id, Command::descriptions()).await?
+        }
+        Command::Arbitration => {
+            bot.send_message(message.chat.id, arbitration::get_arbitration().await).await?
+        }
+        Command::BountyCetus => {
+            bot.send_message(message.chat.id, syndicate::get_cetus().await).await?
+        }
+        Command::BountyFortuna => {
+            bot.send_message(message.chat.id, syndicate::get_fortuna().await).await?
+        }
+        Command::BountyNecralisk => {
+            bot.send_message(message.chat.id, syndicate::get_necralisk().await).await?
+        }
+        Command::Events => bot.send_message(message.chat.id, event::get_event().await).await?,
+        Command::Fissures => {
+            bot.send_message(message.chat.id, fissures::get_fissures().await).await?
+        }
+        Command::Invasions => {
+            bot.send_message(message.chat.id, invasion::get_invasion().await).await?
+        }
+        Command::News => bot.send_message(message.chat.id, new::get_new().await).await?,
+        Command::Nightwave => {
+            bot.send_message(message.chat.id, nightwave::get_nightwave().await).await?
+        }
+        Command::Sortie => bot.send_message(message.chat.id, sortie::get_sortie().await).await?,
+        Command::SteelPath => {
+            bot.send_message(message.chat.id, steel_path::get_reward().await).await?
+        }
+        Command::Trader => bot.send_message(message.chat.id, trader::get_trader().await).await?,
+        Command::Worldstate => {
+            bot.send_message(message.chat.id, worldstate::get_world().await).await?
+        }
     };
 
     Ok(())
@@ -75,6 +100,5 @@ async fn run() {
 
     let bot = Bot::from_env().auto_send().parse_mode(ParseMode::Html);
 
-    let bot_name: String = "Warframe Bot".to_owned();
-    commands_repl(Arc::new(bot), bot_name, answer).await;
+    commands_repl(bot, answer, Command::ty()).await;
 }

@@ -12,7 +12,7 @@ pub mod syndicate;
 pub mod trader;
 pub mod worldstate;
 
-#[derive(BotCommand)]
+#[derive(BotCommand, Clone)]
 #[command(rename = "lowercase", description = "当前支持下列查询：")]
 pub enum Command {
     #[command(description = "off")]
