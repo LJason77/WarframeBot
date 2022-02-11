@@ -1,5 +1,9 @@
 # Warframe Bot
 
+[![build badge](https://github.com/LJason77/WarframeBot/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/LJason77/WarframeBot/actions/workflows/rust.yml)
+![GitHub forks](https://img.shields.io/github/forks/LJason77/WarframeBot?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/LJason77/WarframeBot?style=social)
+
 Warframe 查询机器人
 
 # 命令
@@ -51,3 +55,9 @@ docker exec -it warframe wget -q https://github.com/LJason77/WarframeBot/raw/mas
 ```shell
 msgfmt zh_CN.po -o locale/zh_CN/LC_MESSAGES/warframe.mo
 ```
+
+## 许可
+
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+![GitHub](https://img.shields.io/github/license/LJason77/WarframeBot)
