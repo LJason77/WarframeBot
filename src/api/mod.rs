@@ -53,7 +53,9 @@ where
     T: DeserializeOwned,
 {
     if let Ok(json) = read_to_string(format!("cache/{}.json", path)) {
-        return Ok(from_str::<T>(&json).unwrap());
+        if !json.is_empty() {
+            return Ok(from_str::<T>(&json).unwrap());
+        }
     }
     get_url::<T>(path, None).await
 }
