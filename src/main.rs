@@ -5,13 +5,13 @@ use std::{env, error::Error, fs, str::from_utf8, sync::Arc};
 
 use gettextrs::TextDomain;
 use teloxide::{
-    adaptors::DefaultParseMode, commands_repl, enable_logging, prelude::*,
-    types::ParseMode, utils::command::BotCommand,
+    adaptors::DefaultParseMode, commands_repl, enable_logging, prelude::*, types::ParseMode,
+    utils::command::BotCommand,
 };
 
 use api::{
-    arbitration, event, fissures, invasion, new, nightwave, sortie, steel_path,
-    syndicate, trader, worldstate,
+    arbitration, event, fissures, invasion, new, nightwave, sortie, steel_path, syndicate, trader,
+    worldstate,
 };
 use models::Command;
 
@@ -23,21 +23,11 @@ async fn answer(
     command: Command,
 ) -> Result<(), Box<dyn Error + Send + Sync>> {
     match command {
-        Command::Help | Command::Start => {
-            cx.answer(Command::descriptions()).send().await?
-        }
-        Command::Arbitration => {
-            cx.answer(arbitration::get_arbitration().await)
-                .send()
-                .await?
-        }
+        Command::Help | Command::Start => cx.answer(Command::descriptions()).send().await?,
+        Command::Arbitration => cx.answer(arbitration::get_arbitration().await).send().await?,
         Command::BountyCetus => cx.answer(syndicate::get_cetus().await).send().await?,
-        Command::BountyFortuna => {
-            cx.answer(syndicate::get_fortuna().await).send().await?
-        }
-        Command::BountyNecralisk => {
-            cx.answer(syndicate::get_necralisk().await).send().await?
-        }
+        Command::BountyFortuna => cx.answer(syndicate::get_fortuna().await).send().await?,
+        Command::BountyNecralisk => cx.answer(syndicate::get_necralisk().await).send().await?,
         Command::Events => cx.answer(event::get_event().await).send().await?,
         Command::Fissures => cx.answer(fissures::get_fissures().await).send().await?,
         Command::Invasions => cx.answer(invasion::get_invasion().await).send().await?,
@@ -69,10 +59,7 @@ async fn main() {
         .init()
     {
         Ok(locale) => {
-            println!(
-                "语言已找到： {:?}",
-                from_utf8(&locale.expect("语言未找到")).unwrap()
-            )
+            println!("语言已找到： {:?}", from_utf8(&locale.expect("语言未找到")).unwrap())
         }
         Err(error) => {
             panic!("语言未找到： {:?}", error)

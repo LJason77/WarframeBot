@@ -9,8 +9,7 @@ use super::{get_cache, get_eta, get_url, need_update};
 /// 读取任务
 fn get_job(title: &str, bounty: &Bounty) -> String {
     let mut jobs_str = String::new();
-    jobs_str
-        .push_str(format!("{}赏金 | {}\n\n", title, get_eta(&bounty.expiry)).as_str());
+    jobs_str.push_str(format!("{}赏金 | {}\n\n", title, get_eta(&bounty.expiry)).as_str());
     for (i, job) in bounty.jobs.iter().enumerate() {
         let mut reward_str = String::new();
         for reward in &job.reward_pool {
@@ -38,19 +37,13 @@ async fn read_cache(syndicate: &str) -> Result<Bounty, String> {
         Err(err) => return Err(err),
     };
 
-    let mut bounty = bounties
-        .into_iter()
-        .find(|bounty| bounty.syndicate == syndicate)
-        .unwrap();
+    let mut bounty = bounties.into_iter().find(|bounty| bounty.syndicate == syndicate).unwrap();
     if need_update(&bounty.expiry) {
         bounties = match get_url::<Vec<Bounty>>("syndicateMissions", None).await {
             Ok(bounties) => bounties,
             Err(err) => return Err(err),
         };
-        bounty = bounties
-            .into_iter()
-            .find(|bounty| bounty.syndicate == syndicate)
-            .unwrap();
+        bounty = bounties.into_iter().find(|bounty| bounty.syndicate == syndicate).unwrap();
     }
     Ok(bounty)
 }

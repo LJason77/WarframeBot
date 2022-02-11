@@ -35,13 +35,10 @@ pub async fn get_trader() -> String {
             );
         }
         trader_str.push_str(
-            format!("距离虚空商人离开：{}\n\n{}", get_eta(&trader.expiry), items)
-                .as_str(),
+            format!("距离虚空商人离开：{}\n\n{}", get_eta(&trader.expiry), items).as_str(),
         );
     } else {
-        trader_str.push_str(
-            format!("距离虚空商人抵达：{}", get_eta(&trader.activation)).as_str(),
-        );
+        trader_str.push_str(format!("距离虚空商人抵达：{}", get_eta(&trader.activation)).as_str());
     }
 
     trader_str

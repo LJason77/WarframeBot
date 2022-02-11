@@ -23,12 +23,8 @@ pub async fn get_event() -> String {
             continue;
         }
         events_str.push_str(
-            format!(
-                "{}\n剩余时间：{}\n\n",
-                gettext(event.description),
-                get_eta(&event.expiry)
-            )
-            .as_str(),
+            format!("{}\n剩余时间：{}\n\n", gettext(event.description), get_eta(&event.expiry))
+                .as_str(),
         );
     }
 

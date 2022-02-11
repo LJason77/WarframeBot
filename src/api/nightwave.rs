@@ -39,9 +39,5 @@ pub async fn get_nightwave() -> String {
         );
     }
 
-    format!(
-        "电波剩余时间：{}\n  {}",
-        get_eta(&nightwave.expiry),
-        challenges
-    )
+    format!("电波剩余时间：{}\n  {}", get_eta(&nightwave.expiry), challenges)
 }
