@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Warframe Bot 0.1.0\n"
+"Project-Id-Version: Warframe Bot 0.1.1\n"
 "Report-Msgid-Bugs-To: ljason@ljason.cn\n"
 "POT-Creation-Date: 2021-04-18 17:27+0800\n"
 "PO-Revision-Date: 2021-04-19 07:21+0800\n"
@@ -337,6 +337,12 @@ msgstr "老练射手"
 msgid "Kill 40 Enemies with Headshots"
 msgstr "使用爆头击杀 40 名敌人"
 
+msgid "Accelerator"
+msgstr "加速者"
+
+msgid "Kill 20 Enemies while Sliding"
+msgstr "滑行时击杀 20 名敌人"
+
 msgid "Attractive"
 msgstr "吸引力"
 
@@ -609,6 +615,18 @@ msgstr "树庭守护者"
 msgid "Kill 3 Silver Grove Specters"
 msgstr "击败一名落银树庭魅影"
 
+msgid "Hydrolyst Hunter"
+msgstr "水力使猎人"
+
+msgid "Kill or Capture an Eidolon Hydrolyst"
+msgstr "击杀或捕获一个夜灵水力使"
+
+msgid "Day Trader"
+msgstr "日间商人"
+
+msgid "Win 3 wagers in a row without letting the enemy score in one match of The Index."
+msgstr "在一场指数之场中连续完成 3 轮且没有让敌人得分"
+
 msgid "Eximus Executioner"
 msgstr "卓越处刑者"
 
@@ -664,6 +682,9 @@ msgstr "Phorid 现形"
 # 物品
 msgid "50,000 Kuva"
 msgstr "50,000 X 赤毒"
+
+msgid "Umbra Forma Blueprint"
+msgstr "Umbra Forma 蓝图"
 
 msgid "5x Corrupted Heavy Gunner Specter"
 msgstr "5 X 堕落重型机枪手魅影"
@@ -770,6 +791,15 @@ msgstr "XAKU PREX 卡牌"
 msgid "Tarot Card Tenno Con J"
 msgstr "火卫二高额异鳍 PREX 卡牌"
 
+msgid "Tarot Card Tenno Con G"
+msgstr "惊惧重岩者 PREX 卡牌"
+
+msgid "Garv & Latrox Poster"
+msgstr "加弗 & 拉托罗海报"
+
+msgid "Display - Argyle"
+msgstr "展示图 - 棱形"
+
 msgid "Zanuka Hunter Beacon"
 msgstr "Zanuka 猎犬信标"
 
@@ -792,9 +822,15 @@ msgstr "双子蝰蛇 亡魂 连接器"
 msgid "Baro Ki'Teer Glyph"
 msgstr "Baro Ki'Teer 浮印"
 
+msgid "Prisma Kubrow Glyph"
+msgstr "棱晶 库狛浮印"
+
 # 武器
 msgid "Mara Detron"
 msgstr "苦痛 德特昂"
+
+msgid "Prova Vandal"
+msgstr "普罗沃 破坏者"
 
 msgid "Prisma Dual Cleavers"
 msgstr "棱晶 斩肉双刀"
@@ -815,6 +851,12 @@ msgstr "金工火神 亡魂"
 msgid "Anpu Staff Skin"
 msgstr "安普长棍外观"
 
+msgid "Prisma Arrows"
+msgstr "棱晶 箭矢"
+
+msgid "Gara Alternate Skin"
+msgstr "Gara 不朽外观"
+
 msgid "Chroma Immortal Skin"
 msgstr "Chroma 不朽外观"
 
@@ -823,6 +865,36 @@ msgstr "沙漠鳐鱼玩偶"
 
 msgid "Dvad Luxxum Ornament"
 msgstr "得瓦特 乐升饰物"
+
+msgid "Odonata Elixis Skin"
+msgstr "Odonata 镀铜外观"
+
+msgid "Lotus Flowers"
+msgstr "Lotus 幻纹"
+
+msgid "Blue Ki'teer Safari K-Drive Scrawl"
+msgstr "蓝色 Ki'Teer 游猎 K 式悬浮板涂鸦"
+
+msgid "Ki'teer Sentinel Tail"
+msgstr "Ki'Teer 守护尾部"
+
+msgid "Mantis Prisma Skin"
+msgstr "MANTIS 棱晶外观"
+
+msgid "Prisma Edo Chest Plate"
+msgstr "棱晶 江户胸甲"
+
+msgid "Left Prisma Edo Shoulder Plates"
+msgstr "棱晶 江户左肩甲"
+
+msgid "Right Prisma Edo Shoulder Plates"
+msgstr "棱晶 江户右肩甲"
+
+msgid "Left Prisma Edo Knee Plates"
+msgstr "棱晶 江户左膝甲"
+
+msgid "Right Prisma Edo Knee Plates"
+msgstr "棱晶 江户右膝甲"
 
 msgid "Ki'Teer Foros Chest Plate"
 msgstr "Ki'Teer 福罗斯胸甲"
@@ -842,7 +914,7 @@ msgstr "熔铸胸甲"
 msgid "Ki'Teer Kubrow Armor"
 msgstr "Ki'Teer 库伯护甲"
 
-msgid "Ki'Teer Atmos Diadem"
+msgid "Ki'teer Atmos Diadem"
 msgstr "Ki'Teer 大气权冠"
 
 msgid "Prisma Hecate Syandana"
@@ -887,6 +959,9 @@ msgstr "3 天现金加成"
 msgid "Primed Cleanse Corpus"
 msgstr "净化 Corpus Prime"
 
+msgid "Primed Regen"
+msgstr "重生 Prime"
+
 msgid "Primed Cleanse Corrupted"
 msgstr "净化堕落者 Prime"
 
@@ -902,6 +977,12 @@ msgstr "弱点专精 Prime"
 ## 金卡
 msgid "Streamline"
 msgstr "简化"
+
+msgid "Scorch"
+msgstr "灼痕焦点"
+
+msgid "Primed Magazine Warp"
+msgstr "弹匣增幅 Prime"
 
 msgid "Astral Twilight"
 msgstr "星界微光"
@@ -1178,6 +1259,9 @@ msgstr "生命力"
 # 活动
 msgid "Thermia Fractures"
 msgstr "热美亚裂缝"
+
+msgid "Valentines Fortuna Name"
+msgstr "星日"
 
 msgid "Gifts of the Lotus - Stolen!"
 msgstr "Lotus 的馈赠 - 被窃取！"

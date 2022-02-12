@@ -50,7 +50,7 @@ docker exec -it warframe wget -q https://github.com/LJason77/WarframeBot/raw/mas
 
 # 自行翻译文件
 
-更新 `zh_CN.po` 文件后，运行：
+更新 `zh_CN.po` 文件后，运行（需要 `sudo apt install gettext`）：
 
 ```shell
 msgfmt zh_CN.po -o locale/zh_CN/LC_MESSAGES/warframe.mo
