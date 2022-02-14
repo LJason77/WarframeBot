@@ -94,6 +94,9 @@ msgstr "敌人护盾强化"
 msgid "Environmental Effect: Cryogenic Leakage"
 msgstr "低温外泄"
 
+msgid "Environmental Hazard: Electromagnetic Anomalies"
+msgstr "电磁异常"
+
 msgid "Environmental Hazard: Fire"
 msgstr "火灾"
 
@@ -612,8 +615,14 @@ msgstr "完成 9 项任何类型的入侵任务"
 msgid "Grove Guardian"
 msgstr "树庭守护者"
 
-msgid "Kill 3 Silver Grove Specters"
+msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Resource Scavenger"
+msgstr "资源清道夫"
+
+msgid "Collect 20 different types of resources."
+msgstr "收集 20 种不同类型的资源"
 
 msgid "Hydrolyst Hunter"
 msgstr "水力使猎人"
