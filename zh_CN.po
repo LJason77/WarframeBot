@@ -611,6 +611,27 @@ msgstr "入侵者"
 msgid "Complete 9 Invasion missions of any type"
 msgstr "完成 9 项任何类型的入侵任务"
 
+msgid "Polarized"
+msgstr "已极化"
+
+msgid "Use Forma 3 times"
+msgstr "极化一个武器、同伴或战甲（不在幻影装置中）"
+
+msgid "Earth Miner"
+msgstr "地球矿工"
+
+msgid "Mine 6 Rare Gems in the Plains of Eidolon"
+msgstr "在夜灵平野中开采到 6 次稀有宝石或矿石"
+
+msgid "Unlock 3 Relics"
+msgstr "解开 3 个遗物"
+
+msgid "Animator"
+msgstr "动像者"
+
+msgid "Fully socket 3 Ayatan Sculptures"
+msgstr "完整插满 3 座阿耶檀识塑像"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
@@ -675,6 +696,12 @@ msgstr "解开遗物"
 msgid "Unlock 10 Relics"
 msgstr "解开 10 个遗物"
 
+msgid "Profit-Taker"
+msgstr "利润收割者"
+
+msgid "Kill Profit-Taker"
+msgstr "击杀利润收割者"
+
 # 入侵
 msgid "Corpus Siege"
 msgstr "Corpus 围攻"
@@ -694,6 +721,9 @@ msgstr "50,000 X 赤毒"
 
 msgid "Umbra Forma Blueprint"
 msgstr "Umbra Forma 蓝图"
+
+msgid "Kitgun Riven Mod"
+msgstr "组合枪裂罅 Mod"
 
 msgid "5x Corrupted Heavy Gunner Specter"
 msgstr "5 X 堕落重型机枪手魅影"
