@@ -2,13 +2,6 @@ FROM rust:latest as builder
 
 WORKDIR /app
 
-COPY Cargo* ./
-
-RUN mkdir src && \
-    echo 'fn main(){println!("Hello, world!");}' > src/main.rs && \
-    RUSTFLAGS="-C target-cpu=native" cargo build --release -q && \
-    rm -f target/release/deps/warframe_bot* src/main.rs
-
 COPY . .
 
 RUN RUSTFLAGS="-C target-cpu=native" cargo build --release -q
