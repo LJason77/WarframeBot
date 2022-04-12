@@ -1,12 +1,11 @@
 #![deny(clippy::pedantic)]
 #![allow(clippy::module_name_repetitions, clippy::non_ascii_literal)]
 
-use std::{env, error::Error, fs, str::from_utf8};
+use std::{env, error::Error, fs};
 
 use gettextrs::TextDomain;
 use teloxide::{
     adaptors::DefaultParseMode,
-    enable_logging,
     prelude2::{AutoSend, Bot, Message, Requester, RequesterExt},
     repls2::commands_repl,
     types::ParseMode,
@@ -77,27 +76,19 @@ async fn main() {
     // 创建缓存目录
     fs::create_dir_all("cache").ok();
 
-    match TextDomain::new("warframe")
+    if let Err(err) = TextDomain::new("warframe")
         .locale("zh_CN.UTF-8")
         .prepend(env::current_dir().unwrap().to_str().unwrap())
         .skip_system_data_paths()
         .init()
     {
-        Ok(locale) => {
-            println!("语言已找到： {:?}", from_utf8(&locale.expect("语言未找到")).unwrap())
-        }
-        Err(error) => {
-            panic!("语言未找到： {:?}", error)
-        }
-    };
+        panic!("语言未找到： {:?}", err)
+    }
 
     run().await;
 }
 
 async fn run() {
-    enable_logging!();
-    log::info!("启动 Warframe Bot...");
-
     let bot = Bot::from_env().auto_send().parse_mode(ParseMode::Html);
 
     commands_repl(bot, answer, Command::ty()).await;
