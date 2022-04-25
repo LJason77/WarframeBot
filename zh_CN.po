@@ -496,6 +496,18 @@ msgstr "投毒者"
 msgid "Kill 150 Enemies with Toxin Damage"
 msgstr "使用毒素伤害击杀 150 名敌人"
 
+msgid "Season Daily Topping Off The Tank"
+msgstr "源源不断"
+
+msgid "[PH] Season Daily Topping Off The Tank Desc"
+msgstr "成功防御挖掘机并且不让挖掘机耗尽能量"
+
+msgid "Reactor"
+msgstr "核反应器"
+
+msgid "Kill 150 Enemies with a Radiation Damage"
+msgstr "使用辐射伤害击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -632,6 +644,18 @@ msgstr "动像者"
 msgid "Fully socket 3 Ayatan Sculptures"
 msgstr "完整插满 3 座阿耶檀识塑像"
 
+msgid "Cache Hunter"
+msgstr "箱子猎人"
+
+msgid "Find all caches in 3 Sabotage missions"
+msgstr "在 3 项破坏任务中找到所有储藏箱"
+
+msgid "Feed The Beast"
+msgstr "喂饱野兽"
+
+msgid "Feed the Helminth any resource"
+msgstr "向 Helminth 饲喂任意资源"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
@@ -701,6 +725,12 @@ msgstr "利润收割者"
 
 msgid "Kill Profit-Taker"
 msgstr "击杀利润收割者"
+
+msgid "The Path Less Travelled"
+msgstr "罕迹之路"
+
+msgid "Complete 5 Steel Path Missions."
+msgstr "完成 5 场不同的钢铁之路任务"
 
 # 入侵
 msgid "Corpus Siege"
