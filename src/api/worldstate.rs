@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::worldstate::{CambionCycle, EarthCycle, VallisCycle};
+use crate::models::{CambionCycle, EarthCycle, VallisCycle};
 
 use super::{get_cache, get_eta, get_url, need_update};
 

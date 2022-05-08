@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::arbitration::Arbitration;
+use crate::models::Arbitration;
 
 use super::{get_cache, get_eta, get_node, get_url, need_update};
 

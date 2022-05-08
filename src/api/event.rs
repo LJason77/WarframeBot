@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::event::Event;
+use crate::models::Event;
 
 use super::{get_eta, get_url};
 

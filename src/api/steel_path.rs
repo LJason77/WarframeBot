@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::steel_path::SteelPath;
+use crate::models::SteelPath;
 
 use super::{get_cache, get_eta, get_url, need_update};
 

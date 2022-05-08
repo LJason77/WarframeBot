@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::alert::Alert;
+use crate::models::Alert;
 
 use super::{get_cache, get_eta, get_node, get_url, need_update};
 

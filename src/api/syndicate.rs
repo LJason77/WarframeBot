@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::syndicate::Bounty;
+use crate::models::Bounty;
 
 use super::{get_cache, get_eta, get_url, need_update};
 

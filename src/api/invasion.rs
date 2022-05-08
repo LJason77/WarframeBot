@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::invasion::Invasion;
+use crate::models::Invasion;
 
 use super::{get_node, get_url};
 

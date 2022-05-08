@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::nightwave::Nightwave;
+use crate::models::Nightwave;
 
 use super::{get_cache, get_eta, get_url, need_update};
 

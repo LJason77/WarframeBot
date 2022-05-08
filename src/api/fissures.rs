@@ -2,7 +2,7 @@
 
 use gettextrs::gettext;
 
-use crate::models::fissures::Fissures;
+use crate::models::Fissures;
 
 use super::{get_eta, get_node, get_url};
 

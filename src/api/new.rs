@@ -1,6 +1,6 @@
 //! 新闻
 
-use crate::models::{new::New, Header};
+use crate::models::{Header, New};
 
 use super::get_url;
 
