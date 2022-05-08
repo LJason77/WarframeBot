@@ -1,4 +1,4 @@
-use teloxide::utils::command::BotCommand;
+use teloxide::utils::command::BotCommands;
 
 pub use alert::Alert;
 pub use arbitration::Arbitration;
@@ -26,7 +26,7 @@ pub mod syndicate;
 pub mod trader;
 pub mod worldstate;
 
-#[derive(BotCommand, Clone)]
+#[derive(BotCommands, Clone)]
 #[command(rename = "lowercase", description = "当前支持下列查询：")]
 pub enum Command {
     #[command(description = "off")]

@@ -6,10 +6,10 @@ use std::{env, error::Error, fs};
 use gettextrs::TextDomain;
 use teloxide::{
     adaptors::DefaultParseMode,
-    prelude2::{AutoSend, Bot, Message, Requester, RequesterExt},
-    repls2::commands_repl,
+    commands_repl,
+    prelude::{AutoSend, Bot, Message, Requester, RequesterExt},
     types::ParseMode,
-    utils::command::BotCommand,
+    utils::command::BotCommands,
 };
 
 use api::{
@@ -28,7 +28,7 @@ async fn answer(
 ) -> Result<(), Box<dyn Error + Send + Sync>> {
     match command {
         Command::Help | Command::Start => {
-            bot.send_message(message.chat.id, Command::descriptions()).await?
+            bot.send_message(message.chat.id, Command::descriptions().to_string()).await?
         }
         Command::Arbitration => {
             bot.send_message(message.chat.id, arbitration::get_arbitration().await).await?
