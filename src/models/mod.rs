@@ -1,5 +1,6 @@
 use teloxide::utils::command::BotCommand;
 
+pub mod alert;
 pub mod arbitration;
 pub mod event;
 pub mod fissures;
@@ -29,6 +30,8 @@ pub enum Command {
     BountyNecralisk,
     #[command(description = "活动")]
     Events,
+    #[command(description = "警报")]
+    Alerts,
     #[command(description = "裂缝")]
     Fissures,
     #[command(description = "入侵")]

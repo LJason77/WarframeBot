@@ -13,8 +13,8 @@ use teloxide::{
 };
 
 use api::{
-    arbitration, event, fissures, invasion, new, nightwave, sortie, steel_path, syndicate, trader,
-    worldstate,
+    alerts, arbitration, event, fissures, invasion, new, nightwave, sortie, steel_path, syndicate,
+    trader, worldstate,
 };
 use models::Command;
 
@@ -43,6 +43,7 @@ async fn answer(
             bot.send_message(message.chat.id, syndicate::get_necralisk().await).await?
         }
         Command::Events => bot.send_message(message.chat.id, event::get_event().await).await?,
+        Command::Alerts => bot.send_message(message.chat.id, alerts::get_alerts().await).await?,
         Command::Fissures => {
             bot.send_message(message.chat.id, fissures::get_fissures().await).await?
         }

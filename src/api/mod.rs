@@ -12,6 +12,7 @@ use serde_json::from_str;
 
 use crate::models::Header;
 
+pub mod alerts;
 pub mod arbitration;
 pub mod event;
 pub mod fissures;

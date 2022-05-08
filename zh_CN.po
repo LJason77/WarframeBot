@@ -732,6 +732,19 @@ msgstr "罕迹之路"
 msgid "Complete 5 Steel Path Missions."
 msgstr "完成 5 场不同的钢铁之路任务"
 
+# 警报奖励
+msgid "4 Orokin Animus Matrix + 20000cr"
+msgstr "4 Orokin 战意矩阵装置"
+
+msgid "2 Orokin Reactor + 30000cr"
+msgstr "2 Orokin 反应炉"
+
+msgid "Umbra Forma Blueprint + 40000cr"
+msgstr "Umbra Forma 蓝图"
+
+msgid "2 Orokin Catalyst + 30000cr"
+msgstr "2 Orokin 催化剂"
+
 # 入侵
 msgid "Corpus Siege"
 msgstr "Corpus 围攻"
