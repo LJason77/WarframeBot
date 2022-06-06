@@ -23,6 +23,10 @@ pub async fn get_alerts() -> String {
         }
     }
 
+    if alerts.is_empty() {
+        return String::from("现在没有任何警报！");
+    }
+
     let mut output = String::new();
     for alert in alerts {
         let s = format!(
