@@ -14,6 +14,7 @@ Warframe 查询机器人
 - /bountyfortuna - 福尔图娜赏金
 - /bountynecralisk - 殁世幽都赏金
 - /events - 活动
+- /alerts - 警报
 - /fissures - 裂缝
 - /invasions - 入侵
 - /news - 新闻
