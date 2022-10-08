@@ -1,13 +1,13 @@
 #![deny(clippy::pedantic)]
 #![allow(clippy::module_name_repetitions, clippy::non_ascii_literal)]
 
-use std::{env, error::Error, fs};
+use std::{env, fs};
 
 use gettextrs::TextDomain;
 use teloxide::{
     adaptors::DefaultParseMode,
     commands_repl,
-    prelude::{AutoSend, Bot, Message, Requester, RequesterExt},
+    prelude::{Bot, Message, Requester, RequesterExt, ResponseResult},
     types::ParseMode,
     utils::command::BotCommands,
 };
@@ -22,10 +22,10 @@ mod api;
 mod models;
 
 async fn answer(
-    bot: DefaultParseMode<AutoSend<Bot>>,
+    bot: DefaultParseMode<Bot>,
     message: Message,
     command: Command,
-) -> Result<(), Box<dyn Error + Send + Sync>> {
+) -> ResponseResult<()> {
     match command {
         Command::Help | Command::Start => {
             bot.send_message(message.chat.id, Command::descriptions().to_string()).await?
@@ -90,7 +90,7 @@ async fn main() {
 }
 
 async fn run() {
-    let bot = Bot::from_env().auto_send().parse_mode(ParseMode::Html);
+    let bot = Bot::from_env().parse_mode(ParseMode::Html);
 
     commands_repl(bot, answer, Command::ty()).await;
 }

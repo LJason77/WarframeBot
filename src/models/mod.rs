@@ -27,7 +27,7 @@ pub mod trader;
 pub mod worldstate;
 
 #[derive(BotCommands, Clone)]
-#[command(rename = "lowercase", description = "当前支持下列查询：")]
+#[command(rename_rule = "lowercase", description = "当前支持下列查询：")]
 pub enum Command {
     #[command(description = "off")]
     Start,
