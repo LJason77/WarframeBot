@@ -35,8 +35,10 @@ where
     if let Ok(proxy) = var("TELOXIDE_PROXY") {
         builder = builder.proxy(reqwest::Proxy::all(proxy).unwrap());
     }
-    let mut builder =
-        builder.build().unwrap().get(format!("https://api.warframestat.us/pc/{}", path));
+    let mut builder = builder
+        .build()
+        .unwrap()
+        .get(format!("https://api.warframestat.us/pc/{}?language=en", path));
     if let Some(header) = header {
         builder = builder.header(header.key, header.value);
     }
