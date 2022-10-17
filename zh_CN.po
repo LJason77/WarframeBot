@@ -508,12 +508,36 @@ msgstr "核反应器"
 msgid "Kill 150 Enemies with a Radiation Damage"
 msgstr "使用辐射伤害击杀 150 名敌人"
 
+msgid "Topping Off the Tank"
+msgstr "源源不断"
+
+msgid "Successfully defend an Excavator without allowing it to run out of power"
+msgstr "成功防御挖掘机并且不让挖掘机耗尽能量"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
 
 msgid "Complete an Isolation Vault Bounty Mission on Deimos"
 msgstr "在火卫二完成一个隔离库赏金任务"
+
+msgid "Earth Fisher"
+msgstr "地球渔者"
+
+msgid "Catch 6 Rare Fish in the Plains of Eidolon"
+msgstr "在夜灵平原捕捉 6 条稀有鱼"
+
+msgid "Test Subject"
+msgstr "测试对象"
+
+msgid "Complete 8 waves of Sanctuary Onslaught"
+msgstr "完成 8 个圣殿突袭的区域"
+
+msgid "Kill Shot"
+msgstr "杀戮"
+
+msgid "Kill 1,500 Enemies"
+msgstr "击杀 1500 名敌人"
 
 msgid "Protector"
 msgstr "保护者"
@@ -764,6 +788,9 @@ msgstr "50,000 X 赤毒"
 
 msgid "Umbra Forma Blueprint"
 msgstr "Umbra Forma 蓝图"
+
+msgid "Zaw Riven Mod"
+msgstr "ZAW 裂罅 MOD"
 
 msgid "Kitgun Riven Mod"
 msgstr "组合枪裂罅 Mod"
@@ -1350,6 +1377,9 @@ msgstr "Lotus 的馈赠 - 被窃取！"
 
 msgid "Ghoul Purge"
 msgstr "尸鬼净化"
+
+msgid "Nights of Naberus"
+msgstr "纳贝流士之夜"
 
 # 中继站
 msgid "Orcus Relay"
