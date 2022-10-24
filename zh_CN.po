@@ -340,6 +340,18 @@ msgstr "老练射手"
 msgid "Kill 40 Enemies with Headshots"
 msgstr "使用爆头击杀 40 名敌人"
 
+msgid "Swatter"
+msgstr "拍打者"
+
+msgid "Kill 3 Drones or Ospreys with your Melee Weapon"
+msgstr "使用近战武器击杀 3 架无人机或鱼鹰"
+
+msgid "Detonator"
+msgstr "引爆者"
+
+msgid "Kill 150 Enemies with Blast Damage"
+msgstr "使用爆炸伤害击杀 150 名敌人"
+
 msgid "Accelerator"
 msgstr "加速者"
 
@@ -521,6 +533,24 @@ msgstr "宝库强袭者"
 msgid "Complete an Isolation Vault Bounty Mission on Deimos"
 msgstr "在火卫二完成一个隔离库赏金任务"
 
+msgid "Sound Sleeper"
+msgstr "声之眠者"
+
+msgid "Complete 3 Nightmare missions of any type"
+msgstr "完成 3 项任何类型的噩梦任务"
+
+msgid "The Old Ways"
+msgstr "老路子"
+
+msgid "Complete 1 mission with only a single pistol and a glaive equipped"
+msgstr "仅装备一把手枪和战刃来完成 1 次任务"
+
+msgid "Bloodthirsty"
+msgstr "大杀特杀"
+
+msgid "Kill 20 enemies in 5 seconds"
+msgstr "在 5 秒内击杀 20 名敌人"
+
 msgid "Earth Fisher"
 msgstr "地球渔者"
 
@@ -686,6 +716,12 @@ msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Night Terror"
+msgstr "暗夜之控"
+
+msgid "Complete 10 Nightmare missions of any type"
+msgstr "完成 10 项任何类型的噩梦任务"
 
 msgid "Resource Scavenger"
 msgstr "资源清道夫"
