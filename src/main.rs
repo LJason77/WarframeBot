@@ -6,8 +6,8 @@ use std::{env, fs};
 use gettextrs::TextDomain;
 use teloxide::{
     adaptors::DefaultParseMode,
-    commands_repl,
     prelude::{Bot, Message, Requester, RequesterExt, ResponseResult},
+    repl,
     types::ParseMode,
     utils::command::BotCommands,
 };
@@ -92,5 +92,7 @@ async fn main() {
 async fn run() {
     let bot = Bot::from_env().parse_mode(ParseMode::Html);
 
-    commands_repl(bot, answer, Command::ty()).await;
+    println!("RUA!");
+
+    repl(bot, answer).await;
 }
