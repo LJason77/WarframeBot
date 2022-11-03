@@ -526,6 +526,24 @@ msgstr "源源不断"
 msgid "Successfully defend an Excavator without allowing it to run out of power"
 msgstr "成功防御挖掘机并且不让挖掘机耗尽能量"
 
+msgid "The Personal Touch"
+msgstr "自得其乐"
+
+msgid "Place 1 decoration in your Orbiter"
+msgstr "在你的轨道飞行器中放置 1 个装饰物"
+
+msgid "Two For One"
+msgstr "一石二鸟"
+
+msgid "Pierce and kill 2 or more enemies in a single Bow shot"
+msgstr "在单次弓箭射击中射穿并杀死 2 名以上的敌人"
+
+msgid "Mow Them Down"
+msgstr "撂倒他们"
+
+msgid "Kill 150 Enemies with a Primary Weapon"
+msgstr "使用主要武器击杀 150 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -710,12 +728,36 @@ msgstr "喂饱野兽"
 msgid "Feed the Helminth any resource"
 msgstr "向 Helminth 饲喂任意资源"
 
+msgid "High Ground"
+msgstr "制高点"
+
+msgid "Complete 3 Void Flood missions"
+msgstr "完成 3 场虚空洪流任务"
+
+msgid "Supporter"
+msgstr "支持者"
+
+msgid "Complete 10 Syndicate misions"
+msgstr "完成 10 项集团任务"
+
+msgid "Operative"
+msgstr "特工"
+
+msgid "Complete 3 Spy missions"
+msgstr "完成 3 项间谍任务"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Terminated"
+msgstr "终结者"
+
+msgid "Destroy 3 Necramech vault guardians"
+msgstr "消灭 3 名隔离库殁世机甲守卫"
 
 msgid "Night Terror"
 msgstr "暗夜之控"
