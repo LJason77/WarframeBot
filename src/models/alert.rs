@@ -40,6 +40,6 @@ pub struct Mission {
 #[derive(Serialize, Deserialize)]
 pub struct Reward {
     /// 类型
-    #[serde(rename = "asString")]
+    #[serde(rename = "itemString")]
     pub items: String,
 }
