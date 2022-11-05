@@ -6,8 +6,8 @@ use std::{env, fs};
 use gettextrs::TextDomain;
 use teloxide::{
     adaptors::DefaultParseMode,
+    dispatching::repls::CommandReplExt,
     prelude::{Bot, Message, Requester, RequesterExt, ResponseResult},
-    repl,
     types::ParseMode,
     utils::command::BotCommands,
 };
@@ -94,5 +94,5 @@ async fn run() {
 
     println!("RUA!");
 
-    repl(bot, answer).await;
+    Command::repl(bot, answer).await;
 }
