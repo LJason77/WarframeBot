@@ -121,6 +121,9 @@ msgstr "霰弹枪 限定"
 msgid "Weapon Restriction: Sniper Only"
 msgstr "狙击枪 限定"
 
+msgid "Weapon Restriction: Melee Only"
+msgstr "近战 限定"
+
 # 任务类型
 msgid "Assassination"
 msgstr "刺杀"
@@ -846,6 +849,18 @@ msgstr "Umbra Forma 蓝图"
 
 msgid "2 Orokin Catalyst + 30000cr"
 msgstr "2 Orokin 催化剂"
+
+msgid "Forma Stance"
+msgstr "架势 Forma"
+
+msgid "Forma Aura"
+msgstr "光环 Forma"
+
+msgid "Forma Umbra"
+msgstr "Umbra Forma"
+
+msgid "3 Forma"
+msgstr "Forma x 3"
 
 # 入侵
 msgid "Corpus Siege"
