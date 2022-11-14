@@ -76,6 +76,9 @@ msgstr "敌人元素强化：辐射"
 msgid "Enemy Elemental Enhancement: Viral"
 msgstr "敌人元素强化：病毒"
 
+msgid "Enemy Elemental Enhancement: Toxin"
+msgstr "敌人元素强化：毒素"
+
 msgid "Enemy Physical Enhancement: Impact"
 msgstr "敌人物理强化：冲击"
 
@@ -547,6 +550,18 @@ msgstr "撂倒他们"
 msgid "Kill 150 Enemies with a Primary Weapon"
 msgstr "使用主要武器击杀 150 名敌人"
 
+msgid "Builder's Touch"
+msgstr "制造者之触"
+
+msgid "Claim an item from your Foundry"
+msgstr "从铸造厂中领取一件物品"
+
+msgid "Death from Above"
+msgstr "死从天降"
+
+msgid "Kill 10 enemies with ground slams"
+msgstr "使用震地攻击击杀 10 名敌人"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -701,7 +716,7 @@ msgstr "完成 9 项任何类型的入侵任务"
 msgid "Polarized"
 msgstr "已极化"
 
-msgid "Use Forma 3 times"
+msgid "Polarize a Weapon, Companion, or Warframe (not in Simulacrum)."
 msgstr "极化一个武器、同伴或战甲（不在幻影装置中）"
 
 msgid "Earth Miner"
@@ -749,12 +764,36 @@ msgstr "特工"
 msgid "Complete 3 Spy missions"
 msgstr "完成 3 项间谍任务"
 
+msgid "Night and Day"
+msgstr "日日夜夜"
+
+msgid "Collect 15 Vome or Fass Residue in the Cambion Drift"
+msgstr "在魔胎之境收集 15 个 Vome 或 Fass 的残留物"
+
+msgid "Zariman Bounty Hunter"
+msgstr "扎里曼赏金猎人"
+
+msgid "Complete 4 different Bounties in the Zariman"
+msgstr "在扎里曼号完成 4 项不同的赏金任务"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Antiquarian"
+msgstr "收藏家"
+
+msgid "Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)"
+msgstr "开启每个类型的遗物（古纪、前纪、中纪、后纪）"
+
+msgid "The Many Made Whole"
+msgstr "聚沙成卡"
+
+msgid "Convert 10 Riven Slivers into a Riven Mod"
+msgstr "将 10 个裂罅碎块重铸为一张裂罅 Mod"
 
 msgid "Terminated"
 msgstr "终结者"
@@ -837,6 +876,18 @@ msgstr "罕迹之路"
 msgid "Complete 5 Steel Path Missions."
 msgstr "完成 5 场不同的钢铁之路任务"
 
+msgid "Ascendant"
+msgstr "上升"
+
+msgid "Complete 4 Halls of Ascension on Lua"
+msgstr "完成 4 间月球上的晋升大厅"
+
+msgid "Rise of the Machine"
+msgstr "机甲崛起"
+
+msgid "Kill 300 enemies using a Necramech without getting destroyed"
+msgstr "使用殁世机甲击杀 300 名敌人并且不被摧毁"
+
 # 警报奖励
 msgid "4 Orokin Animus Matrix + 20000cr"
 msgstr "4 Orokin 战意矩阵装置"
@@ -887,6 +938,9 @@ msgstr "ZAW 裂罅 MOD"
 
 msgid "Kitgun Riven Mod"
 msgstr "组合枪裂罅 Mod"
+
+msgid "Shotgun Riven Mod"
+msgstr "霰弹枪裂罅 Mod"
 
 msgid "5x Corrupted Heavy Gunner Specter"
 msgstr "5 X 堕落重型机枪手魅影"
