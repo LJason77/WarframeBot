@@ -2,6 +2,7 @@ use teloxide::utils::command::BotCommands;
 
 pub use alert::Alert;
 pub use arbitration::Arbitration;
+pub use archon::Archon;
 pub use event::Event;
 pub use fissures::Fissures;
 pub use invasion::Invasion;
@@ -15,6 +16,7 @@ pub use worldstate::{CambionCycle, EarthCycle, VallisCycle};
 
 pub mod alert;
 pub mod arbitration;
+pub mod archon;
 pub mod event;
 pub mod fissures;
 pub mod invasion;
@@ -35,6 +37,8 @@ pub enum Command {
     Help,
     #[command(description = "仲裁(不稳定)")]
     Arbitration,
+    #[command(description = "执刑官猎杀")]
+    Archon,
     #[command(description = "希图斯赏金")]
     BountyCetus,
     #[command(description = "福尔图娜赏金")]

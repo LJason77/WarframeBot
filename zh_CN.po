@@ -18,6 +18,9 @@ msgstr ""
 
 # 突击
 ## 阵营领导者
+msgid "Archon Amar"
+msgstr "执刑官 欺谋狼主"
+
 msgid "Alad V"
 msgstr "Alad V"
 

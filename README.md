@@ -9,12 +9,13 @@ Warframe 查询机器人
 # 命令
 
 - /help - 显示帮助信息
+- /alerts - 警报
 - /arbitration - 仲裁(不稳定)
+- /archon - 执刑官猎杀
 - /bountycetus - 希图斯赏金
 - /bountyfortuna - 福尔图娜赏金
 - /bountynecralisk - 殁世幽都赏金
 - /events - 活动
-- /alerts - 警报
 - /fissures - 裂缝
 - /invasions - 入侵
 - /news - 新闻

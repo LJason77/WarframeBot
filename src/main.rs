@@ -13,8 +13,8 @@ use teloxide::{
 };
 
 use api::{
-    alerts, arbitration, event, fissures, invasion, new, nightwave, sortie, steel_path, syndicate,
-    trader, worldstate,
+    alerts, arbitration, archon, event, fissures, invasion, new, nightwave, sortie, steel_path,
+    syndicate, trader, worldstate,
 };
 use models::Command;
 
@@ -33,6 +33,7 @@ async fn answer(
         Command::Arbitration => {
             bot.send_message(message.chat.id, arbitration::get_arbitration().await).await?
         }
+        Command::Archon => bot.send_message(message.chat.id, archon::get_archon().await).await?,
         Command::BountyCetus => {
             bot.send_message(message.chat.id, syndicate::get_cetus().await).await?
         }
