@@ -346,6 +346,12 @@ msgstr "老练射手"
 msgid "Kill 40 Enemies with Headshots"
 msgstr "使用爆头击杀 40 名敌人"
 
+msgid "Surf's Up!"
+msgstr "滑板奇兵"
+
+msgid "Kill 20 enemies while riding a K-Drive."
+msgstr "在骑乘 K 式悬浮板时击杀 20 名敌人"
+
 msgid "Swatter"
 msgstr "拍打者"
 
@@ -569,6 +575,12 @@ msgstr "宝库强袭者"
 msgid "Complete an Isolation Vault Bounty Mission on Deimos"
 msgstr "在火卫二完成一个隔离库赏金任务"
 
+msgid "Loyalty"
+msgstr "忠心耿耿"
+
+msgid "Gain a total of 5,000 Standing across all Syndicate factions"
+msgstr "获得 5000 任意集团的声望"
+
 msgid "Sound Sleeper"
 msgstr "声之眠者"
 
@@ -782,6 +794,12 @@ msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Elite Test Subject"
+msgstr "精英测试对象"
+
+msgid "Complete 8 Zones of Elite Sanctuary Onslaught"
+msgstr "完成 8 个精英级圣殿突袭区域"
 
 msgid "Antiquarian"
 msgstr "收藏家"
