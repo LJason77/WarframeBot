@@ -72,8 +72,6 @@ async fn answer(
 async fn main() {
     // 导入环境变量
     dotenv::dotenv().ok();
-    // 移除缓存目录
-    fs::remove_dir_all("cache").ok();
     // 创建缓存目录
     fs::create_dir_all("cache").ok();
 
