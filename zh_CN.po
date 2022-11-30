@@ -21,6 +21,9 @@ msgstr ""
 msgid "Archon Amar"
 msgstr "执刑官 欺谋狼主"
 
+msgid "Archon Nira"
+msgstr "执刑官 混沌蛇主"
+
 msgid "Alad V"
 msgstr "Alad V"
 
@@ -578,6 +581,24 @@ msgstr "宝库强袭者"
 msgid "Complete an Isolation Vault Bounty Mission on Deimos"
 msgstr "在火卫二完成一个隔离库赏金任务"
 
+msgid "Don't Blow It"
+msgstr "别搞砸了"
+
+msgid "Complete 12 Conduits in Disruption"
+msgstr "在中断任务中完成 12 个导管"
+
+msgid "Jailer"
+msgstr "狱吏"
+
+msgid "Complete 3 Capture missions"
+msgstr "完成 3 项捕获任务"
+
+msgid "Now Boarding"
+msgstr "上板时刻"
+
+msgid "Complete 3 different K-Drive races in Orb Vallis"
+msgstr "在奥布山谷完成 3 轮不同的 K 式悬浮板比赛"
+
 msgid "Loyalty"
 msgstr "忠心耿耿"
 
@@ -797,6 +818,12 @@ msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Walk Without Rhythm"
+msgstr "无律之行"
+
+msgid "Kill a Tusk Thumper Doma in the Plains of Eidolon"
+msgstr "在夜灵平野上击杀一个巨牙重击者朵玛"
 
 msgid "Elite Test Subject"
 msgstr "精英测试对象"
