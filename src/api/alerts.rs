@@ -9,7 +9,16 @@ use super::{get_cache, get_eta, get_node, get_url, need_update};
 pub async fn get_alerts() -> String {
     // 读取缓存
     let mut alerts = match get_cache::<Vec<Alert>>("alerts").await {
-        Ok(alerts) => alerts,
+        Ok(alerts) => {
+            let mut alerts = alerts;
+            if alerts.is_empty() {
+                alerts = match get_url::<Vec<Alert>>("alerts", None).await {
+                    Ok(alerts) => alerts,
+                    Err(err) => return err,
+                }
+            }
+            alerts
+        }
         Err(err) => return err,
     };
 
