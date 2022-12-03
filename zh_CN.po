@@ -352,6 +352,18 @@ msgstr "老练射手"
 msgid "Kill 40 Enemies with Headshots"
 msgstr "使用爆头击杀 40 名敌人"
 
+msgid "Doppelganger"
+msgstr "二重身"
+
+msgid "Deploy a Specter"
+msgstr "部署一个魅影"
+
+msgid "Patron"
+msgstr "赞助者"
+
+msgid "Donate to the Leverian"
+msgstr "为 Leverian 进行捐赠"
+
 msgid "Surf's Up!"
 msgstr "滑板奇兵"
 
@@ -1133,6 +1145,12 @@ msgstr "棱晶 库狛浮印"
 msgid "Mara Detron"
 msgstr "苦痛 德特昂"
 
+msgid "Prisma Tetra"
+msgstr "棱晶 特拉"
+
+msgid "Viper Wraith"
+msgstr "蝰蛇 亡魂"
+
 msgid "Prova Vandal"
 msgstr "普罗沃 破坏者"
 
@@ -1154,6 +1172,69 @@ msgstr "金工火神 亡魂"
 # 外观
 msgid "Anpu Staff Skin"
 msgstr "安普长棍外观"
+
+msgid "Hood Nova Engineer"
+msgstr "[蒙面者的经纬仪] 号船员套服头套"
+
+msgid "Fae Path Ephemera"
+msgstr "仙子之径幻纹"
+
+msgid "Solstice Nelumbo Cape"
+msgstr "冰芥披饰"
+
+msgid "Cookie Kavat Glyph"
+msgstr "饼干 库娃 浮印"
+
+msgid "Cookie Kubrow Glyph"
+msgstr "饼干 库狛 浮印"
+
+msgid "Ki'teer Solstice Syandana"
+msgstr "Ki'teer 冬至披饰"
+
+msgid "Era Hypnosis Poster"
+msgstr "不要害怕海报"
+
+msgid "Erra Bobble Head"
+msgstr "Erra 摇头娃娃"
+
+msgid "Ki'teer Moa Pet Skin"
+msgstr "Ki'teer 恐鸟宠物外观"
+
+msgid "We Game New Year Ox Sigil"
+msgstr "牛迎新春纹章"
+
+msgid "Baro Armour Three A"
+msgstr "Ki'teer 格雷斯肩甲"
+
+msgid "Baro Armour Three C"
+msgstr "Ki'teer 格雷斯胸甲"
+
+msgid "Baro Armour Three L"
+msgstr "Ki'teer 格雷斯腿甲"
+
+msgid "Prisma Uru Syandana"
+msgstr "棱晶 乌鲁披饰"
+
+msgid "Empyrean Region A Diorama"
+msgstr "九重天装饰景观"
+
+msgid "Paracesis Elixis Skin"
+msgstr "心智之殁 镀铜外观"
+
+msgid "Mahd Luxxum Ornament"
+msgstr "摇篮 乐升饰物"
+
+msgid "Prisma Naberus"
+msgstr "棱晶 纳贝流士"
+
+msgid "Ki'teer Earpiece"
+msgstr "Ki'teer 耳饰"
+
+msgid "Opticor Elixis Skin"
+msgstr "奥堤克光子枪 镀铜外观"
+
+msgid "Eminence"
+msgstr "显赫"
 
 msgid "Prisma Arrows"
 msgstr "棱晶 箭矢"
@@ -1259,9 +1340,18 @@ msgid "3 Day Credit Booster"
 msgstr "3 天现金加成"
 
 # MOD
+msgid "Evil Spirit Mod"
+msgstr "观众怪奇"
+
 ## P卡
 msgid "Primed Cleanse Corpus"
 msgstr "净化 Corpus Prime"
+
+msgid "Primed Smite Grineer"
+msgstr "毁灭 Grineer Prime"
+
+msgid "Primed Firestorm"
+msgstr "烈焰风暴 Prime"
 
 msgid "Primed Regen"
 msgstr "重生 Prime"
@@ -1281,6 +1371,9 @@ msgstr "弱点专精 Prime"
 ## 金卡
 msgid "Streamline"
 msgstr "简化"
+
+msgid "Pummel"
+msgstr "强力猛击"
 
 msgid "Scorch"
 msgstr "灼痕焦点"
