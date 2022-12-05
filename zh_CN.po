@@ -24,6 +24,9 @@ msgstr "执刑官 欺谋狼主"
 msgid "Archon Nira"
 msgstr "执刑官 混沌蛇主"
 
+msgid "Archon Boreal"
+msgstr "执刑官 诡文枭主"
+
 msgid "Alad V"
 msgstr "Alad V"
 
@@ -586,6 +589,12 @@ msgstr "死从天降"
 msgid "Kill 10 enemies with ground slams"
 msgstr "使用震地攻击击杀 10 名敌人"
 
+msgid "Air It Out"
+msgstr "天降神兵"
+
+msgid "Deploy an Air Support Charge in a Mission"
+msgstr "在任务中部署一个空中支持呼叫器"
+
 ## 每周任务
 msgid "Vault Raider"
 msgstr "宝库强袭者"
@@ -824,12 +833,36 @@ msgstr "扎里曼赏金猎人"
 msgid "Complete 4 different Bounties in the Zariman"
 msgstr "在扎里曼号完成 4 项不同的赏金任务"
 
+msgid "Don't Fear The Reaper"
+msgstr "无需惧怕死神"
+
+msgid "Complete 3 Kuva Siphon Missions"
+msgstr "完成 3 个赤毒虹吸器任务"
+
+msgid "Venus Fisher"
+msgstr "金星渔者"
+
+msgid "Catch 6 Rare Servofish in the Orb Vallis"
+msgstr "在奥布山谷捕捉 6 条稀有伺服鱼"
+
+msgid "Forward Thinking"
+msgstr "前瞻思想"
+
+msgid "Destroy a Crewship with Forward Artillery"
+msgstr "使用前装光能炮来摧毁一艘战舰"
+
 ## 每周精英任务
 msgid "Grove Guardian"
 msgstr "树庭守护者"
 
 msgid "Kill a Silver Grove Specter"
 msgstr "击败一名落银树庭魅影"
+
+msgid "Fallen Angel"
+msgstr "堕落天使"
+
+msgid "Defeat 5 Void Angels in the Zariman"
+msgstr "在扎里曼号上击杀 5 个虚空天使"
 
 msgid "Walk Without Rhythm"
 msgstr "无律之行"
@@ -1043,6 +1076,9 @@ msgstr "卡拉克 亡魂 枪机"
 
 msgid "Karak Wraith Barrel"
 msgstr "卡拉克 亡魂 枪管"
+
+msgid "Karak Wraith Stock"
+msgstr "卡拉克 亡魂 枪托"
 
 msgid "Ki'Teer Domestik Drone"
 msgstr "Ki'Teer 内务无人机"
