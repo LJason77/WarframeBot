@@ -82,7 +82,7 @@ async fn main() {
         .skip_system_data_paths()
         .init()
     {
-        panic!("语言未找到： {:?}", err)
+        panic!("语言未找到： {err}")
     }
 
     run().await;

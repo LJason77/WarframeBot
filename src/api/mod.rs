@@ -36,10 +36,8 @@ where
     if let Ok(proxy) = var("TELOXIDE_PROXY") {
         builder = builder.proxy(reqwest::Proxy::all(proxy).unwrap());
     }
-    let mut builder = builder
-        .build()
-        .unwrap()
-        .get(format!("https://api.warframestat.us/pc/{}?language=en", path));
+    let mut builder =
+        builder.build().unwrap().get(format!("https://api.warframestat.us/pc/{path}?language=en"));
     if let Some(header) = header {
         builder = builder.header(header.key, header.value);
     }
@@ -50,7 +48,7 @@ where
         update_cache(&json, path);
         return match from_str::<T>(&json) {
             Ok(t) => Ok(t),
-            Err(err) => Err(format!("解析 json 失败：{}\n{}", err, json)),
+            Err(err) => Err(format!("解析 json 失败：{err}\n{json}")),
         };
     }
 
@@ -62,7 +60,7 @@ pub async fn get_cache<T>(path: &str) -> Result<T, String>
 where
     T: DeserializeOwned,
 {
-    if let Ok(json) = read_to_string(format!("cache/{}.json", path)) {
+    if let Ok(json) = read_to_string(format!("cache/{path}.json")) {
         if !json.is_empty() {
             return Ok(from_str::<T>(&json).unwrap());
         }
@@ -72,14 +70,14 @@ where
 
 /// 更新缓存
 pub fn update_cache(json: &str, path: &str) {
-    let path = format!("cache/{}.json", path);
+    let path = format!("cache/{path}.json");
     let json_file = Path::new(&path);
     let mut file = match File::create(json_file) {
         Err(err) => panic!("无法创建 {}：{}", json_file.display(), err),
         Ok(file) => file,
     };
     if let Err(err) = file.write_all(json.as_bytes()) {
-        println!("更新缓存失败：{}", err);
+        println!("更新缓存失败：{err}");
     }
 }
 
@@ -103,16 +101,16 @@ pub fn get_eta(expiry: &str) -> String {
     let mut eta = String::new();
     let days = duration.num_days();
     if days > 0 {
-        eta.push_str(format!("{} 天 ", days).as_str());
+        eta.push_str(format!("{days} 天 ").as_str());
         duration = duration - Duration::days(days);
     }
 
     let hours = duration.num_hours();
-    eta.push_str(format!("{} 时 ", hours).as_str());
+    eta.push_str(format!("{hours} 时 ").as_str());
     duration = duration - Duration::hours(hours);
 
     let minutes = duration.num_minutes();
-    eta.push_str(format!("{} 分 ", minutes).as_str());
+    eta.push_str(format!("{minutes} 分 ").as_str());
     duration = duration - Duration::minutes(minutes);
 
     eta.push_str(format!("{} 秒", duration.num_seconds()).as_str());
