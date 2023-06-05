@@ -22,7 +22,7 @@ msgid "Archon Amar"
 msgstr "执刑官 欺谋狼主"
 
 msgid "Archon Nira"
-msgstr "执刑官 混沌蛇主"
+msgstr "执刑官 混沌蛇主\n源力石：琥珀源力石"
 
 msgid "Archon Boreal"
 msgstr "执刑官 诡文枭主"
@@ -360,6 +360,18 @@ msgstr "二重身"
 
 msgid "Deploy a Specter"
 msgstr "部署一个魅影"
+
+msgid "Deep Impact"
+msgstr "深度冲击"
+
+msgid "Suspend 5 or more enemies in the air at once with a Heavy Slam Melee Attack"
+msgstr "使用一次重击震地近战攻击让 5 个或以上敌人同时浮空"
+
+msgid "Just Visiting"
+msgstr "随便看看"
+
+msgid "Visit a Featured Dojo"
+msgstr "参观一处特色道场"
 
 msgid "Patron"
 msgstr "赞助者"
@@ -864,6 +876,12 @@ msgstr "堕落天使"
 msgid "Defeat 5 Void Angels in the Zariman"
 msgstr "在扎里曼号上击杀 5 个虚空天使"
 
+msgid "Cold Steel"
+msgstr "寒冰玄铁"
+
+msgid "Kill 1,000 Enemies on The Steel Path."
+msgstr "在钢铁之路击杀 1000 名敌人"
+
 msgid "Walk Without Rhythm"
 msgstr "无律之行"
 
@@ -1146,6 +1164,9 @@ msgstr "火卫二高额异鳍 PREX 卡牌"
 msgid "Tarot Card Tenno Con G"
 msgstr "惊惧重岩者 PREX 卡牌"
 
+msgid "Tarot Card Tenno Con B"
+msgstr "火卫二 Scissus Prex 卡牌"
+
 msgid "Garv & Latrox Poster"
 msgstr "加弗 & 拉托罗海报"
 
@@ -1177,12 +1198,18 @@ msgstr "Baro Ki'Teer 浮印"
 msgid "Prisma Kubrow Glyph"
 msgstr "棱晶 库狛浮印"
 
+msgid "Prisma Kavat Glyph"
+msgstr "棱晶 库娃浮印"
+
 # 武器
 msgid "Mara Detron"
 msgstr "苦痛 德特昂"
 
 msgid "Prisma Tetra"
 msgstr "棱晶 特拉"
+
+msgid "Prisma Skana"
+msgstr "棱晶 空刃"
 
 msgid "Viper Wraith"
 msgstr "蝰蛇 亡魂"
@@ -1205,6 +1232,9 @@ msgstr "棱晶 双子小精灵"
 msgid "Vulkar Wraith"
 msgstr "金工火神 亡魂"
 
+msgid "Grn Gunblade"
+msgstr "瓦斯提枪刃"
+
 # 外观
 msgid "Anpu Staff Skin"
 msgstr "安普长棍外观"
@@ -1212,11 +1242,20 @@ msgstr "安普长棍外观"
 msgid "Hood Nova Engineer"
 msgstr "[蒙面者的经纬仪] 号船员套服头套"
 
+msgid "Sleeves Nova Engineer"
+msgstr "[蒙面者的经纬仪] 号船员套服袖件"
+
+msgid "Grendel Archwing Skin"
+msgstr "外囊 Archwing 外观"
+
 msgid "Fae Path Ephemera"
 msgstr "仙子之径幻纹"
 
 msgid "Solstice Nelumbo Cape"
 msgstr "冰芥披饰"
+
+msgid "Nezha Leverian Cape"
+msgstr "瑞圣途教派披饰"
 
 msgid "Cookie Kavat Glyph"
 msgstr "饼干 库娃 浮印"
@@ -1238,6 +1277,12 @@ msgstr "Ki'teer 恐鸟宠物外观"
 
 msgid "We Game New Year Ox Sigil"
 msgstr "牛迎新春纹章"
+
+msgid "We Game New Year Free Tiger Sigil"
+msgstr "虎啸风生纹章"
+
+msgid "Prisma Sigil"
+msgstr "棱晶纹章"
 
 msgid "Baro Armour Three A"
 msgstr "Ki'teer 格雷斯肩甲"
@@ -1371,6 +1416,18 @@ msgstr "棱晶 洛斯塔姆库狛护甲"
 msgid "Twin Grakata Towsun Skin"
 msgstr "双子葛拉卡达夏至外观"
 
+msgid "Ki'teer Atmos Mask"
+msgstr "Ki'teer 大气面罩"
+
+msgid "Eos Prime Armor Set"
+msgstr "曙光女神 Prime 护甲套装"
+
+msgid "Mirage Immortal Skin"
+msgstr "Mirage 不朽外观"
+
+msgid "Liset Cydonia Skin"
+msgstr "Liset 塞东尼亚外观"
+
 # 加成
 msgid "3 Day Credit Booster"
 msgstr "3 天现金加成"
@@ -1382,6 +1439,15 @@ msgstr "观众怪奇"
 ## P卡
 msgid "Primed Cleanse Corpus"
 msgstr "净化 Corpus Prime"
+
+msgid "Primed Morphic Transformer"
+msgstr "非晶变压器 Prime"
+
+msgid "Primed Fever Strike"
+msgstr "热病打击 Prime"
+
+msgid "Primed Cleanse Grineer"
+msgstr "净化 Grineer Prime"
 
 msgid "Primed Smite Grineer"
 msgstr "毁灭 Grineer Prime"
@@ -1407,6 +1473,9 @@ msgstr "弱点专精 Prime"
 ## 金卡
 msgid "Streamline"
 msgstr "简化"
+
+msgid "High Voltage"
+msgstr "高压电流"
 
 msgid "Pummel"
 msgstr "强力猛击"
