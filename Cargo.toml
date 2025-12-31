@@ -16,7 +16,7 @@ panic = "abort"
 chrono = "0.4"
 dotenv = "0.15"
 gettext-rs = "0.7"
-reqwest = "0.12"
+reqwest = "0.13"
 serde_json = "1"
 teloxide = { version = "0.12", features = ["auto-send", "macros"] }
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
